@@ -3,9 +3,6 @@ import React from "react";
 const HeaderOne = () => {
   return (
     <>
-      {/*==============================
-	Header Area
-    ==============================*/}
       <header className="nav-header header-layout1">
         <div className="header-top">
           <div className="container">

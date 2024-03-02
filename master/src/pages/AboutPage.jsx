@@ -3,7 +3,7 @@ import HeaderOne from "../components/left-to-right/HeaderOne";
 
 import FooterAreaOne from "../components/left-to-right/FooterAreaOne";
 import Breadcrumb from "../components/left-to-right/Breadcrumb";
-import AboutArea from "../components/left-to-right/AboutArea";
+import AboutTwo from "../components/left-to-right/AboutTwo";
 import ProcessAreaOne from "../components/left-to-right/ProcessAreaOne";
 import CTAAreaOne from "../components/left-to-right/CTAAreaOne";
 import TestimonialOne from "../components/left-to-right/TestimonialOne";
@@ -20,7 +20,7 @@ const AboutPage = () => {
       <Breadcrumb title={"About Us"} />
 
       {/* About Area */}
-      <AboutArea />
+      <AboutTwo />
 
       {/* Process Area One */}
       <ProcessAreaOne />

@@ -26,3 +26,16 @@
     }
   }
 }
+
+.rc-slider-handle {
+  border: solid 2px var(--theme-color);
+}
+
+.rc-slider-track,
+.rc-slider-tracks {
+  background-color: var(--theme-color);
+}
+
+.bg-gray {
+  background-color: #f4f4f4;
+}

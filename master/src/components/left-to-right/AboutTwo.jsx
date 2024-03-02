@@ -1,6 +1,6 @@
 import React from "react";
 
-const AboutArea = () => {
+const AboutTwo = () => {
   return (
     <div className="space-top">
       <div className="container">
@@ -86,4 +86,4 @@ const AboutArea = () => {
   );
 };
 
-export default AboutArea;
+export default AboutTwo;
