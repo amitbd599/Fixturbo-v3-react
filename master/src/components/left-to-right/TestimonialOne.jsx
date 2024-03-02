@@ -174,18 +174,11 @@ const TestimonialOne = () => {
                   </SwiperSlide>
                 </Swiper>
 
-                <div className="arrow">
-                  <div
-                    id="swiper-button-next"
-                    className=" testimonialOne-button-next testimonialOne-button"
-                  >
+                <div className="testimonialOne arrow">
+                  <div className=" testimonialOne-button-next testimonialOne-button">
                     <i className="fas fa-arrow-left"></i>
-                    hello
                   </div>
-                  <div
-                    id="swiper-button-prev"
-                    className=" testimonialOne-button-prev testimonialOne-button"
-                  >
+                  <div className=" testimonialOne-button-prev testimonialOne-button">
                     <i className="fas fa-arrow-right"></i>
                   </div>
                 </div>

@@ -11,8 +11,13 @@ import PricingPlanOne from "../components/left-to-right/PricingPlanOne";
 import TeamAreaOne from "../components/left-to-right/TeamAreaOne";
 import CTAAreaOne from "../components/left-to-right/CTAAreaOne";
 import TestimonialOne from "../components/left-to-right/TestimonialOne";
+import ProcessAreaOne from "../components/left-to-right/ProcessAreaOne";
+import FaqAreaOne from "../components/left-to-right/FaqAreaOne";
+import BlogAreaOne from "../components/left-to-right/BlogAreaOne";
+import FooterAreaOne from "../components/left-to-right/FooterAreaOne";
+import SubscribeOne from "../components/left-to-right/SubscribeOne";
 
-const HomeOne = () => {
+const HomePageOne = () => {
   return (
     <>
       {/* Header one */}
@@ -50,8 +55,23 @@ const HomeOne = () => {
 
       {/* Testimonial One */}
       <TestimonialOne />
+
+      {/* Process Area One */}
+      <ProcessAreaOne />
+
+      {/* Faq Area One */}
+      <FaqAreaOne />
+
+      {/* Blog Area One */}
+      <BlogAreaOne />
+
+      {/* Subscribe One */}
+      <SubscribeOne />
+
+      {/* Footer Area One */}
+      <FooterAreaOne />
     </>
   );
 };
 
-export default HomeOne;
+export default HomePageOne;

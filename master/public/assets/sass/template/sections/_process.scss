@@ -6,7 +6,8 @@
     position: absolute;
     width: 384px;
     height: 90px;
-    //! background: url(../img/icon/process-arrow-1-1.svg);
+
+    background: url("~/public/assets/img/icon/process-arrow-1-1.svg");
     right: -210px;
     top: -40px;
     transform: rotate(6deg);
@@ -22,7 +23,8 @@
     &:after {
       width: 386px;
       height: 151px;
-      //! background: url(../img/icon/process-arrow-1-2.svg);
+
+      background: url("~/public/assets/img/icon/process-arrow-1-2.svg");
       background-size: contain;
       background-repeat: no-repeat;
       right: -175px;
