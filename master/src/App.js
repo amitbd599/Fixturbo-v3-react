@@ -18,6 +18,7 @@ import CheckoutPage from "./pages/CheckoutPage";
 import WishlistPage from "./pages/WishlistPage";
 import ContactPage from "./pages/ContactPage";
 import HomePageTwo from "./pages/HomePageTwo";
+import HomePageThree from "./pages/HomePageThree";
 function App() {
   return (
     <BrowserRouter>
@@ -27,6 +28,7 @@ function App() {
         {/* left-to-right page */}
         <Route exact path="/home-1" element={<HomePageOne />} />
         <Route exact path="/home-2" element={<HomePageTwo />} />
+        <Route exact path="/home-3" element={<HomePageThree />} />
         <Route exact path="/about" element={<AboutPage />} />
         <Route exact path="/service" element={<ServicePage />} />
         <Route exact path="/service-details" element={<ServiceDetailsPage />} />
