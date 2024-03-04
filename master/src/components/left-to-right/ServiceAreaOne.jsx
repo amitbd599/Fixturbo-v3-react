@@ -2,7 +2,7 @@ import React from "react";
 
 const ServiceAreaOne = () => {
   return (
-    <div className="service-area-1 space bg-smoke overflow-hidden">
+    <div className="service-area-1 space-top bg-smoke overflow-hidden">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">
