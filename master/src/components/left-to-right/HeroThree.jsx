@@ -1,13 +1,14 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
+import { Navigation, FreeMode, Thumbs, EffectFade, Autoplay } from "swiper";
 const HeroThree = () => {
   return (
     <div className="hero-wrapper hero-3">
       <div className="hero-3-slider global-carousel">
         <Swiper
           loop={true}
-          modules={[FreeMode, Navigation, Thumbs, EffectFade]}
+          modules={[FreeMode, Navigation, Thumbs, EffectFade, Autoplay]}
+          autoplay={{ delay: 4000, disableOnInteraction: false }}
           effect="fade"
           navigation={{
             nextEl: ".swiper-button-next",
