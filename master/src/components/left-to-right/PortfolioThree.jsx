@@ -1,6 +1,27 @@
-import React from "react";
-
+import React, { useState } from "react";
+import ModalImage from "react-modal-image";
 const PortfolioThree = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [imageSrc, setImageSrc] = useState("");
+
+  const openLightbox = (src) => {
+    setIsOpen(true);
+    setImageSrc(src);
+  };
+
+  const closeLightbox = () => {
+    setIsOpen(false);
+    setImageSrc("");
+  };
+
+  let img = [
+    "assets/img/gallery/1.png",
+    "assets/img/gallery/2.png",
+    "assets/img/gallery/3.png",
+    "assets/img/gallery/4.png",
+    "assets/img/gallery/5.png",
+    "assets/img/gallery/6.png",
+  ];
   return (
     <div className="portfolio-area-1 space overflow-hidden bg-smoke">
       <div className="container">
@@ -18,72 +39,29 @@ const PortfolioThree = () => {
           </div>
         </div>
         <div className="row gy-30">
-          <div className="col-md-4">
-            <div className="portfolio-thumb">
-              <a
-                className="popup-image icon-btn"
-                href="assets/img/gallery/1.png"
-              >
-                <i className="far fa-eye" />
-              </a>
-              <img src="assets/img/gallery/1.png" alt="portfolio" />
+          {img.map((item, index) => (
+            <div className="col-md-4" key={index}>
+              <div className="portfolio-thumb">
+                <button
+                  className="popup-image icon-btn"
+                  onClick={() => openLightbox(item)}
+                >
+                  <i className="far fa-eye" />
+                </button>
+                <div>
+                  <img src={item} alt="Thumbnail" />
+                </div>
+              </div>
+              {isOpen && (
+                <div className="custom-modal_popup">
+                  <span className="close-button" onClick={closeLightbox}>
+                    &times;
+                  </span>
+                  <img src={imageSrc} alt="Fullsize" />
+                </div>
+              )}
             </div>
-          </div>
-          <div className="col-md-4">
-            <div className="portfolio-thumb">
-              <a
-                className="popup-image icon-btn"
-                href="assets/img/gallery/2.png"
-              >
-                <i className="far fa-eye" />
-              </a>
-              <img src="assets/img/gallery/2.png" alt="portfolio" />
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="portfolio-thumb">
-              <a
-                className="popup-image icon-btn"
-                href="assets/img/gallery/3.png"
-              >
-                <i className="far fa-eye" />
-              </a>
-              <img src="assets/img/gallery/3.png" alt="portfolio" />
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="portfolio-thumb">
-              <a
-                className="popup-image icon-btn"
-                href="assets/img/gallery/4.png"
-              >
-                <i className="far fa-eye" />
-              </a>
-              <img src="assets/img/gallery/4.png" alt="portfolio" />
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="portfolio-thumb">
-              <a
-                className="popup-image icon-btn"
-                href="assets/img/gallery/5.png"
-              >
-                <i className="far fa-eye" />
-              </a>
-              <img src="assets/img/gallery/5.png" alt="portfolio" />
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="portfolio-thumb">
-              <a
-                className="popup-image icon-btn"
-                href="assets/img/gallery/6.png"
-              >
-                <i className="far fa-eye" />
-              </a>
-              <img src="assets/img/gallery/6.png" alt="portfolio" />
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>

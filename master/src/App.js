@@ -21,6 +21,7 @@ import HomePageTwo from "./pages/HomePageTwo";
 import HomePageThree from "./pages/HomePageThree";
 import HomePageFour from "./pages/HomePageFour";
 import HomePageFive from "./pages/HomePageFive";
+import HomePageSix from "./pages/HomePageSix";
 function App() {
   return (
     <BrowserRouter>
@@ -33,6 +34,7 @@ function App() {
         <Route exact path="/home-3" element={<HomePageThree />} />
         <Route exact path="/home-4" element={<HomePageFour />} />
         <Route exact path="/home-5" element={<HomePageFive />} />
+        <Route exact path="/home-6" element={<HomePageSix />} />
         <Route exact path="/about" element={<AboutPage />} />
         <Route exact path="/service" element={<ServicePage />} />
         <Route exact path="/service-details" element={<ServiceDetailsPage />} />
