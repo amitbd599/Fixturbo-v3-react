@@ -12,6 +12,10 @@ import TeamAreaOne from "../components/right-to-left/TeamAreaOne";
 import CTAAreaOne from "./../components/right-to-left/CTAAreaOne";
 import TestimonialOne from "./../components/right-to-left/TestimonialOne";
 import ProcessAreaOne from "../components/right-to-left/ProcessAreaOne";
+import FaqAreaOne from "../components/right-to-left/FaqAreaOne";
+import BlogAreaOne from "../components/right-to-left/BlogAreaOne";
+import SubscribeOne from "../components/right-to-left/SubscribeOne";
+import FeatureAreaOne from "../components/right-to-left/FeatureAreaOne";
 const HomePageRTLOne = () => {
   return (
     <>
@@ -53,6 +57,18 @@ const HomePageRTLOne = () => {
 
       {/* Process Area One */}
       <ProcessAreaOne />
+
+      {/* Faq Area One */}
+      <FaqAreaOne />
+
+      {/* Blog Area One */}
+      <BlogAreaOne />
+
+      {/* Subscribe One */}
+      <SubscribeOne />
+
+      {/* Feature Area One */}
+      <FeatureAreaOne />
     </>
   );
 };

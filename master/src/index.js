@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* RTL control */}
-    {window.location.pathname === ("/home-1-rtl" || "/home-2-rtl") ? (
+    {window.location.pathname === "/home-1-rtl" || "/home-2-rtl" ? (
       <html dir="rtl" lang="zxx" className="no-js">
         <body>
           <App />

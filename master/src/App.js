@@ -23,8 +23,9 @@ import HomePageFour from "./pages/HomePageFour";
 import HomePageFive from "./pages/HomePageFive";
 import HomePageSix from "./pages/HomePageSix";
 import HomePageRTLOne from "./pages/HomePageRTLOne";
+import HomePageRTLTwo from "./pages/HomePageRTLTwo";
 function App() {
-  console.log(window.location.pathname );
+  console.log(window.location.pathname);
   return (
     <BrowserRouter>
       <RouteScrollToTop />
@@ -34,6 +35,7 @@ function App() {
         <Route exact path="/home-1" element={<HomePageOne />} />
         <Route exact path="/home-1-rtl" element={<HomePageRTLOne />} />
         <Route exact path="/home-2" element={<HomePageTwo />} />
+        <Route exact path="/home-2-rtl" element={<HomePageRTLTwo />} />
         <Route exact path="/home-3" element={<HomePageThree />} />
         <Route exact path="/home-4" element={<HomePageFour />} />
         <Route exact path="/home-5" element={<HomePageFive />} />
