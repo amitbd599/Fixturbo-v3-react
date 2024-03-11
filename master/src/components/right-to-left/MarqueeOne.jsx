@@ -2,7 +2,7 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 const MarqueeOne = () => {
   return (
-    <div className="space-bottom bg-smoke">
+    <div className="space bg-smoke">
       <div className="container-fluid p-0 overflow-hidden">
         <div className="slider__marquee">
           <div className="marquee_mode2">
