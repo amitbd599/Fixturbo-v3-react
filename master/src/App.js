@@ -26,14 +26,14 @@ import HomePageRTLOne from "./pages/HomePageRTLOne";
 import HomePageRTLTwo from "./pages/HomePageRTLTwo";
 import HomePageRTLThree from "./pages/HomePageRTLThree";
 import HomePageRTLFour from "./pages/HomePageRTLFour";
+import HomePageRTLFive from "./pages/HomePageRTLFive";
+import HomePageRTLSix from "./pages/HomePageRTLSix";
 function App() {
-  console.log(window.location.pathname);
   return (
     <BrowserRouter>
       <RouteScrollToTop />
       <ScrollToTop smooth color="#E8092E" />
       <Routes>
-        {/* left-to-right page */}
         <Route exact path="/home-1" element={<HomePageOne />} />
         <Route exact path="/home-1-rtl" element={<HomePageRTLOne />} />
         <Route exact path="/home-2" element={<HomePageTwo />} />
@@ -43,7 +43,9 @@ function App() {
         <Route exact path="/home-4" element={<HomePageFour />} />
         <Route exact path="/home-4-rtl" element={<HomePageRTLFour />} />
         <Route exact path="/home-5" element={<HomePageFive />} />
+        <Route exact path="/home-5-rtl" element={<HomePageRTLFive />} />
         <Route exact path="/home-6" element={<HomePageSix />} />
+        <Route exact path="/home-6-rtl" element={<HomePageRTLSix />} />
         <Route exact path="/about" element={<AboutPage />} />
         <Route exact path="/service" element={<ServicePage />} />
         <Route exact path="/service-details" element={<ServiceDetailsPage />} />
@@ -59,7 +61,6 @@ function App() {
         <Route exact path="/checkout" element={<CheckoutPage />} />
         <Route exact path="/wishlist" element={<WishlistPage />} />
         <Route exact path="/contact" element={<ContactPage />} />
-        {/* right-to-left page */}
       </Routes>
     </BrowserRouter>
   );

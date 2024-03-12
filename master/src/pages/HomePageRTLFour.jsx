@@ -8,7 +8,6 @@ import CTAAreaTwo from "../components/right-to-left/CTAAreaTwo";
 import ProcessAreaTwo from "../components/right-to-left/ProcessAreaTwo";
 import PricingPlanTwo from "../components/right-to-left/PricingPlanTwo";
 import ClientAreaThree from "../components/right-to-left/ClientAreaThree";
-import FaqAreaTwo from "../components/right-to-left/FaqAreaTwo";
 import FaqAreaFour from "../components/right-to-left/FaqAreaFour";
 import BlogAreaTwo from "../components/right-to-left/BlogAreaTwo";
 import SubscribeOne from "../components/right-to-left/SubscribeOne";
@@ -48,13 +47,13 @@ const HomePageRTLFour = () => {
       <FaqAreaFour />
 
       {/* Blog Area Two */}
-      <BlogAreaTwo/>
+      <BlogAreaTwo />
 
       {/* SubscribeOne */}
-      <SubscribeOne/>
+      <SubscribeOne />
 
       {/* FooterAreaOne */}
-      <FooterAreaOne/>
+      <FooterAreaOne />
     </>
   );
 };

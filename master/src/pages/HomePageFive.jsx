@@ -7,12 +7,8 @@ import ServiceAreaFour from "../components/left-to-right/ServiceAreaFour";
 import WhyChooseUsTwo from "../components/left-to-right/WhyChooseUsTwo";
 import PortfolioThree from "../components/left-to-right/PortfolioThree";
 import IntroAreaTwo from "../components/left-to-right/IntroAreaTwo";
-import TeamAreaTwo from "../components/left-to-right/TeamAreaTwo";
-import TeamAreaThree from "../components/left-to-right/TeamAreaThree";
 import TeamAreaFour from "../components/left-to-right/TeamAreaFour";
-import ClientAreaTwo from "../components/left-to-right/ClientAreaTwo";
 import ClientAreaThree from "../components/left-to-right/ClientAreaThree";
-import BlogAreaOne from "../components/left-to-right/BlogAreaOne";
 import BlogAreaTwo from "../components/left-to-right/BlogAreaTwo";
 import FooterAreaThree from "../components/left-to-right/FooterAreaThree";
 

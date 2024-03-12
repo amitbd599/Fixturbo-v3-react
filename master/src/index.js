@@ -3,22 +3,7 @@ import ReactDOM from "react-dom/client";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-
-if (
-  window.location.pathname === "/home-1-rtl" ||
-  window.location.pathname === "/home-2-rtl" ||
-  window.location.pathname === "/home-3-rtl" ||
-  window.location.pathname === "/home-4-rtl" ||
-  window.location.pathname === "/home-5-rtl"
-) {
-  require("bootstrap/dist/css/bootstrap.rtl.min.css");
-  require("./index.scss");
-} else {
-  require("bootstrap/dist/css/bootstrap.min.css");
-  require("./index.scss");
-}
-
-console.log(window.location.pathname);
+import "./index.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 if (
@@ -26,7 +11,8 @@ if (
   window.location.pathname === "/home-2-rtl" ||
   window.location.pathname === "/home-3-rtl" ||
   window.location.pathname === "/home-4-rtl" ||
-  window.location.pathname === "/home-5-rtl"
+  window.location.pathname === "/home-5-rtl" ||
+  window.location.pathname === "/home-6-rtl"
 ) {
   root.render(
     <React.StrictMode>
