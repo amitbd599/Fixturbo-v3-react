@@ -184,7 +184,7 @@ const HeaderThree = () => {
                   </button>
                 </div>
               </div>
-              <div className="col-auto ms-auto d-xl-block d-none">
+              <div className="col-auto me-auto d-xl-block d-none">
                 <div className="header-button">
                   <div className="navbar-right-desc d-xxl-flex d-none">
                     <img src="assets/img/icon/chat.svg" alt="img" />

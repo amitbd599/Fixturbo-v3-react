@@ -193,7 +193,7 @@ const HeaderOne = () => {
                   </button>
                 </div>
               </div>
-              <div className="col-auto ms-auto d-xl-block d-none">
+              <div className="col-auto me-auto d-xl-block d-none">
                 <div className="navbar-right-desc">
                   <img src="assets/img/icon/chat.svg" alt="img" />
                   <div className="navbar-right-desc-details">
