@@ -25,6 +25,7 @@ import HomePageSix from "./pages/HomePageSix";
 import HomePageRTLOne from "./pages/HomePageRTLOne";
 import HomePageRTLTwo from "./pages/HomePageRTLTwo";
 import HomePageRTLThree from "./pages/HomePageRTLThree";
+import HomePageRTLFour from "./pages/HomePageRTLFour";
 function App() {
   console.log(window.location.pathname);
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route exact path="/home-3" element={<HomePageThree />} />
         <Route exact path="/home-3-rtl" element={<HomePageRTLThree />} />
         <Route exact path="/home-4" element={<HomePageFour />} />
+        <Route exact path="/home-4-rtl" element={<HomePageRTLFour />} />
         <Route exact path="/home-5" element={<HomePageFive />} />
         <Route exact path="/home-6" element={<HomePageSix />} />
         <Route exact path="/about" element={<AboutPage />} />

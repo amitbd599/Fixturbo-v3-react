@@ -16,6 +16,7 @@ import FaqAreaOne from "../components/right-to-left/FaqAreaOne";
 import BlogAreaOne from "../components/right-to-left/BlogAreaOne";
 import SubscribeOne from "../components/right-to-left/SubscribeOne";
 import FeatureAreaOne from "../components/right-to-left/FeatureAreaOne";
+import FooterAreaOne from "../components/right-to-left/FooterAreaOne";
 const HomePageRTLOne = () => {
   return (
     <>
@@ -67,8 +68,8 @@ const HomePageRTLOne = () => {
       {/* Subscribe One */}
       <SubscribeOne />
 
-      {/* Feature Area One */}
-      <FeatureAreaOne />
+      {/* Footer Area One */}
+      <FooterAreaOne />
     </>
   );
 };

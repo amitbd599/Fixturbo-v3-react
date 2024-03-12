@@ -11,6 +11,9 @@ import MarqueeOne from "../components/right-to-left/MarqueeOne";
 import TeamAreaThree from "../components/right-to-left/TeamAreaThree";
 import CTAAreaOne from "../components/right-to-left/CTAAreaOne";
 import TestimonialTwo from "../components/right-to-left/TestimonialTwo";
+import BlogAreaThree from "../components/right-to-left/BlogAreaThree";
+import SubscribeOne from "../components/right-to-left/SubscribeOne";
+import FooterAreaOne from "../components/right-to-left/FooterAreaOne";
 
 const HomePageRTLThree = () => {
   return (
@@ -50,6 +53,15 @@ const HomePageRTLThree = () => {
 
       {/* Testimonial  */}
       <TestimonialTwo />
+
+      {/* Blog Area Three */}
+      <BlogAreaThree />
+
+      {/* Subscribe One */}
+      <SubscribeOne/>
+
+      {/* Footer Area One */}
+      <FooterAreaOne/>
     </>
   );
 };

@@ -21,14 +21,13 @@ const AboutFour = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className="counter-number">
-                          <CountUp delay={0} start={0} end={5} />
-                          k+
+                          +<CountUp delay={0} start={0} end={5} />k
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h3>
-                <h4 className="about-counter-text">Trusted Customer</h4>
+                <h4 className="about-counter-text">عميل موثوق به</h4>
               </div>
               <div className="about-year-wrap2 movingX">
                 <div className="about-year-grid-wrap">
@@ -40,30 +39,33 @@ const AboutFour = () => {
                       {({ isVisible }) =>
                         isVisible && (
                           <span className="counter-number">
-                            <CountUp delay={0} start={0} end={10} />
-                            k+
+                            +<CountUp delay={0} start={0} end={10} />k
                           </span>
                         )
                       }
                     </TrackVisibility>
                   </h3>
                 </div>
-                <h4 className="about-year-text">Years Of Experiences</h4>
+                <h4 className="about-year-text">سنوات من الخبرات</h4>
               </div>
             </div>
           </div>
           <div className="col-xxl-5 col-xl-6">
             <div className="about-content-wrap">
               <div className="title-area mb-30">
-                <span className="sub-title">Know About Us</span>
+                <span className="sub-title">تعرف عنا</span>
                 <h2 className="sec-title">
-                  Non Leo Libero Amet The Maecenas Gravida
+                  إنها أفضل الحلول التي يمكن الاعتماد عليها لإصلاح السيارات
+                  <img
+                    className="title-bg-shape shape-center"
+                    src="assets/img/bg/title-bg-shape.png"
+                    alt="img"
+                  />
                 </h2>
                 <p className="sec-text">
-                  A car repair is a service provided to fix any issues or
-                  damages with a your vehicle. It involves diagnosing the
-                  problem, repairing or replacing the necessary parts, and
-                  ensuring that the car
+                  إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو أضرار في
+                  سيارتك. يتضمن تشخيص المشكلة وإصلاح الأجزاء الضرورية أو
+                  استبدالها والتأكد من سلامة السيارة
                 </p>
               </div>
               <div className="about-feature-wrap">
@@ -71,12 +73,10 @@ const AboutFour = () => {
                   <img src="assets/img/icon/about_icon2-3.svg" alt="img" />
                 </div>
                 <div className="about-feature-wrap-details">
-                  <h5 className="about-feature-title">
-                    Elite Automotive Service
-                  </h5>
+                  <h5 className="about-feature-title">النخبة لخدمة السيارات</h5>
                   <p className="about-feature-text">
-                    Et purus duis sollicitudin dignissim habitant. Egestas nulla
-                    quis venenatis cras sed{" "}
+                    إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو أضرار في
+                    سيارتك. يتضمن تشخيص المشكلة أو
                   </p>
                 </div>
               </div>
@@ -85,10 +85,10 @@ const AboutFour = () => {
                   <img src="assets/img/icon/about_icon2-4.svg" alt="img" />
                 </div>
                 <div className="about-feature-wrap-details">
-                  <h5 className="about-feature-title">Pro Drive Garage</h5>
+                  <h5 className="about-feature-title">جراج برو درايف</h5>
                   <p className="about-feature-text">
-                    Et purus duis sollicitudin dignissim habitant. Egestas nulla
-                    quis venenatis cras sed{" "}
+                    إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو أضرار في
+                    سيارتك. يتضمن تشخيص المشكلة أو
                   </p>
                 </div>
               </div>
