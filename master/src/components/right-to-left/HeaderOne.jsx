@@ -1,6 +1,50 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const HeaderOne = () => {
+  const [active, setActive] = useState(false);
+  const [scroll, setScroll] = useState(false);
+
+  useEffect(() => {
+    var offCanvasNav = document.getElementById("offcanvas-navigation");
+    var offCanvasNavSubMenu = offCanvasNav.querySelectorAll(".sub-menu");
+
+    for (let i = 0; i < offCanvasNavSubMenu.length; i++) {
+      offCanvasNavSubMenu[i].insertAdjacentHTML(
+        "beforebegin",
+        "<span class='menu-expand'><i></i></span>"
+      );
+    }
+
+    var menuExpand = offCanvasNav.querySelectorAll(".menu-expand");
+    var numMenuExpand = menuExpand.length;
+
+    function sideMenuExpand() {
+      if (this.parentElement.classList.contains("active") === true) {
+        this.parentElement.classList.remove("active");
+      } else {
+        for (let i = 0; i < numMenuExpand; i++) {
+          menuExpand[i].parentElement.classList.remove("active");
+        }
+        this.parentElement.classList.add("active");
+      }
+    }
+
+    for (let i = 0; i < numMenuExpand; i++) {
+      menuExpand[i].addEventListener("click", sideMenuExpand);
+    }
+    window.onscroll = () => {
+      if (window.pageYOffset < 150) {
+        setScroll(false);
+      } else if (window.pageYOffset > 150) {
+        setScroll(true);
+      }
+      return () => (window.onscroll = null);
+    };
+  }, []);
+
+  const mobileMenu = () => {
+    setActive(!active);
+  };
   return (
     <header className="nav-header header-layout1">
       <div className="header-top">

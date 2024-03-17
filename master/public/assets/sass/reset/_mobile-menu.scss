@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.90);
+  background-color: rgba(0, 0, 0, 0.9);
   z-index: 999999;
   width: 0;
   width: 100%;
@@ -11,7 +11,6 @@
   transition: all ease 0.8s;
   opacity: 0;
   visibility: hidden;
-
 
   // Mobile Menu Logo
   .mobile-logo {
@@ -75,7 +74,6 @@
   }
 }
 
-
 // Mobile Menu
 .mobile-menu {
   overflow-y: scroll;
@@ -105,10 +103,13 @@
         text-transform: capitalize;
         color: $title-color;
         padding-left: 0px;
+        &.active {
+          color: $theme-color;
+        }
       }
 
       &.active-class {
-        >a {
+        > a {
           color: $theme-color;
 
           &:before {
@@ -129,7 +130,7 @@
     }
 
     .submenu-item-has-children {
-      >a {
+      > a {
         .mean-expand-class {
           position: absolute;
           right: 0;
@@ -148,7 +149,7 @@
           border-radius: 0;
 
           &:before {
-            content: '\f105';
+            content: "\f105";
             font-family: $icon-font;
             font-weight: 700;
           }
@@ -156,19 +157,19 @@
       }
 
       &.active-class {
-        >a {
+        > a {
           .mean-expand-class:before {
-            content: '\f107';
+            content: "\f107";
           }
         }
       }
     }
   }
 
-  >ul {
+  > ul {
     padding: 0 30px;
 
-    >li {
+    > li {
       &:last-child {
         border-bottom: none;
       }
@@ -176,14 +177,13 @@
   }
 }
 
-
 @media (max-width: 400px) {
   .mobile-menu-wrapper .mobile-menu-area {
     width: 100%;
     max-width: 270px;
   }
 
-  .mobile-menu>ul {
+  .mobile-menu > ul {
     padding: 0 20px;
   }
 }
