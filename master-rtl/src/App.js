@@ -22,12 +22,6 @@ import HomePageThree from "./pages/HomePageThree";
 import HomePageFour from "./pages/HomePageFour";
 import HomePageFive from "./pages/HomePageFive";
 import HomePageSix from "./pages/HomePageSix";
-import HomePageRTLOne from "./pages/HomePageRTLOne";
-import HomePageRTLTwo from "./pages/HomePageRTLTwo";
-import HomePageRTLThree from "./pages/HomePageRTLThree";
-import HomePageRTLFour from "./pages/HomePageRTLFour";
-import HomePageRTLFive from "./pages/HomePageRTLFive";
-import HomePageRTLSix from "./pages/HomePageRTLSix";
 import IndexPage from "./pages/IndexPage";
 function App() {
   return (
@@ -37,17 +31,11 @@ function App() {
       <Routes>
         <Route exact path="/" element={<IndexPage />} />
         <Route exact path="/home-1" element={<HomePageOne />} />
-        <Route exact path="/home-1-rtl" element={<HomePageRTLOne />} />
         <Route exact path="/home-2" element={<HomePageTwo />} />
-        <Route exact path="/home-2-rtl" element={<HomePageRTLTwo />} />
         <Route exact path="/home-3" element={<HomePageThree />} />
-        <Route exact path="/home-3-rtl" element={<HomePageRTLThree />} />
         <Route exact path="/home-4" element={<HomePageFour />} />
-        <Route exact path="/home-4-rtl" element={<HomePageRTLFour />} />
         <Route exact path="/home-5" element={<HomePageFive />} />
-        <Route exact path="/home-5-rtl" element={<HomePageRTLFive />} />
         <Route exact path="/home-6" element={<HomePageSix />} />
-        <Route exact path="/home-6-rtl" element={<HomePageRTLSix />} />
         <Route exact path="/about" element={<AboutPage />} />
         <Route exact path="/service" element={<ServicePage />} />
         <Route exact path="/service-details" element={<ServiceDetailsPage />} />

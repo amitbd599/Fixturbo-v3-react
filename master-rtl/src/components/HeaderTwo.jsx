@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Link, a } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const HeaderOne = () => {
+const HeaderTwo = () => {
   const [active, setActive] = useState(false);
   const [scroll, setScroll] = useState(false);
 
@@ -46,47 +46,37 @@ const HeaderOne = () => {
   const mobileMenu = () => {
     setActive(!active);
   };
-
   return (
-    <header className="nav-header header-layout1">
+    <header className="nav-header header-layout2">
       <div className="header-top">
         <div className="container">
           <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
             <div className="col-auto d-none d-lg-block">
-              <div className="header-links">
-                <ul>
-                  <li>
-                    <i className="fas fa-envelope" />
-                    <Link href="mailto:info@example.com">info@example.com</Link>
-                  </li>
-                  <li>
-                    <i className="fas fa-map-marker-alt" />
-                    6391 ش الجين، سيلينا، 10299
-                  </li>
-                  <li>
-                    <i className="fas fa-clock" />
-                    الأحد - الجمعة
-                  </li>
-                </ul>
+              <div className="header-logo">
+                <a href="/index">
+                  <img src="assets/img/logo.svg" alt="logo" />
+                </a>
               </div>
             </div>
             <div className="col-auto">
-              <div className="header-links ps-0">
+              <div className="header-grid-info">
                 <ul>
                   <li>
-                    <div className="social-links">
-                      <Link href="https://www.facebook.com/">
-                        <i className="fab fa-facebook-f" />
-                      </Link>
-                      <Link href="https://www.instagram.com/">
-                        <i className="fab fa-instagram" />
-                      </Link>
-                      <Link href="https://www.twitter.com/">
-                        <i className="fab fa-twitter" />
-                      </Link>
-                      <Link href="https://www.linkedin.com/">
-                        <i className="fab fa-linkedin" />
-                      </Link>
+                    <div className="icon">
+                      <i className="fas fa-clock" />
+                    </div>
+                    <div className="header-grid-info-details">
+                      <p>الأحد - الجمعة :</p>
+                      <h6>9 صباحًا - 8 مساءً</h6>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <i className="fas fa-map-marker-alt" />
+                    </div>
+                    <div className="header-grid-info-details">
+                      <p>6391 شارع إلجين، سيلينا، ديلاوير</p>
+                      <h6>كنتاكي </h6>
                     </div>
                   </li>
                 </ul>
@@ -98,16 +88,11 @@ const HeaderOne = () => {
       <div className={`sticky-wrapper ${scroll && "sticky"}`}>
         {/* Main Menu Area */}
         <div className="menu-area">
-          <div className="header-navbar-logo">
-            <Link href="/index">
-              <img src="assets/img/logo-white.svg" alt="logo" />
-            </Link>
-          </div>
           <div className="container">
-            <div className="row align-items-center justify-content-lg-start justify-content-between">
-              <div className="col-auto d-xl-none d-block">
+            <div className="row align-items-center justify-content-between">
+              <div className="col-auto header-navbar-logo">
                 <div className="header-logo">
-                  <Link href="/index">
+                  <Link to="/">
                     <img src="assets/img/logo-white.svg" alt="logo" />
                   </Link>
                 </div>
@@ -243,21 +228,26 @@ const HeaderOne = () => {
                   </button>
                 </div>
               </div>
-              <div className="col-auto me-auto d-xl-block d-none">
-                <div className="navbar-right-desc">
-                  <img src="assets/img/icon/chat.svg" alt="img" />
-                  <div className="navbar-right-desc-details">
-                    <h6 className="title">تحتاج مساعدة؟</h6>
-                    <Link className="link" href="tel:+2590256215">
-                      (307) 555-0133
-                    </Link>
-                  </div>
+              <div className="col-auto d-xl-block d-none">
+                <div className="social-links">
+                  <a href="https://www.facebook.com/">
+                    <i className="fab fa-facebook-f" />
+                  </a>
+                  <a href="https://www.instagram.com/">
+                    <i className="fab fa-instagram" />
+                  </a>
+                  <a href="https://www.twitter.com/">
+                    <i className="fab fa-twitter" />
+                  </a>
+                  <a href="https://www.linkedin.com/">
+                    <i className="fab fa-linkedin" />
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          <div className="logo-bg" />
         </div>
+
         {/* Mobile Menu */}
         <div className={`mobile-menu-wrapper rtl  ${active && "body-visible"}`}>
           <div className="mobile-menu-area">
@@ -406,4 +396,4 @@ const HeaderOne = () => {
   );
 };
 
-export default HeaderOne;
+export default HeaderTwo;

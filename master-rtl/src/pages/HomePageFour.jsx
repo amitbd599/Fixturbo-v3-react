@@ -1,17 +1,17 @@
 import React from "react";
-import HeaderThree from "../components/left-to-right/HeaderThree";
-import HeroFour from "../components/left-to-right/HeroFour";
-import ServiceAreaTwo from "../components/left-to-right/ServiceAreaTwo";
-import AboutFour from "../components/left-to-right/AboutFour";
-import PortfolioTwo from "../components/left-to-right/PortfolioTwo";
-import ProcessAreaTwo from "../components/left-to-right/ProcessAreaTwo";
-import CTAAreaTwo from "../components/left-to-right/CTAAreaTwo";
-import PricingPlanTwo from "../components/left-to-right/PricingPlanTwo";
-import ClientAreaThree from "../components/left-to-right/ClientAreaThree";
-import FaqAreaTwo from "../components/left-to-right/FaqAreaTwo";
-import BlogAreaTwo from "../components/left-to-right/BlogAreaTwo";
-import SubscribeOne from "../components/left-to-right/SubscribeOne";
-import FooterAreaOne from "../components/left-to-right/FooterAreaOne";
+import HeaderThree from "../components/HeaderThree";
+import HeroFour from "../components/HeroFour";
+import ServiceAreaTwo from "../components/ServiceAreaTwo";
+import AboutFour from "../components/AboutFour";
+import PortfolioTwo from "../components/PortfolioTwo";
+import CTAAreaTwo from "../components/CTAAreaTwo";
+import ProcessAreaTwo from "../components/ProcessAreaTwo";
+import PricingPlanTwo from "../components/PricingPlanTwo";
+import ClientAreaThree from "../components/ClientAreaThree";
+import FaqAreaFour from "../components/FaqAreaFour";
+import BlogAreaTwo from "../components/BlogAreaTwo";
+import SubscribeOne from "../components/SubscribeOne";
+import FooterAreaOne from "../components/FooterAreaOne";
 
 const HomePageFour = () => {
   return (
@@ -34,25 +34,25 @@ const HomePageFour = () => {
       {/* Process Area Two */}
       <ProcessAreaTwo />
 
-      {/* CTA Area Two */}
+      {/* CTAArea Two */}
       <CTAAreaTwo />
 
       {/* Pricing Plan Two */}
       <PricingPlanTwo />
 
-      {/* Client Area three */}
+      {/* Client Area Three */}
       <ClientAreaThree />
 
-      {/* Faq Area Two */}
-      <FaqAreaTwo />
+      {/* Faq Area four */}
+      <FaqAreaFour />
 
       {/* Blog Area Two */}
       <BlogAreaTwo />
 
-      {/* Subscribe One */}
+      {/* SubscribeOne */}
       <SubscribeOne />
 
-      {/* Footer Area One */}
+      {/* FooterAreaOne */}
       <FooterAreaOne />
     </>
   );

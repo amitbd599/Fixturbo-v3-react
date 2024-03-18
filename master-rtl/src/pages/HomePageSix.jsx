@@ -1,15 +1,15 @@
 import React from "react";
-import HeaderFive from "../components/left-to-right/HeaderFive";
-import HeroSix from "../components/left-to-right/HeroSix";
-import CategoryAreaOne from "../components/left-to-right/CategoryAreaOne";
-import ProductAreaOne from "../components/left-to-right/ProductAreaOne";
-import CTAAreaTwo from "../components/left-to-right/CTAAreaTwo";
-import ProductAreaTwo from "../components/left-to-right/ProductAreaTwo";
-import FaqAreaThree from "../components/left-to-right/FaqAreaThree";
-import ClientAreaFour from "../components/left-to-right/ClientAreaFour";
-import BlogAreaTwo from "../components/left-to-right/BlogAreaTwo";
-import SubscribeTwo from "../components/left-to-right/SubscribeTwo";
-import FooterAreaFour from "../components/left-to-right/FooterAreaFour";
+import HeaderFive from "../components/HeaderFive";
+import HeroSix from "../components/HeroSix";
+import CategoryAreaOne from "../components/CategoryAreaOne";
+import ProductAreaOne from "../components/ProductAreaOne";
+import CTAAreaTwo from "../components/CTAAreaTwo";
+import ProductAreaTwo from "../components/ProductAreaTwo";
+import FaqAreaThree from "../components/FaqAreaThree";
+import ClientAreaFour from "../components/ClientAreaFour";
+import BlogAreaTwo from "../components/BlogAreaTwo";
+import SubscribeTwo from "../components/SubscribeTwo";
+import FooterAreaFour from "../components/FooterAreaFour";
 
 const HomePageSix = () => {
   return (
@@ -32,7 +32,7 @@ const HomePageSix = () => {
       {/* Product Area Two */}
       <ProductAreaTwo />
 
-      {/* Faq Area three */}
+      {/* Faq Area Three */}
       <FaqAreaThree />
 
       {/* Client Area Four */}

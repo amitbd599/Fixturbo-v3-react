@@ -16,28 +16,28 @@ const IndexPage = () => {
             <div className="collapse navbar-collapse" id="al_main_menu">
               <ul className="navbar-nav menu-open text-center m-auto">
                 <li>
-                  <a className="page-scroll" href="#demo">
-                    Demos
+                  <a className="page-scroll pe-4" href="#demo">
+                    العروض التوضيحية
                   </a>
                 </li>
                 <li>
                   <a className="page-scroll" href="#inner">
-                    Inner Pages
+                    الصفحات الداخلية
                   </a>
                 </li>
                 <li>
                   <a className="page-scroll" href="#header">
-                    Header
+                    رأس
                   </a>
                 </li>
                 <li>
                   <a className="page-scroll" href="#footer">
-                    Footer
+                    تذييل
                   </a>
                 </li>
                 <li>
                   <a className="page-scroll" href="#featured">
-                    Features
+                    سمات
                   </a>
                 </li>
               </ul>
@@ -49,7 +49,7 @@ const IndexPage = () => {
                     href="https://themeforest.net/user/wowtheme7"
                     className="btn btn-base"
                   >
-                    Purchase Now
+                    شراء الآن
                   </a>
                 </li>
               </ul>
@@ -65,14 +65,14 @@ const IndexPage = () => {
             href="https://themeforest.net/user/wowtheme7"
           >
             <i className="fa fa-cart-arrow-down" />
-            Add To Cart
+            أضف إلى السلة
           </a>
           <a
             className="btn btn-white"
             href="https://themeforest.net/user/wowtheme7"
           >
             <i className="fa fa-cog" />
-            Demo Link
+            الرابط التجريبي
           </a>
         </div>
         <div className="container">
@@ -85,22 +85,22 @@ const IndexPage = () => {
                   alt="logo"
                 />
                 <h1 className="mt-4">
-                  Fixturbo - Car Repair &amp; Auto Services React Js Template
+                  Fixturbo - قالب Js لتصليح السيارات وخدمات السيارات
                 </h1>
                 <p className="me-5 mb-5">
-                  Fixturbo is Car Repair &amp; Auto Services React Js Template
-                  built for an array of services with a number of auto service
-                  and car repair institutions in mind.
+                  Fixturbo هو قالب React Js لإصلاح السيارات وخدمات السيارات، وهو
+                  مصمم لمجموعة من الخدمات مع وضع عدد من مؤسسات خدمة السيارات
+                  وإصلاح السيارات في الاعتبار.
                 </p>
                 <div className="btn-area">
                   <a className="btn btn-border page-scroll" href="#demo">
-                    Try Demos
+                    جرب العروض التوضيحية
                   </a>
                   <a
                     className="btn btn-base me-0"
                     href="https://themeforest.net/user/wowtheme7"
                   >
-                    Buy Now
+                    اشتري الآن
                   </a>
                 </div>
               </div>
@@ -146,7 +146,7 @@ const IndexPage = () => {
                     <h2>
                       <span className="counter">20</span>+
                     </h2>
-                    <p>Total Pages</p>
+                    <p>إجمالي الصفحات</p>
                   </div>
                 </div>
               </div>
@@ -156,7 +156,7 @@ const IndexPage = () => {
                     <h2>
                       <span className="counter">06</span>
                     </h2>
-                    <p>Total Homes</p>
+                    <p>مجموع المنازل</p>
                   </div>
                 </div>
               </div>
@@ -166,7 +166,7 @@ const IndexPage = () => {
                     <h2>
                       <span className="counter">14</span>+
                     </h2>
-                    <p>Inner Pages</p>
+                    <p>الصفحات الداخلية</p>
                   </div>
                 </div>
               </div>
@@ -185,8 +185,8 @@ const IndexPage = () => {
                 data-wow-duration="1.5s"
                 data-wow-delay="0.2s"
               >
-                <h5 className="subtitle">AWESOME DEMOS</h5>
-                <h2 className="title">Great Home Pages</h2>
+                <h5 className="subtitle">عروض توضيحية رائعة</h5>
+                <h2 className="title">الصفحات الرئيسية العظيمة</h2>
               </div>
             </div>
           </div>
@@ -201,15 +201,15 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/1.png" alt="img" />
                   </span>
-                  Home V.1
-                  <div className="item-title">Home Auto Repair</div>
+                  الصفحة الرئيسية V.1
+                  <div className="item-title">إصلاح السيارات المنزلية</div>
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/index.html">
-                    Live Demo
+                    عرض حي
                   </a>
                   <a className="btn btn-base" href="demo/index-rtl.html">
-                    RTL Demo
+                    عرض RTL
                   </a>
                 </div>
               </div>
@@ -224,15 +224,15 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/2.png" alt="img" />
                   </span>
-                  Home V.2
-                  <div className="item-title">Home Automotive</div>
+                  الصفحة الرئيسية V.2
+                  <div className="item-title">الصفحة الرئيسية السيارات</div>
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/home-2.html">
-                    Live Demo
+                    عرض حي
                   </a>
                   <a className="btn btn-base" href="demo/home-2-rtl.html">
-                    RTL Demo
+                    عرض RTL
                   </a>
                 </div>
               </div>
@@ -247,15 +247,17 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/3.png" alt="img" />
                   </span>
-                  Home V.3
-                  <div className="item-title">Home Car Fixers</div>
+                  الصفحة الرئيسية V.3
+                  <div className="item-title">
+                    الصفحة الرئيسية مصلحي السيارات
+                  </div>
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/home-3.html">
-                    Live Demo
+                    عرض حي
                   </a>
                   <a className="btn btn-base" href="demo/home-3-rtl.html">
-                    RTL Demo
+                    عرض RTL
                   </a>
                 </div>
               </div>
@@ -270,15 +272,17 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/4.png" alt="img" />
                   </span>
-                  Home V.4
-                  <div className="item-title">Home Auto Revive</div>
+                  الصفحة الرئيسية V.4
+                  <div className="item-title">
+                    الصفحة الرئيسية إحياء السيارات
+                  </div>
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/home-4.html">
-                    Live Demo
+                    عرض حي
                   </a>
                   <a className="btn btn-base" href="demo/home-4-rtl.html">
-                    RTL Demo
+                    عرض RTL
                   </a>
                 </div>
               </div>
@@ -293,15 +297,15 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/5.png" alt="img" />
                   </span>
-                  Home V.5
-                  <div className="item-title">Home Car Care</div>
+                  الصفحة الرئيسية V.5
+                  <div className="item-title">العناية بالسيارات المنزلية</div>
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/home-5.html">
-                    Live Demo
+                    عرض حي
                   </a>
                   <a className="btn btn-base" href="demo/home-5-rtl.html">
-                    RTL Demo
+                    عرض RTL
                   </a>
                 </div>
               </div>
@@ -316,15 +320,17 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/6.png" alt="img" />
                   </span>
-                  Home V.6
-                  <div className="item-title">Home Auto Parts</div>
+                  الصفحة الرئيسية V.6
+                  <div className="item-title">
+                    الصفحة الرئيسية لقطع غيار السيارات
+                  </div>
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/home-6.html">
-                    Live Demo
+                    عرض حي
                   </a>
                   <a className="btn btn-base" href="demo/home-6-rtl.html">
-                    RTL Demo
+                    عرض RTL
                   </a>
                 </div>
               </div>
@@ -339,7 +345,7 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/4.png" alt="img" />
                   </span>
-                  <span className="cm-soon-title">Comming Soon</span>
+                  <span className="cm-soon-title">سآتي قريبا</span>
                 </a>
               </div>
             </div>
@@ -356,7 +362,7 @@ const IndexPage = () => {
                 data-wow-duration="1.5s"
                 data-wow-delay="0.2s"
               >
-                <h2 className="title">Great Inner Pages</h2>
+                <h2 className="title">الصفحات الداخلية العظيمة</h2>
               </div>
             </div>
           </div>
@@ -371,11 +377,11 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/about.png" alt="img" />
                   </span>
-                  About Page
+                  حول الصفحة
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/about.html">
-                    Live Demo
+                    عرض حي
                   </a>
                 </div>
               </div>
@@ -390,11 +396,11 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/service.png" alt="img" />
                   </span>
-                  Service Page
+                  صفحة الخدمة
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/service.html">
-                    Live Demo
+                    عرض حي
                   </a>
                 </div>
               </div>
@@ -409,11 +415,11 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/service-details.png" alt="img" />
                   </span>
-                  Service Details
+                  تفاصيل الخدمة
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/service-details.html">
-                    Live Demo
+                    عرض حي
                   </a>
                 </div>
               </div>
@@ -428,11 +434,11 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/project.png" alt="img" />
                   </span>
-                  Project Page
+                  صفحة المشروع
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/project.html">
-                    Live Demo
+                    عرض حي
                   </a>
                 </div>
               </div>
@@ -447,11 +453,11 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/project-details.png" alt="img" />
                   </span>
-                  Project Details
+                  تفاصيل المشروع
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/project-details.html">
-                    Live Demo
+                    عرض حي
                   </a>
                 </div>
               </div>
@@ -466,11 +472,11 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/team.png" alt="img" />
                   </span>
-                  Team Page
+                  صفحة الفريق
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/team.html">
-                    Live Demo
+                    عرض حي
                   </a>
                 </div>
               </div>
@@ -485,11 +491,11 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/team-details.png" alt="img" />
                   </span>
-                  Team Details
+                  تفاصيل الفريق
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/team-details.html">
-                    Live Demo
+                    عرض حي
                   </a>
                 </div>
               </div>
@@ -504,11 +510,11 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/blog.png" alt="img" />
                   </span>
-                  Blog Page
+                  صفحة المدونة
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/blog.html">
-                    Live Demo
+                    عرض حي
                   </a>
                 </div>
               </div>
@@ -523,11 +529,11 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/blog-details.png" alt="img" />
                   </span>
-                  Blog Details
+                  تفاصيل المدونة
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/blog-details.html">
-                    Live Demo
+                    عرض حي
                   </a>
                 </div>
               </div>
@@ -542,11 +548,11 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/shop.png" alt="img" />
                   </span>
-                  Shop Page
+                  صفحة المتجر
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/shop.html">
-                    Live Demo
+                    عرض حي
                   </a>
                 </div>
               </div>
@@ -561,11 +567,11 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/shop-details.png" alt="img" />
                   </span>
-                  Shop Details
+                  تفاصيل المتجر
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/shop-details.html">
-                    Live Demo
+                    عرض حي
                   </a>
                 </div>
               </div>
@@ -580,11 +586,11 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/contact.png" alt="img" />
                   </span>
-                  Contact Page
+                  صفحة الاتصال
                 </a>
                 <div className="btn-group">
                   <a className="btn btn-base" href="demo/contact.html">
-                    Live Demo
+                    عرض حي
                   </a>
                 </div>
               </div>
@@ -599,7 +605,7 @@ const IndexPage = () => {
                   <span className="thumb">
                     <img src="assets/img/demo/4.png" alt="img" />
                   </span>
-                  <span className="cm-soon-title">Comming Soon</span>
+                  <span className="cm-soon-title">يأتي قريبا</span>
                 </a>
               </div>
             </div>
@@ -616,7 +622,7 @@ const IndexPage = () => {
                 data-wow-duration="1.5s"
                 data-wow-delay="0.2s"
               >
-                <h2 className="title">Header Style</h2>
+                <h2 className="title">نمط الرأس</h2>
               </div>
             </div>
           </div>
@@ -663,7 +669,7 @@ const IndexPage = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center pd-top-130">
               <div className="section-title">
-                <h2 className="title">Footer Style</h2>
+                <h2 className="title">نمط التذييل</h2>
               </div>
             </div>
           </div>
@@ -695,7 +701,7 @@ const IndexPage = () => {
                 data-wow-duration="1.5s"
                 data-wow-delay="0.2s"
               >
-                <h2 className="title">Core Features</h2>
+                <h2 className="title">الميزات الأساسية</h2>
                 {/* <p>We have created a new product that will help designers, developers and com-panies create websites for their startups quickly and easily.</p> */}
               </div>
             </div>
@@ -708,7 +714,7 @@ const IndexPage = () => {
                 data-wow-delay="0.2s"
               >
                 <img src="assets/img/demo/featured/3.png" alt="img" />
-                Bootstrap 5+
+                بوتستراب 5+
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -718,7 +724,7 @@ const IndexPage = () => {
                 data-wow-delay="0.4s"
               >
                 <img src="assets/img/demo/featured/1.png" alt="img" />
-                Sass
+                ساس
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -728,7 +734,7 @@ const IndexPage = () => {
                 data-wow-delay="0.6s"
               >
                 <img src="assets/img/demo/featured/4.png" alt="img" />
-                Font-Awesome
+                الخط-رائع
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -738,7 +744,7 @@ const IndexPage = () => {
                 data-wow-delay="0.2s"
               >
                 <img src="assets/img/demo/featured/2.png" alt="img" />
-                Swiper js
+                سوايبر شبيبة
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -748,7 +754,7 @@ const IndexPage = () => {
                 data-wow-delay="0.4s"
               >
                 <img src="assets/img/demo/featured/5.png" alt="img" />
-                HTML5 JSX
+                HTML5 جي إس إكس
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -758,7 +764,7 @@ const IndexPage = () => {
                 data-wow-delay="0.6s"
               >
                 <img src="assets/img/demo/featured/6.png" alt="img" />
-                CSS3
+                سي اس اس 3
               </div>
             </div>
 
@@ -769,7 +775,7 @@ const IndexPage = () => {
                 data-wow-delay="0.4s"
               >
                 <img src="assets/img/demo/featured/8.png" alt="img" />
-                W3C Validation
+                التحقق من صحة W3C
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -779,7 +785,7 @@ const IndexPage = () => {
                 data-wow-delay="0.6s"
               >
                 <img src="assets/img/demo/featured/9.png" alt="img" />
-                Clean Code
+                كود نظيف
               </div>
             </div>
 
@@ -790,7 +796,7 @@ const IndexPage = () => {
                 data-wow-delay="0.4s"
               >
                 <img src="assets/img/demo/featured/12.png" alt="img" />
-                100% Responsive
+                استجابة 100%
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -800,7 +806,7 @@ const IndexPage = () => {
                 data-wow-delay="0.6s"
               >
                 <img src="assets/img/demo/featured/11.png" alt="img" />
-                Google Fonts
+                خطوط جوجل
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -810,7 +816,7 @@ const IndexPage = () => {
                 data-wow-delay="0.2s"
               >
                 <img src="assets/img/demo/featured/14.png" alt="img" />
-                Well Documented
+                وثق بشكل جيد
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -820,7 +826,7 @@ const IndexPage = () => {
                 data-wow-delay="0.4s"
               >
                 <img src="assets/img/demo/featured/15.png" alt="img" />
-                Counter Up
+                مكافحة لأعلى
               </div>
             </div>
           </div>
@@ -839,15 +845,14 @@ const IndexPage = () => {
                   <img src="assets/img/demo/logo-white.svg" alt="#" />
                 </a>
                 <h5 className="text-white mb-5 mt-5 lh-base">
-                  It is a modern &amp; beautiful Car Repair &amp; Auto Services
-                  React Template. It's Specially Car Repair &amp; Auto Services
-                  Company website.
+                  إنه قالب رد فعل حديث وجميل لإصلاح السيارات وخدمات السيارات.
+                  إنه موقع ويب خاص بشركة إصلاح السيارات وخدمات السيارات.
                 </h5>
                 <a
                   className="btn btn-white"
                   href="https://themeforest.net/user/wowtheme7"
                 >
-                  Purchase Now
+                  شراء الآن
                 </a>
               </div>
             </div>
@@ -857,7 +862,7 @@ const IndexPage = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center align-self-center">
-                <p>Copy Right by wowtheme7</p>
+                <p>حقوق الطبع والنشر بواسطة wowtheme7</p>
               </div>
             </div>
           </div>

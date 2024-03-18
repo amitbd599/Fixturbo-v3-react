@@ -1,26 +1,25 @@
 import React from "react";
-import HeaderOne from "../components/left-to-right/HeaderOne";
-import HeroOne from "../components/left-to-right/HeroOne";
-import CounterOne from "../components/left-to-right/CounterOne";
-import AboutOne from "../components/left-to-right/AboutOne";
-import ServiceAreaOne from "../components/left-to-right/ServiceAreaOne";
-import MarqueeOne from "../components/left-to-right/MarqueeOne";
-import PortfolioOne from "../components/left-to-right/PortfolioOne";
-import ClientAreaOne from "../components/left-to-right/ClientAreaOne";
-import PricingPlanOne from "../components/left-to-right/PricingPlanOne";
-import TeamAreaOne from "../components/left-to-right/TeamAreaOne";
-import CTAAreaOne from "../components/left-to-right/CTAAreaOne";
-import TestimonialOne from "../components/left-to-right/TestimonialOne";
-import ProcessAreaOne from "../components/left-to-right/ProcessAreaOne";
-import FaqAreaOne from "../components/left-to-right/FaqAreaOne";
-import BlogAreaOne from "../components/left-to-right/BlogAreaOne";
-import FooterAreaOne from "../components/left-to-right/FooterAreaOne";
-import SubscribeOne from "../components/left-to-right/SubscribeOne";
-
+import HeaderOne from "../components/HeaderOne";
+import HeroOne from "../components/HeroOne";
+import CounterOne from "../components/CounterOne";
+import AboutOne from "../components/AboutOne";
+import ServiceAreaOne from "../components/ServiceAreaOne";
+import MarqueeOne from "../components/MarqueeOne";
+import PortfolioOne from "../components/PortfolioOne";
+import ClientAreaOne from "../components/ClientAreaOne";
+import PricingPlanOne from "../components/PricingPlanOne";
+import TeamAreaOne from "../components/TeamAreaOne";
+import CTAAreaOne from "./../components/CTAAreaOne";
+import TestimonialOne from "./../components/TestimonialOne";
+import ProcessAreaOne from "../components/ProcessAreaOne";
+import FaqAreaOne from "../components/FaqAreaOne";
+import BlogAreaOne from "../components/BlogAreaOne";
+import SubscribeOne from "../components/SubscribeOne";
+import FooterAreaOne from "../components/FooterAreaOne";
 const HomePageOne = () => {
   return (
     <>
-      {/* Header one */}
+      {/* Header One */}
       <HeaderOne />
 
       {/* Hero One */}

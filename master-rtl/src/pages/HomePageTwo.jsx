@@ -1,20 +1,20 @@
 import React from "react";
-import HeaderTwo from "../components/left-to-right/HeaderTwo";
-import HeroTwo from "../components/left-to-right/HeroTwo";
-import ServiceAreaTwo from "../components/left-to-right/ServiceAreaTwo";
-import AboutTwo from "../components/left-to-right/AboutTwo";
-import CounterTwo from "../components/left-to-right/CounterTwo";
-import PortfolioTwo from "../components/left-to-right/PortfolioTwo";
-import WhyChooseUsOne from "../components/left-to-right/WhyChooseUsOne";
-import ProcessAreaTwo from "../components/left-to-right/ProcessAreaTwo";
-import CTAAreaTwo from "../components/left-to-right/CTAAreaTwo";
-import PricingPlanTwo from "../components/left-to-right/PricingPlanTwo";
-import AppointmentAreaTwo from "../components/left-to-right/AppointmentAreaTwo";
-import TeamAreaTwo from "../components/left-to-right/TeamAreaTwo";
-import ClientAreaTwo from "../components/left-to-right/ClientAreaTwo";
-import FaqAreaTwo from "../components/left-to-right/FaqAreaTwo";
-import BlogAreaTwo from "../components/left-to-right/BlogAreaTwo";
-import FooterAreaTwo from "../components/left-to-right/FooterAreaTwo";
+import HeaderTwo from "../components/HeaderTwo";
+import HeroTwo from "../components/HeroTwo";
+import ServiceAreaTwo from "../components/ServiceAreaTwo";
+import AboutTwo from "../components/AboutTwo";
+import CounterTwo from "../components/CounterTwo";
+import PortfolioTwo from "../components/PortfolioTwo";
+import WhyChooseUsOne from "../components/WhyChooseUsOne";
+import CTAAreaTwo from "../components/CTAAreaTwo";
+import ProcessAreaTwo from "../components/ProcessAreaTwo";
+import PricingPlanTwo from "../components/PricingPlanTwo";
+import AppointmentAreaTwo from "../components/AppointmentAreaTwo";
+import TeamAreaTwo from "../components/TeamAreaTwo";
+import ClientAreaTwo from "../components/ClientAreaTwo";
+import FaqAreaTwo from "../components/FaqAreaTwo";
+import BlogAreaTwo from "../components/BlogAreaTwo";
+import FooterAreaTwo from "../components/FooterAreaTwo";
 
 const HomePageTwo = () => {
   return (
@@ -29,9 +29,7 @@ const HomePageTwo = () => {
       <ServiceAreaTwo />
 
       {/* About Two */}
-      <div className="about-area-2 bg-smoke">
-        <AboutTwo />
-      </div>
+      <AboutTwo />
 
       {/* Counter Two */}
       <CounterTwo />

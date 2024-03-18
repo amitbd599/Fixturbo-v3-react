@@ -1,31 +1,31 @@
 import React from "react";
-import HeaderOne from "./../components/left-to-right/HeaderOne";
-import HeroThree from "../components/left-to-right/HeroThree";
-import FeatureAreaOne from "../components/left-to-right/FeatureAreaOne";
-import AboutThree from "../components/left-to-right/AboutThree";
-import IntroAreaOne from "../components/left-to-right/IntroAreaOne";
-import ServiceAreaOne from "../components/left-to-right/ServiceAreaOne";
-import PortfolioTwo from "../components/left-to-right/PortfolioTwo";
-import FaqAreaTwo from "../components/left-to-right/FaqAreaTwo";
-import MarqueeOne from "../components/left-to-right/MarqueeOne";
-import TeamAreaThree from "../components/left-to-right/TeamAreaThree";
-import CTAAreaOne from "../components/left-to-right/CTAAreaOne";
-import TestimonialOne from "../components/left-to-right/TestimonialOne";
-import BlogAreaThree from "../components/left-to-right/BlogAreaThree";
-import FooterAreaOne from "../components/left-to-right/FooterAreaOne";
-import SubscribeOne from "../components/left-to-right/SubscribeOne";
+import HeaderOne from "../components/HeaderOne";
+import HeroThree from "../components/HeroThree";
+import FeatureAreaTwo from "../components/FeatureAreaTwo";
+import AboutThree from "../components/AboutThree";
+import IntroAreaOne from "../components/IntroAreaOne";
+import ServiceAreaOne from "../components/ServiceAreaOne";
+import PortfolioTwo from "../components/PortfolioTwo";
+import FaqAreaThree from "../components/FaqAreaThree";
+import MarqueeOne from "../components/MarqueeOne";
+import TeamAreaThree from "../components/TeamAreaThree";
+import CTAAreaOne from "../components/CTAAreaOne";
+import TestimonialTwo from "../components/TestimonialTwo";
+import BlogAreaThree from "../components/BlogAreaThree";
+import SubscribeOne from "../components/SubscribeOne";
+import FooterAreaOne from "../components/FooterAreaOne";
 
 const HomePageThree = () => {
   return (
     <>
-      {/* Header Two */}
+      {/* Header One */}
       <HeaderOne />
 
       {/* Hero Three */}
       <HeroThree />
 
-      {/* Feature Area One */}
-      <FeatureAreaOne />
+      {/* Feature Area Two */}
+      <FeatureAreaTwo />
 
       {/* About Three */}
       <AboutThree />
@@ -36,24 +36,23 @@ const HomePageThree = () => {
       {/* Service Area One */}
       <ServiceAreaOne />
 
-      {/* Portfolio Two */}
+      {/* Portfolio One */}
       <PortfolioTwo />
 
       {/* Faq Area Two */}
-      <FaqAreaTwo />
+      <FaqAreaThree />
 
       {/* Marquee One */}
-
       <MarqueeOne />
 
-      {/* TeamAreaThree */}
+      {/* Team Area Three */}
       <TeamAreaThree />
 
       {/* CTA Area One */}
       <CTAAreaOne />
 
-      {/* Testimonial One */}
-      <TestimonialOne />
+      {/* Testimonial  */}
+      <TestimonialTwo />
 
       {/* Blog Area Three */}
       <BlogAreaThree />

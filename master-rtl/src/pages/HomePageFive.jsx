@@ -1,16 +1,16 @@
 import React from "react";
-import HeaderFour from "../components/left-to-right/HeaderFour";
-import HeroFive from "../components/left-to-right/HeroFive";
-import ServiceAreaThree from "../components/left-to-right/ServiceAreaThree";
-import AboutOne from "../components/left-to-right/AboutOne";
-import ServiceAreaFour from "../components/left-to-right/ServiceAreaFour";
-import WhyChooseUsTwo from "../components/left-to-right/WhyChooseUsTwo";
-import PortfolioThree from "../components/left-to-right/PortfolioThree";
-import IntroAreaTwo from "../components/left-to-right/IntroAreaTwo";
-import TeamAreaFour from "../components/left-to-right/TeamAreaFour";
-import ClientAreaThree from "../components/left-to-right/ClientAreaThree";
-import BlogAreaTwo from "../components/left-to-right/BlogAreaTwo";
-import FooterAreaThree from "../components/left-to-right/FooterAreaThree";
+import HeaderFour from "../components/HeaderFour";
+import HeroFive from "../components/HeroFive";
+import ServiceAreaThree from "../components/ServiceAreaThree";
+import AboutOne from "../components/AboutOne";
+import ServiceAreaFour from "../components/ServiceAreaFour";
+import WhyChooseUsTwo from "../components/WhyChooseUsTwo";
+import PortfolioThree from "../components/PortfolioThree";
+import IntroAreaTwo from "../components/IntroAreaTwo";
+import TeamAreaFour from "../components/TeamAreaFour";
+import ClientAreaThree from "../components/ClientAreaThree";
+import BlogAreaTwo from "../components/BlogAreaTwo";
+import FooterAreaThree from "../components/FooterAreaThree";
 
 const HomePageFive = () => {
   return (
@@ -24,7 +24,7 @@ const HomePageFive = () => {
       {/* Service Area Three */}
       <ServiceAreaThree />
 
-      {/* About One */}
+      {/* AboutOne */}
       <AboutOne />
 
       {/* Service Area Four */}
@@ -33,10 +33,10 @@ const HomePageFive = () => {
       {/* Why Choose Us Two */}
       <WhyChooseUsTwo />
 
-      {/* Portfolio Three */}
+      {/* PortfolioThree */}
       <PortfolioThree />
 
-      {/* Intro Area Two */}
+      {/* IntroAreaTwo */}
       <IntroAreaTwo />
 
       {/* Team Area Four */}

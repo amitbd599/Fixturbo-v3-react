@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const HeaderTwo = () => {
+const HeaderOne = () => {
   const [active, setActive] = useState(false);
   const [scroll, setScroll] = useState(false);
 
@@ -46,37 +46,47 @@ const HeaderTwo = () => {
   const mobileMenu = () => {
     setActive(!active);
   };
+
   return (
-    <header className="nav-header header-layout2">
+    <header className="nav-header header-layout1">
       <div className="header-top">
         <div className="container">
           <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
             <div className="col-auto d-none d-lg-block">
-              <div className="header-logo">
-                <a href="/index">
-                  <img src="assets/img/logo.svg" alt="logo" />
-                </a>
+              <div className="header-links">
+                <ul>
+                  <li>
+                    <i className="fas fa-envelope" />
+                    <Link to="mailto:info@example.com">info@example.com</Link>
+                  </li>
+                  <li>
+                    <i className="fas fa-map-marker-alt" />
+                    6391 ش الجين، سيلينا، 10299
+                  </li>
+                  <li>
+                    <i className="fas fa-clock" />
+                    الأحد - الجمعة
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="col-auto">
-              <div className="header-grid-info">
+              <div className="header-links ps-0">
                 <ul>
                   <li>
-                    <div className="icon">
-                      <i className="fas fa-clock" />
-                    </div>
-                    <div className="header-grid-info-details">
-                      <p>الأحد - الجمعة :</p>
-                      <h6>9 صباحًا - 8 مساءً</h6>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="icon">
-                      <i className="fas fa-map-marker-alt" />
-                    </div>
-                    <div className="header-grid-info-details">
-                      <p>6391 شارع إلجين، سيلينا، ديلاوير</p>
-                      <h6>كنتاكي </h6>
+                    <div className="social-links">
+                      <Link to="https://www.facebook.com/">
+                        <i className="fab fa-facebook-f" />
+                      </Link>
+                      <Link to="https://www.instagram.com/">
+                        <i className="fab fa-instagram" />
+                      </Link>
+                      <Link to="https://www.twitter.com/">
+                        <i className="fab fa-twitter" />
+                      </Link>
+                      <Link to="https://www.linkedin.com/">
+                        <i className="fab fa-linkedin" />
+                      </Link>
                     </div>
                   </li>
                 </ul>
@@ -88,133 +98,110 @@ const HeaderTwo = () => {
       <div className={`sticky-wrapper ${scroll && "sticky"}`}>
         {/* Main Menu Area */}
         <div className="menu-area">
+          <div className="header-navbar-logo">
+            <Link to="/">
+              <img src="assets/img/logo-white.svg" alt="logo" />
+            </Link>
+          </div>
           <div className="container">
-            <div className="row align-items-center justify-content-between">
-              <div className="col-auto header-navbar-logo">
+            <div className="row align-items-center justify-content-lg-start justify-content-between">
+              <div className="col-auto d-xl-none d-block">
                 <div className="header-logo">
-                  <a href="index.html">
+                  <Link to="/">
                     <img src="assets/img/logo-white.svg" alt="logo" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-auto">
                 <nav className="main-menu d-none d-lg-inline-block">
                   <ul>
                     <li className="menu-item-has-children">
-                      <Link href="#">بيت</Link>
+                      <Link to="#">بيت</Link>
                       <ul className="sub-menu">
-                        <li className="menu-item-has-children">
-                          <Link href="#">Multipage</Link>
-                          <ul className="sub-menu">
-                            <li>
-                              <a href="/home-1">Home 01</a>
-                            </li>
-                            <li>
-                              <a href="/home-2">Home 02</a>
-                            </li>
-                            <li>
-                              <a href="/home-3">Home 03</a>
-                            </li>
-                            <li>
-                              <a href="/home-4">Home 04</a>
-                            </li>
-                            <li>
-                              <a href="/home-5">Home 05</a>
-                            </li>
-                            <li>
-                              <a href="/home-6">Home 06</a>
-                            </li>
-                          </ul>
+                        <li>
+                          <Link to="/home-1">الصفحة الرئيسية 01</Link>
                         </li>
-                        <li className="menu-item-has-children">
-                          <Link href="#">RTL</Link>
-                          <ul className="sub-menu">
-                            <li>
-                              <a href="/home-1-rtl">بيت 01 (RTL)</a>
-                            </li>
-                            <li>
-                              <a href="/home-2-rtl">بيت 02 (RTL)</a>
-                            </li>
-                            <li>
-                              <a href="/home-3-rtl">بيت 03 (RTL)</a>
-                            </li>
-                            <li>
-                              <a href="/home-4-rtl">بيت 04 (RTL)</a>
-                            </li>
-                            <li>
-                              <a href="/home-5-rtl">بيت 05 (RTL)</a>
-                            </li>
-                            <li>
-                              <a href="/home-6-rtl">بيت 06 (RTL)</a>
-                            </li>
-                          </ul>
+                        <li>
+                          <Link to="/home-2">الصفحة الرئيسية 02</Link>
+                        </li>
+                        <li>
+                          <Link to="/home-3">الصفحة الرئيسية 03</Link>
+                        </li>
+                        <li>
+                          <Link to="/home-4">الصفحة الرئيسية 04</Link>
+                        </li>
+                        <li>
+                          <Link to="/home-5">الصفحة الرئيسية 05</Link>
+                        </li>
+                        <li>
+                          <Link to="/home-6">الصفحة الرئيسية 06</Link>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="/about">عن</a>
+                      <Link to="/about">عن</Link>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link href="#">الصفحات</Link>
+                      <Link to="#">الصفحات</Link>
                       <ul className="sub-menu">
                         <li>
-                          <a href="/team">صفحة الفريق</a>
+                          <Link to="/team">فريق</Link>
                         </li>
                         <li>
-                          <a href="/team-details">تفاصيل الفريق</a>
+                          <Link to="/team-details">تفاصيل الفريق</Link>
                         </li>
                         <li>
-                          <a href="/shop">صفحة المتجر</a>
+                          <Link to="/shop">محل</Link>
                         </li>
                         <li>
-                          <a href="/shop-details">تفاصيل المتجر</a>
+                          <Link to="/shop-details">تفاصيل المتجر</Link>
                         </li>
                         <li>
-                          <a href="/cart">تفاصيل</a>
+                          <Link to="/cart">عربة التسوق</Link>
                         </li>
                         <li>
-                          <a href="/checkout">تفاصصفحة</a>
+                          <Link to="/checkout">الدفع</Link>
                         </li>
                         <li>
-                          <a href="/wishlist">تفاصحة</a>
+                          <Link to="/wishlist">قائمة الرغبات</Link>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link href="#">مشروع</Link>
+                      <Link to="#">المشاريع</Link>
                       <ul className="sub-menu">
                         <li>
-                          <a href="/project">مشروع</a>
+                          <Link to="/project">مشروع</Link>
                         </li>
                         <li>
-                          <a href="/project-details">تفاصيل المشروع</a>
+                          <Link to="/project-details">تفاصيل المشروع</Link>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link href="#">خدمة</Link>
+                      <Link to="#">خدمات</Link>
                       <ul className="sub-menu">
                         <li>
-                          <a href="/service">خدمة</a>
+                          <Link to="/service">خدمة</Link>
                         </li>
                         <li>
-                          <a href="/service-details">تفاصيل الخدمة</a>
+                          <Link to="/service-details">تفاصيل الخدمة</Link>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link href="#">مدونة</Link>
+                      <Link to="#">مدونة</Link>
                       <ul className="sub-menu">
                         <li>
-                          <a href="/blog">مدونة</a>
+                          <Link to="/blog">مدونة</Link>
                         </li>
                         <li>
-                          <a href="/blog-details">تفاصيل المدونة</a>
+                          <Link to="/blog-details">تفاصيل المدونة</Link>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="/contact">اتصال</a>
+                      <Link to="/contact">اتصال</Link>
                     </li>
                   </ul>
                 </nav>
@@ -228,31 +215,26 @@ const HeaderTwo = () => {
                   </button>
                 </div>
               </div>
-              <div className="col-auto d-xl-block d-none">
-                <div className="social-links">
-                  <a href="https://www.facebook.com/">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="https://www.instagram.com/">
-                    <i className="fab fa-instagram" />
-                  </a>
-                  <a href="https://www.twitter.com/">
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a href="https://www.linkedin.com/">
-                    <i className="fab fa-linkedin" />
-                  </a>
+              <div className="col-auto ms-auto d-xl-block d-none">
+                <div className="navbar-right-desc">
+                  <img src="assets/img/icon/chat.svg" alt="img" />
+                  <div className="navbar-right-desc-details">
+                    <h6 className="title">تحتاج مساعدة؟</h6>
+                    <Link className="link" to="tel:+2590256215">
+                      (307) 555-0133
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <div className="logo-bg" />
         </div>
-
         {/* Mobile Menu */}
         <div className={`mobile-menu-wrapper rtl  ${active && "body-visible"}`}>
           <div className="mobile-menu-area">
             <div className="mobile-logo">
-              <Link href="/index-1">
+              <Link to="/index-1">
                 <img src="assets/img/logo.svg" alt="Fixturbo" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
@@ -262,130 +244,112 @@ const HeaderTwo = () => {
             <div className="mobile-menu">
               <ul id="offcanvas-navigation">
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link href="#">Home</Link>
+                  <Link to="#">بيت</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
-                      <a href="/home-1">Home 01</a>
+                      <Link to="/home-1">الصفحة الرئيسية 01</Link>
                     </li>
                     <li>
-                      <a href="/home-2">Home 02</a>
+                      <Link to="/home-2">الصفحة الرئيسية 02</Link>
                     </li>
                     <li>
-                      <a href="/home-3">Home 03</a>
+                      <Link to="/home-3">الصفحة الرئيسية 03</Link>
                     </li>
                     <li>
-                      <a href="home-4">Home 04</a>
+                      <Link to="home-4">الصفحة الرئيسية 04</Link>
                     </li>
                     <li>
-                      <a href="/home-5">Home 05</a>
+                      <Link to="/home-5">الصفحة الرئيسية 05</Link>
                     </li>
                     <li>
-                      <a href="/home-6">Home 06</a>
-                    </li>
-                    <li>
-                      <a href="/index-rtl">Home 01 (RTL)</a>
-                    </li>
-                    <li>
-                      <a href="/home-2-rtl">Home 02 (RTL)</a>
-                    </li>
-                    <li>
-                      <a href="/home-3-rtl">Home 03 (RTL)</a>
-                    </li>
-                    <li>
-                      <a href="/home-4-rtl">Home 04 (RTL)</a>
-                    </li>
-                    <li>
-                      <a href="/home-5-rtl">Home 05 (RTL)</a>
-                    </li>
-                    <li>
-                      <a href="/home-6-rtl">Home 06 (RTL)</a>
+                      <Link to="/home-6">الصفحة الرئيسية 06</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="/about">About</a>
+                  <Link to="/about">عن</Link>
                 </li>
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link href="#">Pages</Link>
+                  <Link to="#">الصفحات</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
-                      <a href="/team">Team Page</a>
+                      <Link to="/team">فريق</Link>
                     </li>
                     <li>
-                      <a href="/team-details">Team Details</a>
+                      <Link to="/team-details">تفاصيل الفريق</Link>
                     </li>
                     <li>
-                      <a href="/shop">Shop Page</a>
+                      <Link to="/shop">محل </Link>
                     </li>
                     <li>
-                      <a href="/shop-details">Shop Details</a>
+                      <Link to="/shop-details">تفاصيل المتجر</Link>
                     </li>
                     <li>
-                      <a href="/cart">Cart</a>
+                      <Link to="/cart">عربة التسوق</Link>
                     </li>
                     <li>
-                      <a href="/checkout">Checkout</a>
+                      <Link to="/checkout">الدفع</Link>
                     </li>
                     <li>
-                      <a href="/wishlist">Wishlist</a>
+                      <Link to="/wishlist">قائمة الرغبات</Link>
                     </li>
                   </ul>
                 </li>
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link href="#">Project</Link>
+                  <Link to="#">المشاريع</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
-                      <a href="/project">Projects</a>
+                      <Link to="/project">مشروع</Link>
                     </li>
                     <li>
-                      <a href="/project-details">Project Details</a>
+                      <Link to="/project-details">تفاصيل المشروع</Link>
                     </li>
                   </ul>
                 </li>
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link href="#">Service</Link>
+                  <Link to="#">خدمة</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
-                      <a href="/service">Service</a>
+                      <Link to="/service">خدمة</Link>
                     </li>
                     <li>
-                      <a href="/service-details">Service Details</a>
+                      <Link to="/service-details">تفاصيل الخدمة</Link>
                     </li>
                   </ul>
                 </li>
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link href="#">Shop</Link>
+                  <Link to="#">محل</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
-                      <a href="/shop">Shop</a>
+                      <Link to="/shop">محل</Link>
                     </li>
                     <li>
-                      <a href="/shop-details">Shop Details</a>
+                      <Link to="/shop-details">تفاصيل المتجر</Link>
                     </li>
                     <li>
-                      <a href="/cart">Cart</a>
+                      <Link to="/cart">عربة التسوق</Link>
                     </li>
                     <li>
-                      <a href="/checkout">Checkout</a>
+                      <Link to="/checkout">الدفع</Link>
                     </li>
                     <li>
-                      <a href="/wishlist">Wishlist</a>
+                      <Link to="/wishlist">قائمة الرغبات</Link>
                     </li>
                   </ul>
                 </li>
                 <li className="menu-item-has-children submenu-item-has-children">
-                  <Link href="#">Blog</Link>
+                  <Link to="#">مدونة</Link>
                   <ul className="sub-menu submenu-class">
                     <li>
-                      <a href="/blog">Blog</a>
+                      <Link to="/blog">مدونة</Link>
                     </li>
                     <li>
-                      <a href="/blog-details">Blog Details</a>
+                      <Link to="/blog-details">تفاصيل المدونة</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="/contact">Contact</a>
+                  <Link to="/contact">اتصال</Link>
                 </li>
               </ul>
             </div>
@@ -396,4 +360,4 @@ const HeaderTwo = () => {
   );
 };
 
-export default HeaderTwo;
+export default HeaderOne;
