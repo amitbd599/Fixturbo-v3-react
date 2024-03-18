@@ -1,10 +1,10 @@
 import React from "react";
-import HeaderOne from "../components/left-to-right/HeaderOne";
+import HeaderOne from "../components/HeaderOne";
 
-import FooterAreaOne from "../components/left-to-right/FooterAreaOne";
-import Breadcrumb from "../components/left-to-right/Breadcrumb";
-import SubscribeOne from "../components/left-to-right/SubscribeOne";
-import ProjectDetailsArea from "../components/left-to-right/ProjectDetailsArea";
+import FooterAreaOne from "../components/FooterAreaOne";
+import Breadcrumb from "../components/Breadcrumb";
+import SubscribeOne from "../components/SubscribeOne";
+import ProjectDetailsArea from "../components/ProjectDetailsArea";
 
 const ProjectDetailsPage = () => {
   return (
@@ -13,7 +13,7 @@ const ProjectDetailsPage = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Project Details"} />
+      <Breadcrumb title={"تفاصيل المشروع"} />
 
       {/* Project Details Area */}
       <ProjectDetailsArea />

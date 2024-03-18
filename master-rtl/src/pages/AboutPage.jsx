@@ -1,14 +1,14 @@
 import React from "react";
-import HeaderOne from "../components/left-to-right/HeaderOne";
+import HeaderOne from "../components/HeaderOne";
 
-import FooterAreaOne from "../components/left-to-right/FooterAreaOne";
-import Breadcrumb from "../components/left-to-right/Breadcrumb";
-import AboutTwo from "../components/left-to-right/AboutTwo";
-import ProcessAreaOne from "../components/left-to-right/ProcessAreaOne";
-import CTAAreaOne from "../components/left-to-right/CTAAreaOne";
-import TestimonialOne from "../components/left-to-right/TestimonialOne";
-import SubscribeOne from "../components/left-to-right/SubscribeOne";
-import TeamAreaTwo from "../components/left-to-right/TeamAreaTwo";
+import FooterAreaOne from "../components/FooterAreaOne";
+import Breadcrumb from "../components/Breadcrumb";
+import AboutTwo from "../components/AboutTwo";
+import ProcessAreaOne from "../components/ProcessAreaOne";
+import CTAAreaOne from "../components/CTAAreaOne";
+import TestimonialOne from "../components/TestimonialOne";
+import SubscribeOne from "../components/SubscribeOne";
+import TeamAreaTwo from "../components/TeamAreaTwo";
 
 const AboutPage = () => {
   return (
@@ -17,7 +17,7 @@ const AboutPage = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"About Us"} />
+      <Breadcrumb title={"معلومات عنا"} />
 
       {/* About Area */}
       <AboutTwo />

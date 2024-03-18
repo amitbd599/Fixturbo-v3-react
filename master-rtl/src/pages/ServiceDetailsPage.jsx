@@ -1,10 +1,10 @@
 import React from "react";
-import HeaderOne from "../components/left-to-right/HeaderOne";
+import HeaderOne from "../components/HeaderOne";
 
-import FooterAreaOne from "../components/left-to-right/FooterAreaOne";
-import Breadcrumb from "../components/left-to-right/Breadcrumb";
-import SubscribeOne from "../components/left-to-right/SubscribeOne";
-import ServiceDetails from "../components/left-to-right/ServiceDetails";
+import FooterAreaOne from "../components/FooterAreaOne";
+import Breadcrumb from "../components/Breadcrumb";
+import SubscribeOne from "../components/SubscribeOne";
+import ServiceDetails from "../components/ServiceDetails";
 
 const ServiceDetailsPage = () => {
   return (
@@ -13,7 +13,7 @@ const ServiceDetailsPage = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Service Details"} />
+      <Breadcrumb title={"تفاصيل الخدمة"} />
 
       {/* Service Details */}
       <ServiceDetails />

@@ -120,9 +120,11 @@ const IntroAreaOne = () => {
             breakpoints={{
               0: {
                 slidesPerView: 1,
+                navigation: false,
               },
               768: {
                 slidesPerView: 2,
+                navigation: false,
               },
               992: {
                 slidesPerView: 3,
@@ -232,7 +234,7 @@ const IntroAreaOne = () => {
               </div>
             </SwiperSlide>
           </Swiper>
-          <div className="intro-arrow-button">
+          <div className="intro-arrow-button d-none d-sm-block">
             <button type="button" class="slick-next  slick-arrow">
               <i className="fas fa-arrow-right"></i>
             </button>

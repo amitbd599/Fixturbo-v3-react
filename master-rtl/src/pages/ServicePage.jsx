@@ -1,10 +1,10 @@
 import React from "react";
-import HeaderOne from "../components/left-to-right/HeaderOne";
+import HeaderOne from "../components/HeaderOne";
 
-import FooterAreaOne from "../components/left-to-right/FooterAreaOne";
-import Breadcrumb from "../components/left-to-right/Breadcrumb";
-import SubscribeOne from "../components/left-to-right/SubscribeOne";
-import ServiceAreaOne_multi_img from "../components/left-to-right/ServiceAreaOne_multi_img";
+import FooterAreaOne from "../components/FooterAreaOne";
+import Breadcrumb from "../components/Breadcrumb";
+import SubscribeOne from "../components/SubscribeOne";
+import ServiceAreaOne_multi_img from "../components/ServiceAreaOne_multi_img";
 
 const ServicePage = () => {
   return (
@@ -13,7 +13,7 @@ const ServicePage = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Service"} />
+      <Breadcrumb title={"خدمة"} />
 
       {/* Service Area One */}
       <ServiceAreaOne_multi_img />
