@@ -97,7 +97,7 @@ const HeaderFour = () => {
             <div className="row align-items-center justify-content-between">
               <div className="col-auto">
                 <div className="header-logo">
-                  <Link to="/index">
+                  <Link to="/">
                     <img src="assets/img/logo.svg" alt="logo" />
                   </Link>
                 </div>
@@ -367,7 +367,7 @@ const HeaderFour = () => {
         <div className={`mobile-menu-wrapper rtl  ${active && "body-visible"}`}>
           <div className="mobile-menu-area">
             <div className="mobile-logo">
-              <Link to="/index-1">
+              <Link to="/">
                 <img src="assets/img/logo.svg" alt="Fixturbo" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>

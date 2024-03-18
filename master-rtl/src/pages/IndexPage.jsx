@@ -1,17 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Preloader from "../helper/Preloader";
 
 const IndexPage = () => {
+  let [active, setActive] = useState(true);
+  useEffect(() => {
+    setTimeout(function () {
+      setActive(false);
+    }, 2000);
+  }, []);
   return (
     <section className="demo">
+      {/* Preloader */}
+      {active === true && <Preloader />}
       {/* Navigation */}
       <header className="navbar-area">
         <nav className="navbar navbar-expand-lg navbar-default navbar-fixed-top">
           <div className="container nav-container">
             <div className="logo">
-              <a className="main-logo" href="index">
+              <Link className="main-logo" to="/">
                 <img src="assets/img/demo/logo.svg" alt="fixturbo_img" />
-              </a>
+              </Link>
             </div>
             <div className="nav-right-part nav-right-part-mobile ms-auto"></div>
             <div className="collapse navbar-collapse" id="al_main_menu">

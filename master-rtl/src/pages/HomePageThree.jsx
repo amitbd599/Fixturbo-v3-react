@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import HeaderOne from "../components/HeaderOne";
 import HeroThree from "../components/HeroThree";
 import FeatureAreaTwo from "../components/FeatureAreaTwo";
@@ -14,10 +14,20 @@ import TestimonialTwo from "../components/TestimonialTwo";
 import BlogAreaThree from "../components/BlogAreaThree";
 import SubscribeOne from "../components/SubscribeOne";
 import FooterAreaOne from "../components/FooterAreaOne";
+import Preloader from "../helper/Preloader";
 
 const HomePageThree = () => {
+  let [active, setActive] = useState(true);
+  useEffect(() => {
+    setTimeout(function () {
+      setActive(false);
+    }, 2000);
+  }, []);
   return (
     <>
+      {/* Preloader */}
+      {active === true && <Preloader />}
+
       {/* Header One */}
       <HeaderOne />
 

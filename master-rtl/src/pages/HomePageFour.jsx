@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import HeaderThree from "../components/HeaderThree";
 import HeroFour from "../components/HeroFour";
 import ServiceAreaTwo from "../components/ServiceAreaTwo";
@@ -12,10 +12,20 @@ import FaqAreaFour from "../components/FaqAreaFour";
 import BlogAreaTwo from "../components/BlogAreaTwo";
 import SubscribeOne from "../components/SubscribeOne";
 import FooterAreaOne from "../components/FooterAreaOne";
+import Preloader from "../helper/Preloader";
 
 const HomePageFour = () => {
+  let [active, setActive] = useState(true);
+  useEffect(() => {
+    setTimeout(function () {
+      setActive(false);
+    }, 2000);
+  }, []);
   return (
     <>
+      {/* Preloader */}
+      {active === true && <Preloader />}
+
       {/* Header Three */}
       <HeaderThree />
 

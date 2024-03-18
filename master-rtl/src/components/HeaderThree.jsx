@@ -385,7 +385,7 @@ const HeaderThree = () => {
         <div className={`mobile-menu-wrapper rtl  ${active && "body-visible"}`}>
           <div className="mobile-menu-area">
             <div className="mobile-logo">
-              <Link to="/index-1">
+              <Link to="/">
                 <img src="assets/img/logo.svg" alt="Fixturbo" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>

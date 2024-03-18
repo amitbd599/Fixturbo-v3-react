@@ -87,9 +87,9 @@ const BlogAreaThree = () => {
                           النشرة الإخبارية لدينا النشرة الإخبارية لدينا
                         </Link>
                       </h3>
-                      <a className="btn style-border3" href="/blog-details">
+                      <Link className="btn style-border3" to="/blog-details">
                         اشترك في <i className="fas fa-arrow-right ms-2" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -124,9 +124,9 @@ const BlogAreaThree = () => {
                           النشرة الإخبارية لدينا النشرة الإخبارية لدينا
                         </Link>
                       </h3>
-                      <a className="btn style-border3" href="/blog-details">
+                      <Link className="btn style-border3" to="/blog-details">
                         اشترك في <i className="fas fa-arrow-right ms-2" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -161,9 +161,9 @@ const BlogAreaThree = () => {
                           النشرة الإخبارية لدينا النشرة الإخبارية لدينا
                         </Link>
                       </h3>
-                      <a className="btn style-border3" href="/blog-details">
+                      <Link className="btn style-border3" to="/blog-details">
                         اشترك في <i className="fas fa-arrow-right ms-2" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -198,9 +198,9 @@ const BlogAreaThree = () => {
                           النشرة الإخبارية لدينا النشرة الإخبارية لدينا
                         </Link>
                       </h3>
-                      <a className="btn style-border3" href="/blog-details">
+                      <Link className="btn style-border3" to="/blog-details">
                         اشترك في <i className="fas fa-arrow-right ms-2" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

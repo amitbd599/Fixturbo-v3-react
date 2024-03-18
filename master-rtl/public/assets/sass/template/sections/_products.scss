@@ -422,7 +422,7 @@
   z-index: 3;
   display: inline-flex;
   border-radius: 20px;
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
   width: 100%;
   .tab-btn {
@@ -1223,7 +1223,7 @@
     }
   }
   .intro-card-img {
-    align-self: end;
+    align-self: flex-end;
     flex: none;
     margin-left: -100px;
     @include ml {
@@ -1247,7 +1247,7 @@
     }
     @include lg {
       .intro-card-img {
-        text-align: end;
+        text-align: flex-end;
       }
       .intro-card-details {
         padding-top: 0;

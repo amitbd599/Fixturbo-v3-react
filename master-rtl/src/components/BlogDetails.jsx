@@ -247,9 +247,9 @@ const BlogDetails = () => {
                   <div className="recent-post">
                     <div className="media-body">
                       <h4 className="post-title">
-                        <a className="text-inherit" href="/blog-details">
+                        <Link className="text-inherit" to="/blog-details">
                           محركات الإصلاح السريع
-                        </a>
+                        </Link>
                       </h4>
                       <div className="recent-post-meta">
                         <Link to="/blog">Sep 15, 2024</Link>
@@ -267,9 +267,9 @@ const BlogDetails = () => {
                   <div className="recent-post">
                     <div className="media-body">
                       <h4 className="post-title">
-                        <a className="text-inherit" href="/blog-details">
+                        <Link className="text-inherit" to="/blog-details">
                           خدمة احترافية
-                        </a>
+                        </Link>
                       </h4>
                       <div className="recent-post-meta">
                         <Link to="/blog">25 يونيو 2024</Link>
@@ -287,9 +287,9 @@ const BlogDetails = () => {
                   <div className="recent-post">
                     <div className="media-body">
                       <h4 className="post-title">
-                        <a className="text-inherit" href="/blog-details">
+                        <Link className="text-inherit" to="/blog-details">
                           مفتاح ربط التروس التلقائي
-                        </a>
+                        </Link>
                       </h4>
                       <div className="recent-post-meta">
                         <Link to="/blog">25 يونيو 2024</Link>

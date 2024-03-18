@@ -85,9 +85,9 @@ const BlogAreaOne = () => {
                           شار الاحترافية
                         </Link>
                       </h3>
-                      <a className="btn style-border3" href="/blog-details">
+                      <Link className="btn style-border3" to="/blog-details">
                         اقرأ أكثر <i className="fas fa-arrow-left ms-2"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -121,9 +121,9 @@ const BlogAreaOne = () => {
                           الاحترافية
                         </Link>
                       </h3>
-                      <a className="btn style-border3" href="/blog-details">
+                      <Link className="btn style-border3" to="/blog-details">
                         اقرأ أكثر<i className="fas fa-arrow-left ms-2"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -157,9 +157,9 @@ const BlogAreaOne = () => {
                           شار الاحترافية
                         </Link>
                       </h3>
-                      <a className="btn style-border3" href="/blog-details">
+                      <Link className="btn style-border3" to="/blog-details">
                         اقرأ أكثر <i className="fas fa-arrow-left ms-2"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -195,9 +195,9 @@ const BlogAreaOne = () => {
                           الاحترافية
                         </Link>
                       </h3>
-                      <a className="btn style-border3" href="/blog-details">
+                      <Link className="btn style-border3" to="/blog-details">
                         اقرأ أكثر <i className="fas fa-arrow-left ms-2" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

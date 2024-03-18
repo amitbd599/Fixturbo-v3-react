@@ -107,9 +107,9 @@ const PricingPlanOne = () => {
                     </li>
                   </ul>
                 </div>
-                <a className="btn style-border2" href="/about">
+                <Link className="btn style-border2" to="/about">
                   ابدأ الآن <i className="fas fa-arrow-left ms-2" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -149,9 +149,9 @@ const PricingPlanOne = () => {
                     </li>
                   </ul>
                 </div>
-                <a className="btn style-border2" href="/about">
+                <Link className="btn style-border2" to="/about">
                   ابدأ الآن <i className="fas fa-arrow-left ms-2" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -193,9 +193,9 @@ const PricingPlanOne = () => {
                     </li>
                   </ul>
                 </div>
-                <a className="btn style-border2" href="/about">
+                <Link className="btn style-border2" to="/about">
                   ابدأ الآن <i className="fas fa-arrow-left ms-2" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import HeaderFive from "../components/HeaderFive";
 import HeroSix from "../components/HeroSix";
 import CategoryAreaOne from "../components/CategoryAreaOne";
@@ -10,10 +10,20 @@ import ClientAreaFour from "../components/ClientAreaFour";
 import BlogAreaTwo from "../components/BlogAreaTwo";
 import SubscribeTwo from "../components/SubscribeTwo";
 import FooterAreaFour from "../components/FooterAreaFour";
+import Preloader from "../helper/Preloader";
 
 const HomePageSix = () => {
+  let [active, setActive] = useState(true);
+  useEffect(() => {
+    setTimeout(function () {
+      setActive(false);
+    }, 2000);
+  }, []);
   return (
     <>
+      {/* Preloader */}
+      {active === true && <Preloader />}
+
       {/* Header Five */}
       <HeaderFive />
 

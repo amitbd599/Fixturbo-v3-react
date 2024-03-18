@@ -71,9 +71,9 @@ const BlogAreaTwo = () => {
                         ما هو الغرض من خطة العمل؟
                       </Link>
                     </h3>
-                    <a className="link-btn style3" href="/blog-details">
+                    <Link className="link-btn style3" to="/blog-details">
                       اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -105,9 +105,9 @@ const BlogAreaTwo = () => {
                         ما هو الغرض من خطة العمل؟
                       </Link>
                     </h3>
-                    <a className="link-btn style3" href="/blog-details">
+                    <Link className="link-btn style3" to="/blog-details">
                       اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -139,9 +139,9 @@ const BlogAreaTwo = () => {
                         ما هو الغرض من خطة العمل؟
                       </Link>
                     </h3>
-                    <a className="link-btn style3" href="/blog-details">
+                    <Link className="link-btn style3" to="/blog-details">
                       اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -173,9 +173,9 @@ const BlogAreaTwo = () => {
                         ما هو الغرض من خطة العمل؟
                       </Link>
                     </h3>
-                    <a className="link-btn style3" href="/blog-details">
+                    <Link className="link-btn style3" to="/blog-details">
                       اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -207,9 +207,9 @@ const BlogAreaTwo = () => {
                         ما هو الغرض من خطة العمل؟
                       </Link>
                     </h3>
-                    <a className="link-btn style3" href="/blog-details">
+                    <Link className="link-btn style3" to="/blog-details">
                       اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -241,9 +241,9 @@ const BlogAreaTwo = () => {
                         ما هو الغرض من خطة العمل؟
                       </Link>
                     </h3>
-                    <a className="link-btn style3" href="/blog-details">
+                    <Link className="link-btn style3" to="/blog-details">
                       اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

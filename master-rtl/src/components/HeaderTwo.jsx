@@ -53,9 +53,9 @@ const HeaderTwo = () => {
           <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
             <div className="col-auto d-none d-lg-block">
               <div className="header-logo">
-                <a href="/index">
+                <Link to="/">
                   <img src="assets/img/logo.svg" alt="logo" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-auto">
@@ -371,7 +371,7 @@ const HeaderTwo = () => {
         <div className={`mobile-menu-wrapper rtl  ${active && "body-visible"}`}>
           <div className="mobile-menu-area">
             <div className="mobile-logo">
-              <Link to="/index-1">
+              <Link to="/">
                 <img src="assets/img/logo.svg" alt="Fixturbo" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>

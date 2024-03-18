@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import HeaderOne from "../components/HeaderOne";
 import HeroOne from "../components/HeroOne";
 import CounterOne from "../components/CounterOne";
@@ -16,9 +16,19 @@ import FaqAreaOne from "../components/FaqAreaOne";
 import BlogAreaOne from "../components/BlogAreaOne";
 import SubscribeOne from "../components/SubscribeOne";
 import FooterAreaOne from "../components/FooterAreaOne";
+import Preloader from "../helper/Preloader";
 const HomePageOne = () => {
+  let [active, setActive] = useState(true);
+  useEffect(() => {
+    setTimeout(function () {
+      setActive(false);
+    }, 2000);
+  }, []);
   return (
     <>
+      {/* Preloader */}
+      {active === true && <Preloader />}
+
       {/* Header One */}
       <HeaderOne />
 
