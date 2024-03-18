@@ -56,7 +56,7 @@ const HeaderFour = () => {
                 <ul>
                   <li>
                     <i className="fas fa-envelope" />
-                    <a href="mailto:info@example.com">info@example.com</a>
+                    <Link to="mailto:info@example.com">info@example.com</Link>
                   </li>
                   <li>
                     <i className="fas fa-map-marker-alt" />
@@ -70,18 +70,18 @@ const HeaderFour = () => {
                 <ul>
                   <li>
                     <div className="social-links">
-                      <a href="https://www.facebook.com/">
+                      <Link to="https://www.facebook.com/">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="https://www.instagram.com/">
+                      </Link>
+                      <Link to="https://www.instagram.com/">
                         <i className="fab fa-instagram" />
-                      </a>
-                      <a href="https://www.twitter.com/">
+                      </Link>
+                      <Link to="https://www.twitter.com/">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="https://www.linkedin.com/">
+                      </Link>
+                      <Link to="https://www.linkedin.com/">
                         <i className="fab fa-linkedin" />
-                      </a>
+                      </Link>
                     </div>
                   </li>
                 </ul>
@@ -97,9 +97,9 @@ const HeaderFour = () => {
             <div className="row align-items-center justify-content-between">
               <div className="col-auto">
                 <div className="header-logo">
-                  <a href="/index">
+                  <Link to="/index">
                     <img src="assets/img/logo.svg" alt="logo" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-auto">
@@ -331,14 +331,14 @@ const HeaderFour = () => {
                       </ul>
                     </li>
                     <li>
-                      <Link
+                      <NavLink
                         to="/contact"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
                       >
                         اتصال
-                      </Link>
+                      </NavLink>
                     </li>
                   </ul>
                 </nav>
@@ -354,10 +354,10 @@ const HeaderFour = () => {
               </div>
               <div className="col-auto d-xl-block d-none">
                 <div className="header-button">
-                  <a href="about.html" className="btn style2">
+                  <Link to="/about" className="btn style2">
                     {" "}
                     على التحديثات <i className="fas fa-arrow-left ms-2" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

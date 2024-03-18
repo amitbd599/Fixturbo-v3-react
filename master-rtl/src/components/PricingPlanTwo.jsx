@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PricingPlanTwo = () => {
   return (
@@ -13,7 +14,7 @@ const PricingPlanTwo = () => {
                 <img
                   className="title-bg-shape shape-center"
                   src="assets/img/bg/title-bg-shape.png"
-                  alt="img"
+                  alt="fixturbo_img"
                 />
               </h2>
             </div>
@@ -25,7 +26,10 @@ const PricingPlanTwo = () => {
               <div className="pricing-card-icon-wrap">
                 <h4 className="pricing-card_title">الخطة الفضية</h4>
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_2-1.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/picing-icon_2-1.svg"
+                    alt="fixturbo_img"
+                  />
                 </div>
               </div>
               <div className="pricing-card-details">
@@ -51,9 +55,9 @@ const PricingPlanTwo = () => {
                     </li>
                   </ul>
                 </div>
-                <a className="btn" href="about.html">
+                <Link className="btn" to="/about">
                   احصل على هذه الخطة
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -62,7 +66,10 @@ const PricingPlanTwo = () => {
               <div className="pricing-card-icon-wrap">
                 <h4 className="pricing-card_title">الخطة الذهبية</h4>
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_2-2.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/picing-icon_2-2.svg"
+                    alt="fixturbo_img"
+                  />
                 </div>
               </div>
               <div className="pricing-card-details">
@@ -88,9 +95,9 @@ const PricingPlanTwo = () => {
                     </li>
                   </ul>
                 </div>
-                <a className="btn" href="about.html">
+                <Link className="btn" to="/about">
                   احصل على هذه الخطة
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -99,7 +106,10 @@ const PricingPlanTwo = () => {
               <div className="pricing-card-icon-wrap">
                 <h4 className="pricing-card_title">الخطة البلاتينية</h4>
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_2-3.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/picing-icon_2-3.svg"
+                    alt="fixturbo_img"
+                  />
                 </div>
               </div>
               <div className="pricing-card-details">
@@ -127,9 +137,9 @@ const PricingPlanTwo = () => {
                     </li>
                   </ul>
                 </div>
-                <a className="btn" href="about.html">
+                <Link className="btn" to="/about">
                   احصل على هذه الخطة
-                </a>
+                </Link>
               </div>
             </div>
           </div>

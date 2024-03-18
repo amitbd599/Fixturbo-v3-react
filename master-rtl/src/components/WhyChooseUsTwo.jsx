@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const WhyChooseUsTwo = () => {
   return (
@@ -7,12 +8,12 @@ const WhyChooseUsTwo = () => {
         <img
           className="about1-shape-img-1 spin"
           src="assets/img/normal/about_shape1-2.svg"
-          alt="img"
+          alt="fixturbo_img"
         />
         <img
           className="about1-shape-img-2 spin2"
           src="assets/img/normal/about_shape1-1.svg"
-          alt="img"
+          alt="fixturbo_img"
         />
       </div>
       <div className="container">
@@ -22,12 +23,12 @@ const WhyChooseUsTwo = () => {
               <img
                 className="img-1"
                 src="assets/img/normal/wcu-1.png"
-                alt="img"
+                alt="fixturbo_img"
               />
               <img
                 className="img-2"
                 src="assets/img/normal/wcu-2.png"
-                alt="img"
+                alt="fixturbo_img"
               />
             </div>
           </div>
@@ -89,9 +90,9 @@ const WhyChooseUsTwo = () => {
                 </div>
               </div>
               <div className="btn-wrap mt-40">
-                <a href="about.html" className="btn style2">
+                <Link to="/about" className="btn style2">
                   اقرأ أكثر <i className="fas fa-arrow-left ms-2" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

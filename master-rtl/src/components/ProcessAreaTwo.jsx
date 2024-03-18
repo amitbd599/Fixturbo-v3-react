@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProcessAreaTwo = () => {
   return (
@@ -16,7 +17,7 @@ const ProcessAreaTwo = () => {
                 <img
                   className="title-bg-shape shape-center"
                   src="assets/img/bg/title-bg-shape2.png"
-                  alt="img"
+                  alt="fixturbo_img"
                 />
               </h2>
             </div>
@@ -31,9 +32,9 @@ const ProcessAreaTwo = () => {
                 إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو أضرار في السيارة
                 وتتضمن التشخيص
               </p>
-              <a href="service-details.html" className="link-btn style2">
+              <Link to="/service-details" className="link-btn style2">
                 اقرأ أكثر <i className="fas fa-arrow-left" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 process-card-wrap2">
@@ -44,9 +45,9 @@ const ProcessAreaTwo = () => {
                 إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو أضرار في السيارة
                 وتتضمن التشخيص
               </p>
-              <a href="service-details.html" className="link-btn style2">
+              <Link to="/service-details" className="link-btn style2">
                 اقرأ أكثر <i className="fas fa-arrow-left" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 process-card-wrap2">
@@ -57,9 +58,9 @@ const ProcessAreaTwo = () => {
                 إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو أضرار في السيارة
                 وتتضمن التشخيص
               </p>
-              <a href="service-details.html" className="link-btn style2">
+              <Link to="/service-details" className="link-btn style2">
                 اقرأ أكثر <i className="fas fa-arrow-left" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

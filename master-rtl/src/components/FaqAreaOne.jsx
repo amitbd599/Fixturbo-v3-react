@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FaqAreaOne = () => {
   return (
@@ -15,9 +16,9 @@ const FaqAreaOne = () => {
                 من أن السيارة في حالة عمل مناسبة
               </p>
               <div className="btn-wrap mt-30">
-                <a className="btn style2" href="contact.html">
+                <Link className="btn style2" to="/contact">
                   اقرأ أكثر <i className="fas fa-arrow-left ms-2" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

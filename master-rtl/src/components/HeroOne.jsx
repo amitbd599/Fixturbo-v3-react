@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeroOne = () => {
   return (
@@ -15,7 +16,10 @@ const HeroOne = () => {
               <h1 className="hero-title text-white">
                 استعد{" "}
                 <span>
-                  <img src="assets/img/hero/hero_shape_1.png" alt="img" />
+                  <img
+                    src="assets/img/hero/hero_shape_1.png"
+                    alt="fixturbo_img"
+                  />
                   لعظيم
                 </span>{" "}
                 جودة الخدمة
@@ -25,18 +29,21 @@ const HeroOne = () => {
                 الأوروبي العاقل لاكوس
               </p>
               <div className="btn-group">
-                <a href="about.html" className="btn">
+                <Link to="/about" className="btn">
                   تعرف على المزيد عنا
-                </a>
-                <a href="service.html" className="btn style-border">
+                </Link>
+                <Link to="/service" className="btn style-border">
                   خدماتنا
-                </a>
+                </Link>
               </div>
             </div>
           </div>
           <div className="col-xl-6">
             <div className="hero-thumb text-center">
-              <img src="assets/img/hero/hero_thumb_1_1.png" alt="img" />
+              <img
+                src="assets/img/hero/hero_thumb_1_1.png"
+                alt="fixturbo_img"
+              />
             </div>
           </div>
         </div>

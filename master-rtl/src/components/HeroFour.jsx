@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeroFour = () => {
   return (
@@ -11,17 +12,17 @@ const HeroFour = () => {
         <img
           className="shape-position shape1"
           src="assets/img/hero/shape1.png"
-          alt="img"
+          alt="fixturbo_img"
         />
         <img
           className="shape-position shape2"
           src="assets/img/hero/shape2.png"
-          alt="img"
+          alt="fixturbo_img"
         />
         <img
           className="shape-position shape3"
           src="assets/img/hero/shape3.png"
-          alt="img"
+          alt="fixturbo_img"
         />
       </div>
       <div className="container">
@@ -37,12 +38,12 @@ const HeroFour = () => {
                 اشترك في اشترك في النشرة الإخبارية
               </p>
               <div className="btn-group">
-                <a href="about.html" className="btn">
+                <Link to="/about" className="btn">
                   على التحديثات
-                </a>
-                <a href="service.html" className="btn style-border">
+                </Link>
+                <Link to="/service" className="btn style-border">
                   للحصول على
-                </a>
+                </Link>
               </div>
             </div>
           </div>

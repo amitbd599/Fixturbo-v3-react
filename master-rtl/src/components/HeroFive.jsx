@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade, Autoplay } from "swiper";
+import { Link } from "react-router-dom";
 const HeroFive = () => {
   return (
     <div className="hero-wrapper hero-5">
@@ -36,12 +37,12 @@ const HeroFive = () => {
                         لدينا للحصول على التحديثات
                       </p>
                       <div className="btn-group">
-                        <a href="about.html" className="btn">
+                        <Link to="/about" className="btn">
                           اشترك في اشترك في
-                        </a>
-                        <a href="service.html" className="btn style-border">
+                        </Link>
+                        <Link to="/service" className="btn style-border">
                           لدينا للحصول
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -49,7 +50,7 @@ const HeroFive = () => {
                     <div className="hero-thumb text-lg-center">
                       <img
                         src="assets/img/testimonial/testimonial-1-2.png"
-                        alt="img"
+                        alt="fixturbo_img"
                       />
                     </div>
                   </div>
@@ -78,12 +79,12 @@ const HeroFive = () => {
                         لدينا للحصول على التحديثات
                       </p>
                       <div className="btn-group">
-                        <a href="about.html" className="btn">
+                        <Link to="/about" className="btn">
                           اشترك في اشترك في
-                        </a>
-                        <a href="service.html" className="btn style-border">
+                        </Link>
+                        <Link to="/service" className="btn style-border">
                           لدينا للحصول
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -91,7 +92,7 @@ const HeroFive = () => {
                     <div className="hero-thumb text-lg-center">
                       <img
                         src="assets/img/testimonial/testimonial-1-1.png"
-                        alt="img"
+                        alt="fixturbo_img"
                       />
                     </div>
                   </div>

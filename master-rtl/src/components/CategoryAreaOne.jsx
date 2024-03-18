@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade, Autoplay } from "swiper";
+import { Link } from "react-router-dom";
 const CategoryAreaOne = () => {
   return (
     <div className="category-area-1 pt-95 pb-100">
@@ -45,10 +46,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-1.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>
@@ -59,10 +60,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-2.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>
@@ -73,10 +74,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-3.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>
@@ -87,10 +88,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-4.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>
@@ -101,10 +102,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-5.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>
@@ -115,10 +116,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-6.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>
@@ -129,10 +130,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-7.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>
@@ -143,10 +144,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-8.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>
@@ -157,10 +158,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-1.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>
@@ -171,10 +172,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-2.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>
@@ -185,10 +186,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-3.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>
@@ -199,10 +200,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-4.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>
@@ -213,10 +214,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-5.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>
@@ -227,10 +228,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-6.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>
@@ -241,10 +242,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-7.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>
@@ -255,10 +256,10 @@ const CategoryAreaOne = () => {
                 <div className="category-card-item">
                   <img
                     src="assets/img/update-img/category/category1-8.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <h6 className="category-card-title">
-                    <a href="shop-details.html">فريقص يلفريق</a>
+                    <Link to="/shop-details">فريقص يلفريق</Link>
                   </h6>
                   <p className="category-card-text">12 فريقص</p>
                 </div>

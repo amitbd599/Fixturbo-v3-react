@@ -56,7 +56,7 @@ const HeaderThree = () => {
                 <ul>
                   <li>
                     <i className="fas fa-envelope" />
-                    <a href="mailto:info@example.com">info@example.com</a>
+                    <Link to="mailto:info@example.com">info@example.com</Link>
                   </li>
                   <li>
                     <i className="fas fa-map-marker-alt" />
@@ -74,18 +74,18 @@ const HeaderThree = () => {
                 <ul>
                   <li>
                     <div className="social-links">
-                      <a href="https://www.facebook.com/">
+                      <Link to="https://www.facebook.com/">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="https://www.instagram.com/">
+                      </Link>
+                      <Link to="https://www.instagram.com/">
                         <i className="fab fa-instagram" />
-                      </a>
-                      <a href="https://www.twitter.com/">
+                      </Link>
+                      <Link to="https://www.twitter.com/">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="https://www.linkedin.com/">
+                      </Link>
+                      <Link to="https://www.linkedin.com/">
                         <i className="fab fa-linkedin" />
-                      </a>
+                      </Link>
                     </div>
                   </li>
                 </ul>
@@ -98,17 +98,17 @@ const HeaderThree = () => {
         {/* Main Menu Area */}
         <div className="menu-area">
           <div className="header-navbar-logo">
-            <a href="index.html">
+            <Link to="/">
               <img src="assets/img/logo-white.svg" alt="logo" />
-            </a>
+            </Link>
           </div>
           <div className="container">
             <div className="row align-items-center justify-content-lg-start justify-content-between">
               <div className="col-auto d-xl-none d-block">
                 <div className="header-logo">
-                  <a href="index.html">
+                  <Link to="/">
                     <img src="assets/img/logo-white.svg" alt="logo" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-auto">
@@ -340,14 +340,14 @@ const HeaderThree = () => {
                       </ul>
                     </li>
                     <li>
-                      <Link
+                      <NavLink
                         to="/contact"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
                       >
                         اتصال
-                      </Link>
+                      </NavLink>
                     </li>
                   </ul>
                 </nav>
@@ -364,7 +364,7 @@ const HeaderThree = () => {
               <div className="col-auto ms-auto d-xl-block d-none">
                 <div className="header-button">
                   <div className="navbar-right-desc d-xxl-flex d-none">
-                    <img src="assets/img/icon/chat.svg" alt="img" />
+                    <img src="assets/img/icon/chat.svg" alt="fixturbo_img" />
                     <div className="navbar-right-desc-details">
                       <h6 className="title">للحصول على ?</h6>
                       <a className="link" href="tel:+2590256215">
@@ -372,9 +372,9 @@ const HeaderThree = () => {
                       </a>
                     </div>
                   </div>
-                  <a href="about.html" className="btn style-border3">
+                  <Link to="/about" className="btn style-border3">
                     للحصول على <i className="fas fa-arrow-left ms-2" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

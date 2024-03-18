@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServiceAreaTwo = () => {
   return (
@@ -13,7 +14,7 @@ const ServiceAreaTwo = () => {
                 <img
                   className="title-bg-shape shape-center"
                   src="assets/img/bg/title-bg-shape.png"
-                  alt="img"
+                  alt="fixturbo_img"
                 />
               </h2>
             </div>
@@ -32,10 +33,13 @@ const ServiceAreaTwo = () => {
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="assets/img/icon/service-icon_1-1.svg" alt="img" />
+                    <img
+                      src="assets/img/icon/service-icon_1-1.svg"
+                      alt="fixturbo_img"
+                    />
                   </div>
                   <h4 className="service-card_title h5">
-                    <a href="service-details.html">ماجستير ميكانيكا</a>
+                    <Link to="/service-details">ماجستير ميكانيكا</Link>
                   </h4>
                   <p className="service-card_text">
                     يعد رضا العملاء أمرًا بالغ الأهمية بالنسبة لأعمال لأنه يؤدي
@@ -43,10 +47,10 @@ const ServiceAreaTwo = () => {
                   </p>
                 </div>
               </div>
-              <a href="service-details.html" className="btn style4">
+              <Link to="/service-details" className="btn style4">
                 اقرأ أكثر
                 <i className="fas fa-arrow-left" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
@@ -59,10 +63,13 @@ const ServiceAreaTwo = () => {
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="assets/img/icon/service-icon_1-2.svg" alt="img" />
+                    <img
+                      src="assets/img/icon/service-icon_1-2.svg"
+                      alt="fixturbo_img"
+                    />
                   </div>
                   <h4 className="service-card_title h5">
-                    <a href="service-details.html">إصلاح السيارات السريع</a>
+                    <Link to="/service-details">إصلاح السيارات السريع</Link>
                   </h4>
                   <p className="service-card_text">
                     يعد رضا العملاء أمرًا بالغ الأهمية بالنسبة لأعمال لأنه يؤدي
@@ -70,10 +77,10 @@ const ServiceAreaTwo = () => {
                   </p>
                 </div>
               </div>
-              <a href="service-details.html" className="btn style4">
+              <Link to="/service-details" className="btn style4">
                 اقرأ أكثر
                 <i className="fas fa-arrow-left" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
@@ -86,10 +93,13 @@ const ServiceAreaTwo = () => {
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="assets/img/icon/service-icon_1-3.svg" alt="img" />
+                    <img
+                      src="assets/img/icon/service-icon_1-3.svg"
+                      alt="fixturbo_img"
+                    />
                   </div>
                   <h4 className="service-card_title h5">
-                    <a href="service-details.html">الدقة لأعمال السيارات</a>
+                    <Link to="/service-details">الدقة لأعمال السيارات</Link>
                   </h4>
                   <p className="service-card_text">
                     يعد رضا العملاء أمرًا بالغ الأهمية بالنسبة لأعمال لأنه يؤدي
@@ -97,10 +107,10 @@ const ServiceAreaTwo = () => {
                   </p>
                 </div>
               </div>
-              <a href="service-details.html" className="btn style4">
+              <Link to="/service-details" className="btn style4">
                 اقرأ أكثر
                 <i className="fas fa-arrow-left" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

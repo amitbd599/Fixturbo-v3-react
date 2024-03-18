@@ -19,7 +19,10 @@ const Breadcrumb = ({ title }) => {
           </div>
           <div className="col-lg-6 d-lg-block d-none">
             <div className="breadcumb-thumb">
-              <img src="/assets/img/normal/breadcrumb-thumb.png" alt="img" />
+              <img
+                src="/assets/img/normal/breadcrumb-thumb.png"
+                alt="fixturbo_img"
+              />
             </div>
           </div>
         </div>

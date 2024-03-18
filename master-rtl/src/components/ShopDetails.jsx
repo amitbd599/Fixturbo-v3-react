@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 const ShopDetails = () => {
   return (
@@ -10,10 +11,10 @@ const ShopDetails = () => {
               <div className="img">
                 <img
                   src="assets/img/update-img/product/product-inner.png"
-                  alt="Product Image"
+                  alt="fixturbo_img"
                 />
               </div>
-              <div className="product-tag">Sale</div>
+              <div className="product-tag">أُوكَازيُون</div>
             </div>
           </div>
           <div className="col-lg-6 align-self-center">
@@ -21,7 +22,7 @@ const ShopDetails = () => {
               <p className="price">
                 $25 <del>$30</del>
               </p>
-              <h2 className="product-title">Engine pistons and cog</h2>
+              <h2 className="product-title">مكابس المحرك والترس</h2>
               <div className="product-rating">
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -33,25 +34,25 @@ const ShopDetails = () => {
                 (5 Reviews)
               </div>
               <p className="text">
-                A car shop is a place where you can find a wide range of
-                services and products related to automobiles. From vehicle
-                repairs and maintenance to car accessories and parts, a car shop
-                offers everything you need to keA car
+                متجر السيارات هو المكان الذي يمكنك العثور فيه على مجموعة واسعة
+                من السيارات الخدمات والمنتجات المتعلقة بالسيارات. من المركبة
+                إصلاح وصيانة كماليات وقطع غيار السيارات، محل سيارات يقدم كل ما
+                تحتاجه لكيا السيارة
               </p>
-              <button className="btn style2">Buy It Now</button>
+              <button className="btn style2">اشتر الآن</button>
               <div className="product_meta">
                 <span className="sku_wrapper">
-                  SKU: <span className="sku">Wheel-fits-chevy-camaro</span>
+                  SKU: <span className="sku">عجلة تناسب تشيفي كامارو</span>
                 </span>
                 <span className="posted_in">
-                  Category:{" "}
-                  <a href="shop.html" rel="tag">
-                    Tires &amp; Wheels
-                  </a>
+                  فئة:
+                  <Link to="/shop" rel="tag">
+                    الإطارات وأمبير. عجلات
+                  </Link>
                 </span>
                 <span>
-                  Tags: <a href="shop.html">Automotive parts</a>
-                  <a href="shop.html">Wheels</a>
+                  Tags: <Link to="/shop">قطع غيار السيارات</Link>
+                  <Link to="/shop">عجلات</Link>
                 </span>
               </div>
             </div>
@@ -69,7 +70,7 @@ const ShopDetails = () => {
                 aria-controls="description"
                 aria-selected="false"
               >
-                Description
+                وصف
               </a>
             </li>
             <li className="nav-item" role="presentation">
@@ -82,7 +83,7 @@ const ShopDetails = () => {
                 aria-controls="add_info"
                 aria-selected="false"
               >
-                Additional Information
+                معلومات إضافية
               </a>
             </li>
             <li className="nav-item" role="presentation">
@@ -95,7 +96,7 @@ const ShopDetails = () => {
                 aria-controls="reviews"
                 aria-selected="true"
               >
-                Reviews (03)
+                تعليقات (03)
               </a>
             </li>
           </ul>
@@ -107,23 +108,22 @@ const ShopDetails = () => {
               aria-labelledby="description-tab"
             >
               <p>
-                Credibly negotiate emerging materials whereas clicks-and-mortar
-                intellectual capital. Compellingly whiteboard client-centric
-                sources before cross-platform schemas. Distinctively develop
-                future-proof outsourcing without multimedia based portals.
-                Progressively coordinate next-generation architectures for
-                collaborative solutions. Professionally restore
-                backward-compatible quality vectors before customer directed
-                metrics. Holisticly restore technically sound internal or
-                "organic" sources before client-centered human capital
-                underwhelm holistic mindshare for prospective innovation.
+                تفاوض بمصداقية على المواد الناشئة أثناء النقرات وقذائف الهاون
+                رأس المال الفكري. السبورة البيضاء مقنعة تتمحور حول العميل
+                المصادر قبل المخططات عبر الأنظمة الأساسية. تطوير بشكل مميز
+                الاستعانة بمصادر خارجية مستقبلية بدون بوابات تعتمد على الوسائط
+                المتعددة. التنسيق التدريجي لبنيات الجيل التالي لـ الحلول
+                التعاونية. استعادة مهنيا ناقلات الجودة المتوافقة مع الإصدارات
+                السابقة قبل توجيه العميل المقاييس. استعادة سليمة من الناحية
+                الفنية الداخلية أو المصادر "العضوية" قبل رأس المال البشري الذي
+                يركز على العميل تطغى على المشاركة الذهنية الشاملة للابتكار
+                المحتمل.
               </p>
               <p className="mb-n1">
-                Seamlessly target fully tested infrastructures whereas just in
-                time process improvements. Dynamically exploit team driven
-                functionalities vis a vis global total linkage redibly
-                synthesize just in time technology rather than open-source
-                strategic theme areas.
+                استهدف بسهولة البنى التحتية التي تم اختبارها بالكامل أثناء
+                تواجدك للتو تحسينات عملية الوقت. استغلال الفريق ديناميكيًا وظائف
+                مقابل الربط الكلي العالمي redible توليف التكنولوجيا في الوقت
+                المناسب بدلا من المصدر المفتوح مجالات المواضيع الاستراتيجية.
               </p>
             </div>
             <div
@@ -135,24 +135,24 @@ const ShopDetails = () => {
               <table className="woocommerce-table">
                 <tbody>
                   <tr>
-                    <th>Brand</th>
-                    <td>Jakuna</td>
+                    <th>ماركة</th>
+                    <td>جاكونا</td>
                   </tr>
                   <tr>
-                    <th>Color</th>
-                    <td>Yellow</td>
+                    <th>لون</th>
+                    <td>أصفر</td>
                   </tr>
                   <tr>
-                    <th>Weight</th>
-                    <td>400 gm</td>
+                    <th>وزن</th>
+                    <td>400 جم</td>
                   </tr>
                   <tr>
-                    <th>Battery</th>
-                    <td>Lithium</td>
+                    <th>بطارية</th>
+                    <td>الليثيوم</td>
                   </tr>
                   <tr>
-                    <th>Material</th>
-                    <td>Wood</td>
+                    <th>مادة</th>
+                    <td>خشب</td>
                   </tr>
                 </tbody>
               </table>
@@ -167,56 +167,55 @@ const ShopDetails = () => {
                 <ul className="comment-list">
                   <li className="comment-item">
                     <div className="post-comment">
-                      <div className="comment-avater">
+                      <div className="comment-avater rtl">
                         <img
                           src="assets/img/team/team-1-1.png"
                           alt="Comment Author"
                         />
                       </div>
                       <div className="comment-content">
-                        <span className="commented-on">
+                        <span className="commented-on rtl ">
                           <i className="fas fa-calendar-alt" />
-                          15 JUN, 2023
+                          15 يونيو 2023
                         </span>
                         <h3 className="name">Daniel Adam</h3>
                         <p className="text">
-                          Collaboratively empower multifunctional e-commerce for
-                          prospective applications. Seamlessly productivate
-                          plug-and-play markets whereas synergistic scenarios.
-                          Ecommerce for prospective applications. Seamlessly
-                          productivate plug-and-play markets whereas synergistic
-                          scenarios
+                          تمكين التجارة الإلكترونية متعددة الوظائف بشكل تعاوني
+                          التطبيقات المرتقبة. إنتاجية بسلاسة أسواق التوصيل
+                          والتشغيل في حين أن السيناريوهات التآزرية. التجارة
+                          الإلكترونية للتطبيقات المستقبلية. بسلاسة إنتاج أسواق
+                          التوصيل والتشغيل مع التآزر سيناريوهات
                         </p>
-                        <div className="reply_and_edit">
-                          <a href="blog-details.html" className="reply-btn">
-                            Reply <i className="fas fa-reply" />
-                          </a>
+                        <div className="reply_and_edit  rtl">
+                          <Link to="/blog-details" className="reply-btn">
+                            رد <i className="fas fa-reply" />
+                          </Link>
                         </div>
                       </div>
                     </div>
                     <ul className="children">
                       <li className="comment-item">
                         <div className="post-comment">
-                          <div className="comment-avater">
+                          <div className="comment-avater rtl">
                             <img
                               src="assets/img/team/team-1-2.png"
                               alt="Comment Author"
                             />
                           </div>
                           <div className="comment-content">
-                            <span className="commented-on">
+                            <span className="commented-on rtl">
                               <i className="fas fa-calendar-alt" />
-                              15 JUN, 2023
+                              15 يونيو 2023
                             </span>
                             <h3 className="name">Zenelia Lozhe</h3>
                             <p className="text">
-                              Collaboratively empower multifunctional e-commerce
-                              for prospective application mlessly productivate
+                              تمكين التجارة الإلكترونية متعددة الوظائف بشكل
+                              تعاوني للتطبيق المحتمل إنتاجية بلا حدود
                             </p>
-                            <div className="reply_and_edit">
-                              <a href="blog-details.html" className="reply-btn">
-                                Reply <i className="fas fa-reply" />
-                              </a>
+                            <div className="reply_and_edit rtl">
+                              <Link to="/blog-details" className="reply-btn">
+                                رد <i className="fas fa-reply" />
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -225,27 +224,27 @@ const ShopDetails = () => {
                   </li>
                   <li className="comment-item">
                     <div className="post-comment">
-                      <div className="comment-avater">
+                      <div className="comment-avater rtl">
                         <img
                           src="assets/img/team/team-1-3.png"
                           alt="Comment Author"
                         />
                       </div>
                       <div className="comment-content">
-                        <span className="commented-on">
+                        <span className="commented-on rtl">
                           <i className="fas fa-calendar-alt" />
-                          15 JUN, 2023
+                          15 يونيو 2023
                         </span>
                         <h3 className="name">John Smith</h3>
                         <p className="text">
-                          Collaboratively empower multifunctional e-commerce for
-                          prospective applications. Seamlessly productivate
-                          plug-and-play markets whereas synergistic scenarios.
+                          تمكين التجارة الإلكترونية متعددة الوظائف بشكل تعاوني
+                          التطبيقات المرتقبة. إنتاجية بسلاسة أسواق التوصيل
+                          والتشغيل في حين أن السيناريوهات التآزرية.
                         </p>
-                        <div className="reply_and_edit">
-                          <a href="blog-details.html" className="reply-btn">
-                            Reply <i className="fas fa-reply" />
-                          </a>
+                        <div className="reply_and_edit rtl">
+                          <Link to="/blog-details" className="reply-btn">
+                            رد <i className="fas fa-reply" />
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -256,13 +255,13 @@ const ShopDetails = () => {
               {/* Comment Form */}
               <div className="comment-form bg-smoke2">
                 <div className="form-title">
-                  <h3 className="blog-inner-title"> Leave a Reply</h3>
+                  <h3 className="blog-inner-title"> ترك رد</h3>
                 </div>
                 <div className="row">
                   <div className="col-md-6 form-group">
                     <input
                       type="text"
-                      placeholder="Your Name"
+                      placeholder="اسمك"
                       className="form-control style-white"
                     />
                     <i className="far fa-user" />
@@ -270,21 +269,21 @@ const ShopDetails = () => {
                   <div className="col-md-6 form-group">
                     <input
                       type="text"
-                      placeholder="Email Address"
+                      placeholder="عنوان البريد الإلكتروني"
                       className="form-control style-white"
                     />
                     <i className="far fa-envelope" />
                   </div>
                   <div className="col-12 form-group">
                     <textarea
-                      placeholder="Type Your Message"
+                      placeholder="اكتب رسالتك"
                       className="form-control style-white"
                       defaultValue={""}
                     />
                     <i className="far fa-pencil" />
                   </div>
                   <div className="col-12 form-group mb-0">
-                    <button className="btn style2">Get a Quote</button>
+                    <button className="btn style2">إقتبس</button>
                   </div>
                 </div>
               </div>
@@ -298,14 +297,14 @@ const ShopDetails = () => {
           <div className="row justify-content-between">
             <div className="col-md-6">
               <div className="title-area">
-                <h2 className="sec-title">Related Products.</h2>
+                <h2 className="sec-title">منتجات ذات صله.</h2>
               </div>
             </div>
             <div className="col-md-auto">
               <div className="sec-btn mb-40">
-                <a href="shop.html" className="btn style-border2">
-                  See More
-                </a>
+                <Link to="/shop" className="btn style-border2">
+                  شاهد المزيد
+                </Link>
               </div>
             </div>
           </div>
@@ -342,12 +341,12 @@ const ShopDetails = () => {
                     <div className="product-img">
                       <img
                         src="assets/img/update-img/product/1-1.png"
-                        alt="Product Image"
+                        alt="fixturbo_img"
                       />
                     </div>
                     <div className="product-content">
                       <h3 className="product-title">
-                        <a href="shop-details.html">Engine pistons and cog</a>
+                        <Link to="/shop-details">مكابس المحرك والترس</Link>
                       </h3>
                       <span className="star-rating">
                         <i className="fas fa-star" />
@@ -359,9 +358,9 @@ const ShopDetails = () => {
                       <span className="price">
                         <del>$30</del> $25
                       </span>
-                      <a href="#" className="link-btn">
-                        Add to cart <i className="fas fa-arrow-right" />
-                      </a>
+                      <Link to="#" className="link-btn">
+                        أضف إلى السلة <i className="fas fa-arrow-right" />
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -372,12 +371,12 @@ const ShopDetails = () => {
                     <div className="product-img">
                       <img
                         src="assets/img/update-img/product/1-2.png"
-                        alt="Product Image"
+                        alt="fixturbo_img"
                       />
                     </div>
                     <div className="product-content">
                       <h3 className="product-title">
-                        <a href="shop-details.html">Exhaust manifold</a>
+                        <Link to="/shop-details">العادم</Link>
                       </h3>
                       <span className="star-rating">
                         <i className="fas fa-star" />
@@ -389,9 +388,9 @@ const ShopDetails = () => {
                       <span className="price">
                         <del>$30</del> $25
                       </span>
-                      <a href="#" className="link-btn">
-                        Add to cart <i className="fas fa-arrow-right" />
-                      </a>
+                      <Link to="#" className="link-btn">
+                        أضف إلى السلة <i className="fas fa-arrow-right" />
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -402,12 +401,14 @@ const ShopDetails = () => {
                     <div className="product-img">
                       <img
                         src="assets/img/update-img/product/1-3.png"
-                        alt="Product Image"
+                        alt="fixturbo_img"
                       />
                     </div>
                     <div className="product-content">
                       <h3 className="product-title">
-                        <a href="shop-details.html">Windshield wiper motor</a>
+                        <Link to="/shop-details">
+                          محرك ممسحة الزجاج الأمامي
+                        </Link>
                       </h3>
                       <span className="star-rating">
                         <i className="fas fa-star" />
@@ -419,9 +420,9 @@ const ShopDetails = () => {
                       <span className="price">
                         <del>$30</del> $25
                       </span>
-                      <a href="#" className="link-btn">
-                        Add to cart <i className="fas fa-arrow-right" />
-                      </a>
+                      <Link to="#" className="link-btn">
+                        أضف إلى السلة <i className="fas fa-arrow-right" />
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -432,12 +433,12 @@ const ShopDetails = () => {
                     <div className="product-img">
                       <img
                         src="assets/img/update-img/product/1-4.png"
-                        alt="Product Image"
+                        alt="fixturbo_img"
                       />
                     </div>
                     <div className="product-content">
                       <h3 className="product-title">
-                        <a href="shop-details.html">Power steering pump</a>
+                        <Link to="/shop-details">مضخة التوجيه</Link>
                       </h3>
                       <span className="star-rating">
                         <i className="fas fa-star" />
@@ -449,9 +450,9 @@ const ShopDetails = () => {
                       <span className="price">
                         <del>$30</del> $25
                       </span>
-                      <a href="#" className="link-btn">
-                        Add to cart <i className="fas fa-arrow-right" />
-                      </a>
+                      <Link to="#" className="link-btn">
+                        أضف إلى السلة <i className="fas fa-arrow-right" />
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -462,12 +463,14 @@ const ShopDetails = () => {
                     <div className="product-img">
                       <img
                         src="assets/img/update-img/product/1-5.png"
-                        alt="Product Image"
+                        alt="fixturbo_img"
                       />
                     </div>
                     <div className="product-content">
                       <h3 className="product-title">
-                        <a href="shop-details.html">Windshield wiper motor</a>
+                        <Link to="/shop-details">
+                          محرك ممسحة الزجاج الأمامي
+                        </Link>
                       </h3>
                       <span className="star-rating">
                         <i className="fas fa-star" />
@@ -479,9 +482,9 @@ const ShopDetails = () => {
                       <span className="price">
                         <del>$30</del> $25
                       </span>
-                      <a href="#" className="link-btn">
-                        Add to cart <i className="fas fa-arrow-right" />
-                      </a>
+                      <Link to="#" className="link-btn">
+                        أضف إلى السلة <i className="fas fa-arrow-right" />
+                      </Link>
                     </div>
                   </div>
                 </div>

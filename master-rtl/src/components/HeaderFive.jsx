@@ -53,9 +53,9 @@ const HeaderFive = () => {
           <div className="row justify-content-center justify-content-md-between align-items-center gy-2">
             <div className="col-auto d-none d-lg-block">
               <div className="header-logo">
-                <a href="/index">
+                <Link to="/index">
                   <img src="assets/img/logo.svg" alt="logo" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-auto d-none d-md-block">
@@ -69,10 +69,13 @@ const HeaderFive = () => {
                     type="text"
                     placeholder="تفاصيل الفريق الفريق"
                   />
-                  <select name="subject" id="subject" className="form-select">
-                    <option value="" disabled="" selected="" hidden="">
-                      بيت بيت
-                    </option>
+                  <select
+                    name="subject"
+                    id="subject"
+                    className="form-select"
+                    defaultValue={"Choose"}
+                  >
+                    <option value="Choose">بيت بيت</option>
                     <option value="Construction">تفاصيل الفريق</option>
                     <option value="Real Estate">تفا صيلفريق</option>
                     <option value="Industry">اصيل الفريق</option>
@@ -102,21 +105,21 @@ const HeaderFive = () => {
                       <div className="header-grid-details">
                         <span className="header-grid-text">صيل فريق</span>
                         <h6 className="header-grid-title">
-                          <a href="#">الفريق</a>
+                          <Link to="#">الفريق</Link>
                         </h6>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <a href="#" className="simple-icon">
+                    <Link to="#" className="simple-icon">
                       <i className="far fa-heart" />
                       <span className="badge">1</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <div className="header-grid-wrap">
                       <div className="simple-icon">
-                        <a href="#">
+                        <Link to="#">
                           <svg
                             width={27}
                             height={24}
@@ -130,7 +133,7 @@ const HeaderFive = () => {
                             />
                           </svg>
                           <span className="badge">1</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className="header-grid-details">
                         <span className="header-grid-text">صيلفر</span>
@@ -151,9 +154,9 @@ const HeaderFive = () => {
             <div className="row align-items-center justify-content-between">
               <div className="col-auto d-lg-none d-block">
                 <div className="header-logo">
-                  <a href="index.html">
+                  <Link to="/">
                     <img src="assets/img/logo.svg" alt="logo" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-auto d-xl-block d-none header-sticky-none">
@@ -162,10 +165,9 @@ const HeaderFive = () => {
                     name="subject"
                     id="subject"
                     className="form-select style-border"
+                    defaultValue={"Choose"}
                   >
-                    <option value="" disabled="" selected="" hidden="">
-                      بيت بيت
-                    </option>
+                    <option value="Choose">بيت بيت</option>
                     <option value="Construction">تفاصيل الفريق</option>
                     <option value="Real Estate">تفا صيلفريق</option>
                     <option value="Industry">اصيل الفريق</option>
@@ -175,9 +177,9 @@ const HeaderFive = () => {
               </div>
               <div className="col-auto header-sticky-logo">
                 <div className="header-logo">
-                  <a href="index.html">
+                  <Link to="/">
                     <img src="assets/img/logo.svg" alt="logo" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-auto">
@@ -409,14 +411,14 @@ const HeaderFive = () => {
                       </ul>
                     </li>
                     <li>
-                      <Link
+                      <NavLink
                         to="/contact"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
                       >
                         اتصال
-                      </Link>
+                      </NavLink>
                     </li>
                   </ul>
                 </nav>

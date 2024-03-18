@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 const BlogAreaThree = () => {
   return (
@@ -8,12 +9,12 @@ const BlogAreaThree = () => {
           <img
             className="about1-shape-img-1 spin"
             src="assets/img/normal/about_shape1-2.svg"
-            alt="img"
+            alt="fixturbo_img"
           />
           <img
             className="about1-shape-img-2 spin2"
             src="assets/img/normal/about_shape1-1.svg"
-            alt="img"
+            alt="fixturbo_img"
           />
         </div>
         <div className="container">
@@ -62,31 +63,31 @@ const BlogAreaThree = () => {
                     <div className="blog-img">
                       <img
                         src="assets/img/blog/blog_s1_3.png"
-                        alt="blog image"
+                        alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <span>17</span>Feb
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <i className="fas fa-user" />
                           لدينا للحصول
-                        </a>
-                        <a href="blog.html">
+                        </Link>
+                        <Link to="/blog">
                           <i className="fas fa-comments" />
                           (05) للحصول
-                        </a>
+                        </Link>
                       </div>
                       <h3 className="blog-title">
-                        <a href="blog-details.html">
+                        <Link to="/blog-details">
                           النشرة الإخبارية لدينا النشرة الإخبارية لدينا
-                        </a>
+                        </Link>
                       </h3>
-                      <a className="btn style-border3" href="blog-details.html">
+                      <a className="btn style-border3" href="/blog-details">
                         اشترك في <i className="fas fa-arrow-right ms-2" />
                       </a>
                     </div>
@@ -99,31 +100,31 @@ const BlogAreaThree = () => {
                     <div className="blog-img">
                       <img
                         src="assets/img/blog/blog_s1_1.png"
-                        alt="blog image"
+                        alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <span>17</span>Feb
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <i className="fas fa-user" />
                           لدينا للحصول
-                        </a>
-                        <a href="blog.html">
+                        </Link>
+                        <Link to="/blog">
                           <i className="fas fa-comments" />
                           (05) للحصول
-                        </a>
+                        </Link>
                       </div>
                       <h3 className="blog-title">
-                        <a href="blog-details.html">
+                        <Link to="/blog-details">
                           النشرة الإخبارية لدينا النشرة الإخبارية لدينا
-                        </a>
+                        </Link>
                       </h3>
-                      <a className="btn style-border3" href="blog-details.html">
+                      <a className="btn style-border3" href="/blog-details">
                         اشترك في <i className="fas fa-arrow-right ms-2" />
                       </a>
                     </div>
@@ -136,31 +137,31 @@ const BlogAreaThree = () => {
                     <div className="blog-img">
                       <img
                         src="assets/img/blog/blog_s1_3.png"
-                        alt="blog image"
+                        alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <span>17</span>Feb
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <i className="fas fa-user" />
                           لدينا للحصول
-                        </a>
-                        <a href="blog.html">
+                        </Link>
+                        <Link to="/blog">
                           <i className="fas fa-comments" />
                           (05) للحصول
-                        </a>
+                        </Link>
                       </div>
                       <h3 className="blog-title">
-                        <a href="blog-details.html">
+                        <Link to="/blog-details">
                           النشرة الإخبارية لدينا النشرة الإخبارية لدينا
-                        </a>
+                        </Link>
                       </h3>
-                      <a className="btn style-border3" href="blog-details.html">
+                      <a className="btn style-border3" href="/blog-details">
                         اشترك في <i className="fas fa-arrow-right ms-2" />
                       </a>
                     </div>
@@ -173,31 +174,31 @@ const BlogAreaThree = () => {
                     <div className="blog-img">
                       <img
                         src="assets/img/blog/blog_s1_1.png"
-                        alt="blog image"
+                        alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <span>17</span>Feb
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <i className="fas fa-user" />
                           لدينا للحصول
-                        </a>
-                        <a href="blog.html">
+                        </Link>
+                        <Link to="/blog">
                           <i className="fas fa-comments" />
                           (05) للحصول
-                        </a>
+                        </Link>
                       </div>
                       <h3 className="blog-title">
-                        <a href="blog-details.html">
+                        <Link to="/blog-details">
                           النشرة الإخبارية لدينا النشرة الإخبارية لدينا
-                        </a>
+                        </Link>
                       </h3>
-                      <a className="btn style-border3" href="blog-details.html">
+                      <a className="btn style-border3" href="/blog-details">
                         اشترك في <i className="fas fa-arrow-right ms-2" />
                       </a>
                     </div>

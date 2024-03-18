@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade, Autoplay } from "swiper";
+import { Link } from "react-router-dom";
 const HeroThree = () => {
   return (
     <div className="hero-wrapper hero-3">
@@ -34,7 +35,7 @@ const HeroThree = () => {
                         <span>
                           <img
                             src="assets/img/hero/hero_shape_3.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
                           Welcome Fixturbo
                         </span>{" "}
@@ -60,12 +61,15 @@ const HeroThree = () => {
                         data-ani="slideinup"
                         data-ani-delay="0.3s"
                       >
-                        <a href="about.html" className="btn">
+                        <Link to="/about" className="btn">
                           Learn More
-                        </a>
+                        </Link>
                         <div className="call-media-wrap">
                           <div className="icon">
-                            <img src="assets/img/icon/phone-1.svg" alt="img" />
+                            <img
+                              src="assets/img/icon/phone-1.svg"
+                              alt="fixturbo_img"
+                            />
                           </div>
                           <div className="media-body">
                             <h6 className="title text-white">
@@ -118,7 +122,7 @@ const HeroThree = () => {
                         <span>
                           <img
                             src="assets/img/hero/hero_shape_3.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
                           Welcome Fixturbo
                         </span>{" "}
@@ -144,12 +148,15 @@ const HeroThree = () => {
                         data-ani="slideinup"
                         data-ani-delay="0.3s"
                       >
-                        <a href="about.html" className="btn">
+                        <Link to="/about" className="btn">
                           Learn More
-                        </a>
+                        </Link>
                         <div className="call-media-wrap">
                           <div className="icon">
-                            <img src="assets/img/icon/phone-1.svg" alt="img" />
+                            <img
+                              src="assets/img/icon/phone-1.svg"
+                              alt="fixturbo_img"
+                            />
                           </div>
                           <div className="media-body">
                             <h6 className="title text-white">

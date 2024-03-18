@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FooterAreaTwo = () => {
   return (
@@ -9,9 +10,9 @@ const FooterAreaTwo = () => {
       <div className="container">
         <div className="footer-top-2">
           <div className="footer-logo">
-            <a href="index.html">
+            <Link to="/">
               <img src="assets/img/logo-white.svg" alt="Fixturbo" />
-            </a>
+            </Link>
           </div>
           <h3 className="footer-top-title text-white">
             اشترك في النشرة الإخبارية لدينا للحصول على التحديثات
@@ -39,18 +40,18 @@ const FooterAreaTwo = () => {
                   اشترك في النشرة الإخبارية لدينا للحصول على التحديثات
                 </p>
                 <div className="social-btn style3">
-                  <a href="https://www.instagram.com/" tabIndex={-1}>
+                  <Link to="https://www.instagram.com/" tabIndex={-1}>
                     <i className="fab fa-instagram" />
-                  </a>
-                  <a href="https://linkedin.com/" tabIndex={-1}>
+                  </Link>
+                  <Link to="https://linkedin.com/" tabIndex={-1}>
                     <i className="fab fa-linkedin-in" />
-                  </a>
-                  <a href="https://twitter.com/" tabIndex={-1}>
+                  </Link>
+                  <Link to="https://twitter.com/" tabIndex={-1}>
                     <i className="fab fa-twitter" />
-                  </a>
-                  <a href="https://facebook.com/" tabIndex={-1}>
+                  </Link>
+                  <Link to="https://facebook.com/" tabIndex={-1}>
                     <i className="fab fa-facebook-f" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -60,16 +61,16 @@ const FooterAreaTwo = () => {
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <a href="about.html">اشترك</a>
+                      <Link to="/about">اشترك</Link>
                     </li>
                     <li>
-                      <a href="team.html">للحصول</a>
+                      <Link to="/team">للحصول</Link>
                     </li>
                     <li>
-                      <a href="contact.html">النشرة</a>
+                      <Link to="/contact">النشرة</Link>
                     </li>
                     <li>
-                      <a href="contact.html">النشرة النشرة</a>
+                      <Link to="/contact">النشرة النشرة</Link>
                     </li>
                   </ul>
                 </div>
@@ -81,19 +82,19 @@ const FooterAreaTwo = () => {
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <a href="service.html">للحصول النشرة</a>
+                      <Link to="/service">للحصول النشرة</Link>
                     </li>
                     <li>
-                      <a href="service.html">التحديثات للحصول</a>
+                      <Link to="/service">التحديثات للحصول</Link>
                     </li>
                     <li>
-                      <a href="service.html">الإخبارية لدينا للحصول</a>
+                      <Link to="/service">الإخبارية لدينا للحصول</Link>
                     </li>
                     <li>
-                      <a href="service.html">الإخبارية</a>
+                      <Link to="/service">الإخبارية</Link>
                     </li>
                     <li>
-                      <a href="service.html">الإخبارية لدينا</a>
+                      <Link to="/service">الإخبارية لدينا</Link>
                     </li>
                   </ul>
                 </div>
@@ -122,7 +123,7 @@ const FooterAreaTwo = () => {
                     <div className="contact-grid-details">
                       <p>الإخبارية لدينا</p>
                       <h6>
-                        <a href="tel:888123456765">012 345 678 9101</a>
+                        <Link to="tel:888123456765">012 345 678 9101</Link>
                         <p />
                       </h6>
                     </div>
@@ -134,7 +135,7 @@ const FooterAreaTwo = () => {
                     <div className="contact-grid-details">
                       <p>لدينا للحصول</p>
                       <h6>
-                        <a href="mailto:infoname@mail.com">abcd@gmail.com</a>
+                        <Link to="mailto:infoname@mail.com">abcd@gmail.com</Link>
                         <p />
                       </h6>
                     </div>
@@ -150,14 +151,14 @@ const FooterAreaTwo = () => {
           <div className="row gy-3 justify-content-md-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <a href="#">Fixturbo</a> 2024 | اشترك في النشرة الإخبارية
+                © <Link to="#">Fixturbo</Link> 2024 | اشترك في النشرة الإخبارية
               </p>
             </div>
             <div className="col-auto">
               <div className="footer-links">
-                <a href="contact.html">اشترك في النشرة</a>
-                <a href="contact.html">النشرة الإخبارية</a>
-                <a href="contact.html">اشترك في الإخبارية</a>
+                <Link to="/contact">اشترك في النشرة</Link>
+                <Link to="/contact">النشرة الإخبارية</Link>
+                <Link to="/contact">اشترك في الإخبارية</Link>
               </div>
             </div>
           </div>

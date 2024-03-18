@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 const BlogAreaTwo = () => {
   return (
@@ -47,28 +48,30 @@ const BlogAreaTwo = () => {
               <div>
                 <div className="blog-card style2">
                   <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_1.png" alt="blog image" />
+                    <img src="assets/img/blog/blog_s2_1.png" alt="fixturbo_img" />
                     <div className="blog-date">
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <span>17</span>Feb
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="blog-content">
                     <div className="blog-meta">
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <i className="fas fa-user" />
                         العمل؟
-                      </a>
-                      <a href="blog.html">
+                      </Link>
+                      <Link to="/blog">
                         <i className="fas fa-comments" />
                         (05) الغرض
-                      </a>
+                      </Link>
                     </div>
                     <h3 className="blog-title">
-                      <a href="blog-details.html">ما هو الغرض من خطة العمل؟</a>
+                      <Link to="/blog-details">
+                        ما هو الغرض من خطة العمل؟
+                      </Link>
                     </h3>
-                    <a className="link-btn style3" href="blog-details.html">
+                    <a className="link-btn style3" href="/blog-details">
                       اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
                     </a>
                   </div>
@@ -79,31 +82,31 @@ const BlogAreaTwo = () => {
               <div>
                 <div className="blog-card style2">
                   <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_2.png" alt="blog image" />
+                    <img src="assets/img/blog/blog_s2_2.png" alt="fixturbo_img" />
                     <div className="blog-date">
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <span>17</span>Feb
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="blog-content">
                     <div className="blog-meta">
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <i className="fas fa-user" />
                         العمل؟
-                      </a>
-                      <a href="blog.html">
+                      </Link>
+                      <Link to="/blog">
                         <i className="fas fa-comments" />
-                         (05) من خطة؟
-                      </a>
+                        (05) من خطة؟
+                      </Link>
                     </div>
                     <h3 className="blog-title">
-                      <a href="blog-details.html">
-                      ما هو الغرض من خطة العمل؟
-                      </a>
+                      <Link to="/blog-details">
+                        ما هو الغرض من خطة العمل؟
+                      </Link>
                     </h3>
-                    <a className="link-btn style3" href="blog-details.html">
-                    اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
+                    <a className="link-btn style3" href="/blog-details">
+                      اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
                     </a>
                   </div>
                 </div>
@@ -113,31 +116,31 @@ const BlogAreaTwo = () => {
               <div>
                 <div className="blog-card style2">
                   <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_3.png" alt="blog image" />
+                    <img src="assets/img/blog/blog_s2_3.png" alt="fixturbo_img" />
                     <div className="blog-date">
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <span>17</span>Feb
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="blog-content">
                     <div className="blog-meta">
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <i className="fas fa-user" />
                         العمل؟
-                      </a>
-                      <a href="blog.html">
+                      </Link>
+                      <Link to="/blog">
                         <i className="fas fa-comments" />
-                         (05) من خطة؟
-                      </a>
+                        (05) من خطة؟
+                      </Link>
                     </div>
                     <h3 className="blog-title">
-                      <a href="blog-details.html">
-                      ما هو الغرض من خطة العمل؟
-                      </a>
+                      <Link to="/blog-details">
+                        ما هو الغرض من خطة العمل؟
+                      </Link>
                     </h3>
-                    <a className="link-btn style3" href="blog-details.html">
-                    اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
+                    <a className="link-btn style3" href="/blog-details">
+                      اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
                     </a>
                   </div>
                 </div>
@@ -147,31 +150,31 @@ const BlogAreaTwo = () => {
               <div>
                 <div className="blog-card style2">
                   <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_1.png" alt="blog image" />
+                    <img src="assets/img/blog/blog_s2_1.png" alt="fixturbo_img" />
                     <div className="blog-date">
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <span>17</span>Feb
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="blog-content">
                     <div className="blog-meta">
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <i className="fas fa-user" />
                         العمل؟
-                      </a>
-                      <a href="blog.html">
+                      </Link>
+                      <Link to="/blog">
                         <i className="fas fa-comments" />
-                         (05) من خطة؟
-                      </a>
+                        (05) من خطة؟
+                      </Link>
                     </div>
                     <h3 className="blog-title">
-                      <a href="blog-details.html">
-                      ما هو الغرض من خطة العمل؟
-                      </a>
+                      <Link to="/blog-details">
+                        ما هو الغرض من خطة العمل؟
+                      </Link>
                     </h3>
-                    <a className="link-btn style3" href="blog-details.html">
-                    اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
+                    <a className="link-btn style3" href="/blog-details">
+                      اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
                     </a>
                   </div>
                 </div>
@@ -181,31 +184,31 @@ const BlogAreaTwo = () => {
               <div>
                 <div className="blog-card style2">
                   <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_2.png" alt="blog image" />
+                    <img src="assets/img/blog/blog_s2_2.png" alt="fixturbo_img" />
                     <div className="blog-date">
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <span>17</span>Feb
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="blog-content">
                     <div className="blog-meta">
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <i className="fas fa-user" />
                         العمل؟
-                      </a>
-                      <a href="blog.html">
+                      </Link>
+                      <Link to="/blog">
                         <i className="fas fa-comments" />
-                         (05) من خطة؟
-                      </a>
+                        (05) من خطة؟
+                      </Link>
                     </div>
                     <h3 className="blog-title">
-                      <a href="blog-details.html">
-                      ما هو الغرض من خطة العمل؟
-                      </a>
+                      <Link to="/blog-details">
+                        ما هو الغرض من خطة العمل؟
+                      </Link>
                     </h3>
-                    <a className="link-btn style3" href="blog-details.html">
-                    اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
+                    <a className="link-btn style3" href="/blog-details">
+                      اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
                     </a>
                   </div>
                 </div>
@@ -215,31 +218,31 @@ const BlogAreaTwo = () => {
               <div>
                 <div className="blog-card style2">
                   <div className="blog-img">
-                    <img src="assets/img/blog/blog_s2_3.png" alt="blog image" />
+                    <img src="assets/img/blog/blog_s2_3.png" alt="fixturbo_img" />
                     <div className="blog-date">
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <span>17</span>Feb
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="blog-content">
                     <div className="blog-meta">
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <i className="fas fa-user" />
                         العمل؟
-                      </a>
-                      <a href="blog.html">
+                      </Link>
+                      <Link to="/blog">
                         <i className="fas fa-comments" />
-                         (05) الغرض
-                      </a>
+                        (05) الغرض
+                      </Link>
                     </div>
                     <h3 className="blog-title">
-                      <a href="blog-details.html">
-                      ما هو الغرض من خطة العمل؟
-                      </a>
+                      <Link to="/blog-details">
+                        ما هو الغرض من خطة العمل؟
+                      </Link>
                     </h3>
-                    <a className="link-btn style3" href="blog-details.html">
-                    اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
+                    <a className="link-btn style3" href="/blog-details">
+                      اقرأ أكثر <i className="fas fa-arrow-right ms-2" />
                     </a>
                   </div>
                 </div>

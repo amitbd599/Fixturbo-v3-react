@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
+import { Link } from "react-router-dom";
 const ClientAreaTwo = () => {
   return (
     <div
@@ -39,63 +40,63 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-1.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-1.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-2.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-2.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-3.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-3.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-4.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-4.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-5.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-5.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-1.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-1.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-2.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-2.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
@@ -103,27 +104,27 @@ const ClientAreaTwo = () => {
                 {" "}
                 <div>
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-3.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-3.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-4.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-4.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-5.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-5.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
@@ -144,7 +145,7 @@ const ClientAreaTwo = () => {
                   <h2 className="sec-title text-white">ماذا يقول عميلنا؟</h2>
                 </div>
                 <div className="quote-icon">
-                  <img src="assets/img/icon/quote2-1.svg" alt="img" />
+                  <img src="assets/img/icon/quote2-1.svg" alt="fixturbo_img" />
                 </div>
                 <div className="row global-carousel testi-slider-2">
                   <Swiper
@@ -186,7 +187,7 @@ const ClientAreaTwo = () => {
                               <div className="testi-profile_thumb">
                                 <img
                                   src="assets/img/testimonial/testimonial-2-1.png"
-                                  alt="img"
+                                  alt="fixturbo_img"
                                 />
                               </div>
                               <div className="testi-card-profile-details">
@@ -215,7 +216,7 @@ const ClientAreaTwo = () => {
                               <div className="testi-profile_thumb">
                                 <img
                                   src="assets/img/testimonial/testimonial-2-1.png"
-                                  alt="img"
+                                  alt="fixturbo_img"
                                 />
                               </div>
                               <div className="testi-card-profile-details">
@@ -244,7 +245,7 @@ const ClientAreaTwo = () => {
                               <div className="testi-profile_thumb">
                                 <img
                                   src="assets/img/testimonial/testimonial-2-1.png"
-                                  alt="img"
+                                  alt="fixturbo_img"
                                 />
                               </div>
                               <div className="testi-card-profile-details">
@@ -273,7 +274,7 @@ const ClientAreaTwo = () => {
                               <div className="testi-profile_thumb">
                                 <img
                                   src="assets/img/testimonial/testimonial-2-1.png"
-                                  alt="img"
+                                  alt="fixturbo_img"
                                 />
                               </div>
                               <div className="testi-card-profile-details">
@@ -309,7 +310,10 @@ const ClientAreaTwo = () => {
           </div>
         </div>
         <div className="testimonial-thumb-2">
-          <img src="assets/img/normal/testimonial-thumb-2-1.png" alt="img" />
+          <img
+            src="assets/img/normal/testimonial-thumb-2-1.png"
+            alt="fixturbo_img"
+          />
         </div>
       </div>
     </div>

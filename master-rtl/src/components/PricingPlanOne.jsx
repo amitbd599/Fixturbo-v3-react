@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PricingPlanOne = () => {
   return (
@@ -7,12 +8,12 @@ const PricingPlanOne = () => {
         <img
           className="about1-shape-img-1 spin"
           src="assets/img/normal/about_shape1-2.svg"
-          alt="img"
+          alt="fixturbo_img"
         />
         <img
           className="about1-shape-img-2 spin2"
           src="assets/img/normal/about_shape1-1.svg"
-          alt="img"
+          alt="fixturbo_img"
         />
       </div>
       <div className="container">
@@ -35,7 +36,10 @@ const PricingPlanOne = () => {
                   <span className="duration">/شهر</span>
                 </h3>
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_1-1.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/picing-icon_1-1.svg"
+                    alt="fixturbo_img"
+                  />
                 </div>
               </div>
               <div className="pricing-card-details">
@@ -60,10 +64,10 @@ const PricingPlanOne = () => {
                     </li>
                   </ul>
                 </div>
-                <a className="btn style-border2" href="about.html">
+                <Link className="btn style-border2" to="/about">
                   ابدأ الآن
                   <i className="fas fa-arrow-left ms-2" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -75,7 +79,10 @@ const PricingPlanOne = () => {
                   <span className="duration">/شهر</span>
                 </h3>
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_1-2.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/picing-icon_1-2.svg"
+                    alt="fixturbo_img"
+                  />
                 </div>
               </div>
               <div className="pricing-card-details">
@@ -100,7 +107,7 @@ const PricingPlanOne = () => {
                     </li>
                   </ul>
                 </div>
-                <a className="btn style-border2" href="about.html">
+                <a className="btn style-border2" href="/about">
                   ابدأ الآن <i className="fas fa-arrow-left ms-2" />
                 </a>
               </div>
@@ -114,7 +121,10 @@ const PricingPlanOne = () => {
                   <span className="duration">/شهر</span>
                 </h3>
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_1-3.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/picing-icon_1-3.svg"
+                    alt="fixturbo_img"
+                  />
                 </div>
               </div>
               <div className="pricing-card-details">
@@ -139,7 +149,7 @@ const PricingPlanOne = () => {
                     </li>
                   </ul>
                 </div>
-                <a className="btn style-border2" href="about.html">
+                <a className="btn style-border2" href="/about">
                   ابدأ الآن <i className="fas fa-arrow-left ms-2" />
                 </a>
               </div>
@@ -153,7 +163,10 @@ const PricingPlanOne = () => {
                   <span className="duration">/شهر</span>
                 </h3>
                 <div className="pricing-card_icon">
-                  <img src="assets/img/icon/picing-icon_1-4.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/picing-icon_1-4.svg"
+                    alt="fixturbo_img"
+                  />
                 </div>
               </div>
               <div className="pricing-card-details">
@@ -180,7 +193,7 @@ const PricingPlanOne = () => {
                     </li>
                   </ul>
                 </div>
-                <a className="btn style-border2" href="about.html">
+                <a className="btn style-border2" href="/about">
                   ابدأ الآن <i className="fas fa-arrow-left ms-2" />
                 </a>
               </div>

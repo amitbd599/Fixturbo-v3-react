@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade, Autoplay } from "swiper";
+import { Link } from "react-router-dom";
 const TeamAreaFour = () => {
   return (
     <div className="team-area-2 space">
@@ -54,27 +55,30 @@ const TeamAreaFour = () => {
               <div>
                 <div className="team-card style3">
                   <div className="team-card_img">
-                    <img src="assets/img/team/team-1-1.png" alt="img" />
+                    <img
+                      src="assets/img/team/team-1-1.png"
+                      alt="fixturbo_img"
+                    />
                   </div>
                   <div className="team-card_content">
                     <h4 className="team-card_title">
-                      <a href="team-details.html">النشرة لدينا</a>
+                      <Link to="/team-details">النشرة لدينا</Link>
                     </h4>
                     <span className="team-card_desig">النشرة الإخبارية</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <a href="https://linkedin.com/">
+                        <Link to="https://linkedin.com/">
                           <i className="fab fa-linkedin-in" />
-                        </a>
-                        <a href="https://www.instagram.com/">
+                        </Link>
+                        <Link to="https://www.instagram.com/">
                           <i className="fab fa-instagram" />
-                        </a>
-                        <a href="https://facebook.com/">
+                        </Link>
+                        <Link to="https://facebook.com/">
                           <i className="fab fa-facebook-f" />
-                        </a>
-                        <a href="https://twitter.com/">
+                        </Link>
+                        <Link to="https://twitter.com/">
                           <i className="fab fa-twitter" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -85,27 +89,30 @@ const TeamAreaFour = () => {
               <div>
                 <div className="team-card style3">
                   <div className="team-card_img">
-                    <img src="assets/img/team/team-1-3.png" alt="img" />
+                    <img
+                      src="assets/img/team/team-1-3.png"
+                      alt="fixturbo_img"
+                    />
                   </div>
                   <div className="team-card_content">
                     <h4 className="team-card_title">
-                      <a href="team-details.html">النشرة لدينا</a>
+                      <Link to="/team-details">النشرة لدينا</Link>
                     </h4>
                     <span className="team-card_desig">النشرة الإخبارية</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <a href="https://linkedin.com/">
+                        <Link to="https://linkedin.com/">
                           <i className="fab fa-linkedin-in" />
-                        </a>
-                        <a href="https://www.instagram.com/">
+                        </Link>
+                        <Link to="https://www.instagram.com/">
                           <i className="fab fa-instagram" />
-                        </a>
-                        <a href="https://facebook.com/">
+                        </Link>
+                        <Link to="https://facebook.com/">
                           <i className="fab fa-facebook-f" />
-                        </a>
-                        <a href="https://twitter.com/">
+                        </Link>
+                        <Link to="https://twitter.com/">
                           <i className="fab fa-twitter" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -116,27 +123,30 @@ const TeamAreaFour = () => {
               <div>
                 <div className="team-card style3">
                   <div className="team-card_img">
-                    <img src="assets/img/team/team-1-1.png" alt="img" />
+                    <img
+                      src="assets/img/team/team-1-1.png"
+                      alt="fixturbo_img"
+                    />
                   </div>
                   <div className="team-card_content">
                     <h4 className="team-card_title">
-                      <a href="team-details.html">النشرة لدينا</a>
+                      <Link to="/team-details">النشرة لدينا</Link>
                     </h4>
                     <span className="team-card_desig">النشرة الإخبارية</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <a href="https://linkedin.com/">
+                        <Link to="https://linkedin.com/">
                           <i className="fab fa-linkedin-in" />
-                        </a>
-                        <a href="https://www.instagram.com/">
+                        </Link>
+                        <Link to="https://www.instagram.com/">
                           <i className="fab fa-instagram" />
-                        </a>
-                        <a href="https://facebook.com/">
+                        </Link>
+                        <Link to="https://facebook.com/">
                           <i className="fab fa-facebook-f" />
-                        </a>
-                        <a href="https://twitter.com/">
+                        </Link>
+                        <Link to="https://twitter.com/">
                           <i className="fab fa-twitter" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -147,27 +157,30 @@ const TeamAreaFour = () => {
               <div>
                 <div className="team-card style3">
                   <div className="team-card_img">
-                    <img src="assets/img/team/team-1-3.png" alt="img" />
+                    <img
+                      src="assets/img/team/team-1-3.png"
+                      alt="fixturbo_img"
+                    />
                   </div>
                   <div className="team-card_content">
                     <h4 className="team-card_title">
-                      <a href="team-details.html">النشرة لدينا</a>
+                      <Link to="/team-details">النشرة لدينا</Link>
                     </h4>
                     <span className="team-card_desig">النشرة الإخبارية</span>
                     <div className="team-social_wrap">
                       <div className="social-btn style2">
-                        <a href="https://linkedin.com/">
+                        <Link to="https://linkedin.com/">
                           <i className="fab fa-linkedin-in" />
-                        </a>
-                        <a href="https://www.instagram.com/">
+                        </Link>
+                        <Link to="https://www.instagram.com/">
                           <i className="fab fa-instagram" />
-                        </a>
-                        <a href="https://facebook.com/">
+                        </Link>
+                        <Link to="https://facebook.com/">
                           <i className="fab fa-facebook-f" />
-                        </a>
-                        <a href="https://twitter.com/">
+                        </Link>
+                        <Link to="https://twitter.com/">
                           <i className="fab fa-twitter" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

@@ -11,7 +11,10 @@ const TestimonialTwo = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="testimonial-thumb1">
-              <img src="assets/img/testimonial/testimonial-1-2.png" alt="img" />
+              <img
+                src="assets/img/testimonial/testimonial-1-2.png"
+                alt="fixturbo_img"
+              />
             </div>
           </div>
           <div className="col-lg-6">
@@ -72,11 +75,11 @@ const TestimonialTwo = () => {
                             <div className="quote-icon">
                               <img
                                 src="assets/img/icon/quote1-1.svg"
-                                alt="img"
+                                alt="fixturbo_img"
                               />
                             </div>
                           </div>
-                          <p class="testi-card_text">
+                          <p className="testi-card_text">
                             تشمل خدمات الأسطح تركيبات الإصلاح وصيانة المباني
                             التجارية المقيمة. يقوم الفنيون الخبراء بتشخيص
                             المشكلات ومعالجة مشكلات أنظمة مزاريب مواد التسقيف
@@ -107,11 +110,11 @@ const TestimonialTwo = () => {
                             <div className="quote-icon">
                               <img
                                 src="assets/img/icon/quote1-1.svg"
-                                alt="img"
+                                alt="fixturbo_img"
                               />
                             </div>
                           </div>
-                          <p class="testi-card_text">
+                          <p className="testi-card_text">
                             تشمل خدمات الأسطح تركيبات الإصلاح وصيانة المباني
                             التجارية المقيمة. يقوم الفنيون الخبراء بتشخيص
                             المشكلات ومعالجة مشكلات أنظمة مزاريب مواد التسقيف
@@ -142,11 +145,11 @@ const TestimonialTwo = () => {
                             <div className="quote-icon">
                               <img
                                 src="assets/img/icon/quote1-1.svg"
-                                alt="img"
+                                alt="fixturbo_img"
                               />
                             </div>
                           </div>
-                          <p class="testi-card_text">
+                          <p className="testi-card_text">
                             تشمل خدمات الأسطح تركيبات الإصلاح وصيانة المباني
                             التجارية المقيمة. يقوم الفنيون الخبراء بتشخيص
                             المشكلات ومعالجة مشكلات أنظمة مزاريب مواد التسقيف

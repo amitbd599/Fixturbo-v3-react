@@ -7,12 +7,12 @@ const ProcessAreaOne = () => {
         <img
           className="about1-shape-img-1 spin"
           src="assets/img/normal/about_shape1-2.svg"
-          alt="img"
+          alt="fixturbo_img"
         />
         <img
           className="about1-shape-img-2 spin2"
           src="assets/img/normal/about_shape1-1.svg"
-          alt="img"
+          alt="fixturbo_img"
         />
       </div>
       <div className="container">
@@ -30,7 +30,10 @@ const ProcessAreaOne = () => {
           <div className="col-lg-4 process-card-wrap">
             <div className="process-card">
               <div className="process-card-icon">
-                <img src="assets/img/icon/process-icon-1-1.svg" alt="img" />
+                <img
+                  src="assets/img/icon/process-icon-1-1.svg"
+                  alt="fixturbo_img"
+                />
               </div>
               <h4 className="process-card-title">إصلاح السيارات المتنقلة</h4>
               <p className="process-card-text">
@@ -42,7 +45,10 @@ const ProcessAreaOne = () => {
           <div className="col-lg-4 process-card-wrap">
             <div className="process-card process-card-center">
               <div className="process-card-icon">
-                <img src="assets/img/icon/process-icon-1-2.svg" alt="img" />
+                <img
+                  src="assets/img/icon/process-icon-1-2.svg"
+                  alt="fixturbo_img"
+                />
               </div>
               <h4 className="process-card-title">الإصلاح التلقائي الاحترافي</h4>
               <p className="process-card-text">
@@ -54,7 +60,10 @@ const ProcessAreaOne = () => {
           <div className="col-lg-4 process-card-wrap">
             <div className="process-card">
               <div className="process-card-icon">
-                <img src="assets/img/icon/process-icon-1-3.svg" alt="img" />
+                <img
+                  src="assets/img/icon/process-icon-1-3.svg"
+                  alt="fixturbo_img"
+                />
               </div>
               <h4 className="process-card-title">الدقة لأعمال السيارات</h4>
               <p className="process-card-text">

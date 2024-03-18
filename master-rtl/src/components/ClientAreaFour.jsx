@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
+import { Link } from "react-router-dom";
 const ClientAreaFour = () => {
   return (
     <div className="client-area-3">
@@ -59,84 +60,84 @@ const ClientAreaFour = () => {
                   <SwiperSlide>
                     <div>
                       <div className="client-logo">
-                        <a href="index.html">
+                        <Link to="/">
                           <img
                             src="assets/img/update-img/client/1-1.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div>
                       <div className="client-logo">
-                        <a href="index.html">
+                        <Link to="/">
                           <img
                             src="assets/img/update-img/client/1-2.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div>
                       <div className="client-logo">
-                        <a href="index.html">
+                        <Link to="/">
                           <img
                             src="assets/img/update-img/client/1-3.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div>
                       <div className="client-logo">
-                        <a href="index.html">
+                        <Link to="/">
                           <img
                             src="assets/img/update-img/client/1-4.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div>
                       <div className="client-logo">
-                        <a href="index.html">
+                        <Link to="/">
                           <img
                             src="assets/img/update-img/client/1-5.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div>
                       <div className="client-logo">
-                        <a href="index.html">
+                        <Link to="/">
                           <img
                             src="assets/img/update-img/client/1-6.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div>
                       <div className="client-logo">
-                        <a href="index.html">
+                        <Link to="/">
                           <img
                             src="assets/img/update-img/client/1-7.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -179,84 +180,84 @@ const ClientAreaFour = () => {
                   <SwiperSlide>
                     <div>
                       <div className="client-logo">
-                        <a href="index.html">
+                        <Link to="/">
                           <img
                             src="assets/img/update-img/client/1-8.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div>
                       <div className="client-logo">
-                        <a href="index.html">
+                        <Link to="/">
                           <img
                             src="assets/img/update-img/client/1-9.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div>
                       <div className="client-logo">
-                        <a href="index.html">
+                        <Link to="/">
                           <img
                             src="assets/img/update-img/client/1-10.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div>
                       <div className="client-logo">
-                        <a href="index.html">
+                        <Link to="/">
                           <img
                             src="assets/img/update-img/client/1-11.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div>
                       <div className="client-logo">
-                        <a href="index.html">
+                        <Link to="/">
                           <img
                             src="assets/img/update-img/client/1-12.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div>
                       <div className="client-logo">
-                        <a href="index.html">
+                        <Link to="/">
                           <img
                             src="assets/img/update-img/client/1-13.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div>
                       <div className="client-logo">
-                        <a href="index.html">
+                        <Link to="/">
                           <img
                             src="assets/img/update-img/client/1-14.png"
-                            alt="img"
+                            alt="fixturbo_img"
                           />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </SwiperSlide>

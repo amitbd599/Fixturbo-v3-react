@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CTAAreaOne = () => {
   return (
     <div className="cta-area-1">
       <div className="cta1-bg-thumb">
-        <img src="assets/img/bg/cta-bg1-1.png" alt="img" />
+        <img src="assets/img/bg/cta-bg1-1.png" alt="fixturbo_img" />
       </div>
       <div className="container">
         <div className="cta-wrap1">
@@ -19,9 +20,9 @@ const CTAAreaOne = () => {
             </div>
             <div className="col-md-auto">
               <div className="title-area mb-0">
-                <a className="btn" href="contact.html">
+                <Link className="btn" to="/contact">
                   عرض المزيد <i className="fas fa-arrow-left ms-2" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

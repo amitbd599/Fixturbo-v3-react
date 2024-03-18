@@ -60,10 +60,9 @@ const AppointmentAreaTwo = () => {
                           name="subject"
                           id="subject"
                           className="form-select style-border"
+                          defaultValue={"Choose"}
                         >
-                          <option value="" disabled="" selected="" hidden="">
-                            Choose a Option
-                          </option>
+                          <option value="Choose">Choose a Option</option>
                           <option value="Construction">Auto Repair</option>
                           <option value="Real Estate">Car Repair</option>
                           <option value="Industry">Automotive</option>
@@ -94,7 +93,7 @@ const AppointmentAreaTwo = () => {
             <div className="appointment-thumb-2">
               <img
                 src="assets/img/normal/appointment-thumb-2-1.png"
-                alt="img"
+                alt="fixturbo_img"
               />
             </div>
           </div>

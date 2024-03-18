@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeroTwo = () => {
   return (
@@ -18,7 +19,10 @@ const HeroTwo = () => {
               <h1 className="hero-title text-white">
                 صياغة{" "}
                 <span>
-                  <img src="assets/img/hero/hero_shape_2.png" alt="img" />
+                  <img
+                    src="assets/img/hero/hero_shape_2.png"
+                    alt="fixturbo_img"
+                  />
                   السيارات
                 </span>{" "}
                 التميز إصلاح واحد في الوقت المناسب
@@ -29,12 +33,12 @@ const HeroTwo = () => {
                 لاكوس موريس الاتحاد الأوروبي العاقل لاكوس
               </p>
               <div className="btn-group">
-                <a href="about.html" className="btn">
+                <Link to="/about" className="btn">
                   يتعلم أكثر
-                </a>
+                </Link>
                 <div className="call-media-wrap">
                   <div className="icon">
-                    <img src="assets/img/icon/phone-1.svg" alt="img" />
+                    <img src="assets/img/icon/phone-1.svg" alt="fixturbo_img" />
                   </div>
                   <div className="media-body">
                     <h6 className="title text-white">طلب مكالمة:</h6>

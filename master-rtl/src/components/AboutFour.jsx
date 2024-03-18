@@ -9,13 +9,16 @@ const AboutFour = () => {
           <div className="col-xxl-7 col-xl-6">
             <div className="about-thumb2 mb-40 mb-xl-0">
               <div className="about-img-1">
-                <img src="assets/img/normal/about_2-1.png" alt="img" />
+                <img src="assets/img/normal/about_2-1.png" alt="fixturbo_img" />
               </div>
               <div className="about-img-2">
-                <img src="assets/img/normal/about_2-2.png" alt="img" />
+                <img src="assets/img/normal/about_2-2.png" alt="fixturbo_img" />
               </div>
               <div className="about-counter-wrap jump-reverse">
-                <img src="assets/img/icon/about_icon2-1.svg" alt="img" />
+                <img
+                  src="assets/img/icon/about_icon2-1.svg"
+                  alt="fixturbo_img"
+                />
                 <h3 className="about-counter">
                   <TrackVisibility once>
                     {({ isVisible }) =>
@@ -32,7 +35,10 @@ const AboutFour = () => {
               <div className="about-year-wrap2 movingX">
                 <div className="about-year-grid-wrap">
                   <div className="icon">
-                    <img src="assets/img/icon/about_icon2-2.png" alt="img" />
+                    <img
+                      src="assets/img/icon/about_icon2-2.png"
+                      alt="fixturbo_img"
+                    />
                   </div>
                   <h3 className="about-counter">
                     <TrackVisibility once>
@@ -59,7 +65,7 @@ const AboutFour = () => {
                   <img
                     className="title-bg-shape shape-center"
                     src="assets/img/bg/title-bg-shape.png"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                 </h2>
                 <p className="sec-text">
@@ -70,7 +76,10 @@ const AboutFour = () => {
               </div>
               <div className="about-feature-wrap">
                 <div className="icon">
-                  <img src="assets/img/icon/about_icon2-3.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/about_icon2-3.svg"
+                    alt="fixturbo_img"
+                  />
                 </div>
                 <div className="about-feature-wrap-details">
                   <h5 className="about-feature-title">النخبة لخدمة السيارات</h5>
@@ -82,7 +91,10 @@ const AboutFour = () => {
               </div>
               <div className="about-feature-wrap">
                 <div className="icon">
-                  <img src="assets/img/icon/about_icon2-4.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/about_icon2-4.svg"
+                    alt="fixturbo_img"
+                  />
                 </div>
                 <div className="about-feature-wrap-details">
                   <h5 className="about-feature-title">جراج برو درايف</h5>

@@ -11,11 +11,11 @@ const ContactArea = () => {
                 <div className="contact-info_icon">
                   <i className="fas fa-map-marker-alt" />
                 </div>
-                <h6 className="contact-info_title">Address</h6>
+                <h6 className="contact-info_title">عنوان</h6>
                 <p className="contact-info_text">
-                  6391 Elgin St. Celina, Delaware
+                  6391 شارع إلجين، سيلينا، ديلاوير
                 </p>
-                <p className="contact-info_text">Mirpur Dhaka,Bangladesh</p>
+                <p className="contact-info_text">ميربور دكا، بنغلاديش</p>
               </div>
             </div>
             <div className="col-xxl-3 col-lg-4 col-md-6">
@@ -23,7 +23,7 @@ const ContactArea = () => {
                 <div className="contact-info_icon">
                   <i className="fas fa-phone-alt" />
                 </div>
-                <h6 className="contact-info_title">Phone Number</h6>
+                <h6 className="contact-info_title">رقم التليفون</h6>
                 <p className="contact-info_text">
                   <a href="tel:6295550129">(629) 555-0129</a>
                 </p>
@@ -37,9 +37,13 @@ const ContactArea = () => {
                 <div className="contact-info_icon">
                   <i className="fas fa-clock" />
                 </div>
-                <h6 className="contact-info_title">Opening</h6>
-                <p className="contact-info_text">Sun-10AM To 5PM</p>
-                <p className="contact-info_text">Thurs-9AM To 8PM</p>
+                <h6 className="contact-info_title">افتتاح</h6>
+                <p className="contact-info_text">
+                  الأحد - 10 صباحًا إلى 5 مساءً
+                </p>
+                <p className="contact-info_text">
+                  الخميس - 9 صباحًا إلى 8 مساءً
+                </p>
               </div>
             </div>
             <div className="col-xxl-3 col-lg-4 col-md-6">
@@ -47,14 +51,14 @@ const ContactArea = () => {
                 <div className="contact-info_icon">
                   <i className="fas fa-envelope" />
                 </div>
-                <h6 className="contact-info_title">E-mail</h6>
+                <h6 className="contact-info_title">بريد إلكتروني</h6>
                 <p className="contact-info_text">
                   <a href="mailto:michael.mitc@example.com">
                     michael.mitc@example.com
                   </a>
                 </p>
                 <p className="contact-info_text">
-                  <a href="mailto:nafiz 0121@gmail.com">nafiz 0121@gmail.com</a>
+                  <a href="mailto:demo@gmail.com">demo@gmail.com</a>
                 </p>
               </div>
             </div>
@@ -80,23 +84,26 @@ const ContactArea = () => {
                 <div className="about-counter-grid jump">
                   <img
                     src="assets/img/icon/faq2-counter-icon-1.svg"
-                    alt="img"
+                    alt="fixturbo_img"
                   />
                   <div className="media-right">
                     <h3 className="about-counter">
                       <span className="counter-number">250</span>+
                     </h3>
-                    <h4 className="about-counter-text">Services we provide</h4>
+                    <h4 className="about-counter-text">الخدمات التي نقدمها</h4>
                   </div>
                 </div>
-                <img src="assets/img/normal/faq-thumb-2-1.png" alt="img" />
+                <img
+                  src="assets/img/normal/faq-thumb-2-1.png"
+                  alt="fixturbo_img"
+                />
               </div>
             </div>
             <div className="col-lg-6">
               <div className="contact-form-wrap p-0">
                 <div className="title-area">
-                  <span className="sub-title">Contact form</span>
-                  <h2 className="sec-title">Car Repair The Best Services</h2>
+                  <span className="sub-title">نموذج الاتصال</span>
+                  <h2 className="sec-title">إصلاح السيارات أفضل الخدمات</h2>
                 </div>
                 <form
                   action="mail.php"
@@ -111,7 +118,7 @@ const ContactArea = () => {
                           className="form-control"
                           name="name"
                           id="name"
-                          placeholder="Your Name"
+                          placeholder="اسمك"
                         />
                       </div>
                     </div>
@@ -122,7 +129,7 @@ const ContactArea = () => {
                           className="form-control"
                           name="email"
                           id="email"
-                          placeholder="Email Address"
+                          placeholder="عنوان البريد الإلكتروني"
                         />
                       </div>
                     </div>
@@ -133,7 +140,7 @@ const ContactArea = () => {
                           className="form-control"
                           name="number"
                           id="number"
-                          placeholder="Phone Number"
+                          placeholder="رقم التليفون"
                         />
                       </div>
                     </div>
@@ -143,20 +150,19 @@ const ContactArea = () => {
                           name="subject"
                           id="subject"
                           className="form-select"
+                          defaultValue={"Construction"}
                         >
-                          <option value="" disabled="" selected="" hidden="">
-                            Choose a Option
-                          </option>
-                          <option value="Construction">Auto Repair</option>
-                          <option value="Real Estate">Car Repair</option>
-                          <option value="Industry">Automotive</option>
+                          <option value="Construction">اختر خيارا</option>
+                          <option value="Real">إصلاح تلقائي</option>
+                          <option value="Real Estate">إصلاح السيارات</option>
+                          <option value="Industry">السيارات</option>
                         </select>
                       </div>
                     </div>
                   </div>
                   <div className="form-group col-12">
                     <textarea
-                      placeholder="Message here.."
+                      placeholder="رسالة هنا.."
                       id="contactForm"
                       className="form-control"
                       defaultValue={""}
@@ -164,7 +170,7 @@ const ContactArea = () => {
                   </div>
                   <div className="form-btn col-12">
                     <button className="btn style2">
-                      Appointment Now <i className="fas fa-arrow-right ms-2" />
+                      الموعد الآن <i className="fas fa-arrow-left ms-2" />
                     </button>
                   </div>
                 </form>

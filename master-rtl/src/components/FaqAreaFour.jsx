@@ -8,15 +8,21 @@ const FaqAreaFour = () => {
           <div className="col-xl-6">
             <div className="faq-thumb3 mb-xl-0 mb-50">
               <div className="about-counter-wrap jump-reverse">
-                <img src="assets/img/icon/about_icon2-1.svg" alt="img" />
+                <img
+                  src="assets/img/icon/about_icon2-1.svg"
+                  alt="fixturbo_img"
+                />
                 <h3 className="about-counter">
                   <span className="counter-number">2000</span>+
                 </h3>
                 <h4 className="about-counter-text">لدينا للحصول على</h4>
               </div>
-              <img src="assets/img/normal/faq-thumb-3-1.png" alt="img" />
+              <img
+                src="assets/img/normal/faq-thumb-3-1.png"
+                alt="fixturbo_img"
+              />
               <div className="faq-shape jump">
-                <img src="assets/img/normal/11.png" alt="img" />
+                <img src="assets/img/normal/11.png" alt="fixturbo_img" />
               </div>
             </div>
           </div>
@@ -29,7 +35,7 @@ const FaqAreaFour = () => {
                 <img
                   className="title-bg-shape"
                   src="assets/img/bg/title-bg-shape.png"
-                  alt="img"
+                  alt="fixturbo_img"
                 />
               </h2>
             </div>

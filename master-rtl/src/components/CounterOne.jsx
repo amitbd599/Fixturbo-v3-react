@@ -136,7 +136,7 @@ const CounterOne = () => {
                 </div>
                 <div className="call-media-wrap">
                   <div className="icon">
-                    <img src="assets/img/icon/phone-1.svg" alt="img" />
+                    <img src="assets/img/icon/phone-1.svg" alt="fixturbo_img" />
                   </div>
                   <div className="media-body">
                     <h6 className="title text-white">طلب مكالمة:</h6>

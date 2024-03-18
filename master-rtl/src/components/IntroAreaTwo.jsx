@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const IntroAreaTwo = () => {
   return (
@@ -15,7 +16,7 @@ const IntroAreaTwo = () => {
             <div className="single-intro-wrap style2">
               <span className="bg-border" />
               <div className="thumb">
-                <img src="assets/img/intro/1.png" alt="img" />
+                <img src="assets/img/intro/1.png" alt="fixturbo_img" />
               </div>
               <div className="details">
                 <h3> للحصول على التحديثات</h3>
@@ -24,9 +25,9 @@ const IntroAreaTwo = () => {
                   للحصول على التحديثاتلدينا للحصول على التحديثاتلدينا للحصول على
                   التحديثاتلدينا للحصول على التحديثات
                 </p>
-                <a className="btn style-border3" href="service.html">
+                <Link className="btn style-border3" to="/service">
                   لدينا للح <i className="fas fa-arrow-left ms-2" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -34,7 +35,7 @@ const IntroAreaTwo = () => {
             <div className="single-intro-wrap style2">
               <span className="bg-border" />
               <div className="thumb">
-                <img src="assets/img/intro/2.png" alt="img" />
+                <img src="assets/img/intro/2.png" alt="fixturbo_img" />
               </div>
               <div className="details">
                 <h3> للحصول على التحديثات</h3>
@@ -43,9 +44,9 @@ const IntroAreaTwo = () => {
                   للحصول على التحديثاتلدينا للحصول على التحديثاتلدينا للحصول على
                   التحديثاتلدينا للحصول على التحديثات
                 </p>
-                <a className="btn style-border3" href="service.html">
+                <Link className="btn style-border3" to="/service">
                   لدينا للح <i className="fas fa-arrow-left ms-2" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -53,7 +54,7 @@ const IntroAreaTwo = () => {
             <div className="single-intro-wrap style2">
               <span className="bg-border" />
               <div className="thumb">
-                <img src="assets/img/intro/3.png" alt="img" />
+                <img src="assets/img/intro/3.png" alt="fixturbo_img" />
               </div>
               <div className="details">
                 <h3> للحصول على التحديثات</h3>
@@ -62,9 +63,9 @@ const IntroAreaTwo = () => {
                   للحصول على التحديثاتلدينا للحصول على التحديثاتلدينا للحصول على
                   التحديثاتلدينا للحصول على التحديثات
                 </p>
-                <a className="btn style-border3" href="service.html">
+                <Link className="btn style-border3" to="/service">
                   لدينا للح <i className="fas fa-arrow-left ms-2" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,10 +1,10 @@
 import React from "react";
-import HeaderOne from "../components/left-to-right/HeaderOne";
+import HeaderOne from "../components/HeaderOne";
 
-import FooterAreaOne from "../components/left-to-right/FooterAreaOne";
-import Breadcrumb from "../components/left-to-right/Breadcrumb";
-import SubscribeOne from "../components/left-to-right/SubscribeOne";
-import ShopArea from "../components/left-to-right/ShopArea";
+import FooterAreaOne from "../components/FooterAreaOne";
+import Breadcrumb from "../components/Breadcrumb";
+import SubscribeOne from "../components/SubscribeOne";
+import ShopArea from "../components/ShopArea";
 
 const ShopPage = () => {
   return (
@@ -13,7 +13,7 @@ const ShopPage = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Shop"} />
+      <Breadcrumb title={"محل"} />
 
       {/* Shop Area */}
       <ShopArea />

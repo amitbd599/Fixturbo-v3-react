@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Isotope from "isotope-layout";
 import imagesLoaded from "imagesloaded";
+import { Link } from "react-router-dom";
 const PortfolioOne = () => {
   const isotope = React.useRef(Isotope | null);
   const [active, setActive] = useState(1);
@@ -32,12 +33,12 @@ const PortfolioOne = () => {
         <img
           className="about1-shape-img-1 spin"
           src="assets/img/normal/about_shape1-2.svg"
-          alt="img"
+          alt="fixturbo_img"
         />
         <img
           className="about1-shape-img-2 spin2"
           src="assets/img/normal/about_shape1-1.svg"
-          alt="img"
+          alt="fixturbo_img"
         />
       </div>
       <div className="container">
@@ -87,7 +88,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item  pro1 pro3">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-3.png" alt="img" />
+                <img src="assets/img/portfolio/1-3.png" alt="fixturbo_img" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">
@@ -95,19 +96,19 @@ const PortfolioOne = () => {
                     مشاريعنا
                   </span>
                   <h4 className="portfolio-card-details_title">
-                    <a href="project-details.html">سيدات الأعمال</a>
+                    <Link to="/project-details">سيدات الأعمال</Link>
                   </h4>
                 </div>
-                <a href="project-details.html" className="icon-btn">
+                <Link to="/project-details" className="icon-btn">
                   <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
           <div className="col-lg-4 filter-item  pro2 pro4">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-3.png" alt="img" />
+                <img src="assets/img/portfolio/1-3.png" alt="fixturbo_img" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">
@@ -115,12 +116,12 @@ const PortfolioOne = () => {
                     مشاريعنا
                   </span>
                   <h4 className="portfolio-card-details_title">
-                    <a href="project-details.html">سيدات الأعمال</a>
+                    <Link to="/project-details">سيدات الأعمال</Link>
                   </h4>
                 </div>
-                <a href="project-details.html" className="icon-btn">
+                <Link to="/project-details" className="icon-btn">
                   <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -128,7 +129,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item pro3 pro1">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-4.png" alt="img" />
+                <img src="assets/img/portfolio/1-4.png" alt="fixturbo_img" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">
@@ -136,19 +137,19 @@ const PortfolioOne = () => {
                     مشاريعنا
                   </span>
                   <h4 className="portfolio-card-details_title">
-                    <a href="project-details.html">سيدات الأعمال</a>
+                    <Link to="/project-details">سيدات الأعمال</Link>
                   </h4>
                 </div>
-                <a href="project-details.html" className="icon-btn">
+                <Link to="/project-details" className="icon-btn">
                   <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
           <div className="col-lg-4 filter-item pro4 pro2">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-4.png" alt="img" />
+                <img src="assets/img/portfolio/1-4.png" alt="fixturbo_img" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">
@@ -156,19 +157,19 @@ const PortfolioOne = () => {
                     مشاريعنا
                   </span>
                   <h4 className="portfolio-card-details_title">
-                    <a href="project-details.html">سيدات الأعمال</a>
+                    <Link to="/project-details">سيدات الأعمال</Link>
                   </h4>
                 </div>
-                <a href="project-details.html" className="icon-btn">
+                <Link to="/project-details" className="icon-btn">
                   <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
           <div className="col-lg-4 filter-item pro4 pro2">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-4.png" alt="img" />
+                <img src="assets/img/portfolio/1-4.png" alt="fixturbo_img" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">
@@ -176,19 +177,19 @@ const PortfolioOne = () => {
                     مشاريعنا
                   </span>
                   <h4 className="portfolio-card-details_title">
-                    <a href="project-details.html">سيدات الأعمال</a>
+                    <Link to="/project-details">سيدات الأعمال</Link>
                   </h4>
                 </div>
-                <a href="project-details.html" className="icon-btn">
+                <Link to="/project-details" className="icon-btn">
                   <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
           <div className="col-lg-4 filter-item pro4 pro2">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-4.png" alt="img" />
+                <img src="assets/img/portfolio/1-4.png" alt="fixturbo_img" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">
@@ -196,12 +197,12 @@ const PortfolioOne = () => {
                     مشاريعنا
                   </span>
                   <h4 className="portfolio-card-details_title">
-                    <a href="project-details.html">سيدات الأعمال</a>
+                    <Link to="/project-details">سيدات الأعمال</Link>
                   </h4>
                 </div>
-                <a href="project-details.html" className="icon-btn">
+                <Link to="/project-details" className="icon-btn">
                   <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

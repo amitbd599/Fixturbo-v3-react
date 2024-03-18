@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProjectDetailsArea = () => {
   return (
@@ -64,7 +65,7 @@ const ProjectDetailsArea = () => {
                       <div className="page-img">
                         <img
                           src="assets/img/portfolio/portfolio_details1-2.png"
-                          alt="img"
+                          alt="fixturbo_img"
                         />
                       </div>
                     </div>
@@ -72,7 +73,7 @@ const ProjectDetailsArea = () => {
                       <div className="page-img">
                         <img
                           src="assets/img/portfolio/portfolio_details1-3.png"
-                          alt="img"
+                          alt="fixturbo_img"
                         />
                       </div>
                     </div>
@@ -135,9 +136,9 @@ const ProjectDetailsArea = () => {
                           إنها حقيقة ثابتة منذ زمن طويل أن القارئ سيكون كذلك
                           يصرف من المحتوى المقروء
                         </p>
-                        <a className="btn style2 mt-30" href="contact.html">
+                        <Link className="btn style2 mt-30" to="/contact">
                           دعونا نتحدث <i className="fas fa-arrow-right ms-2" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </aside>

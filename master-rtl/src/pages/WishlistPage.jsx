@@ -1,10 +1,9 @@
 import React from "react";
-import HeaderOne from "../components/left-to-right/HeaderOne";
-
-import FooterAreaOne from "../components/left-to-right/FooterAreaOne";
-import Breadcrumb from "../components/left-to-right/Breadcrumb";
-import SubscribeOne from "../components/left-to-right/SubscribeOne";
-import Wishlist from "../components/left-to-right/Wishlist";
+import HeaderOne from "../components/HeaderOne";
+import FooterAreaOne from "../components/FooterAreaOne";
+import Breadcrumb from "../components/Breadcrumb";
+import SubscribeOne from "../components/SubscribeOne";
+import Wishlist from "../components/Wishlist";
 
 const WishlistPage = () => {
   return (
@@ -13,7 +12,7 @@ const WishlistPage = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Wishlist"} />
+      <Breadcrumb title={"قائمة الرغبات"} />
 
       {/* Wishlist */}
       <Wishlist />

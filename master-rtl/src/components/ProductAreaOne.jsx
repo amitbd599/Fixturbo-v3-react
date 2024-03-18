@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Isotope from "isotope-layout";
 import imagesLoaded from "imagesloaded";
+import { Link } from "react-router-dom";
 const ProductAreaOne = () => {
   const isotope = React.useRef(Isotope | null);
   const [active, setActive] = useState(1);
@@ -63,7 +64,7 @@ const ProductAreaOne = () => {
               <div className="product-img">
                 <img
                   src="assets/img/update-img/product/1-1.png"
-                  alt="Product Image"
+                  alt="fixturbo_img"
                 />
                 <span className="tag">
                   <span className="product-tag">فري</span>
@@ -72,7 +73,7 @@ const ProductAreaOne = () => {
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <a href="shop-details.html">فريقص يلفريق يلفريق</a>
+                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -84,9 +85,9 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <a href="#" className="link-btn">
+                <Link to="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -95,12 +96,12 @@ const ProductAreaOne = () => {
               <div className="product-img">
                 <img
                   src="assets/img/update-img/product/1-2.png"
-                  alt="Product Image"
+                  alt="fixturbo_img"
                 />
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <a href="shop-details.html">فريقص يلفريق يلفريق</a>
+                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -112,9 +113,9 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <a href="#" className="link-btn">
+                <Link to="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -123,7 +124,7 @@ const ProductAreaOne = () => {
               <div className="product-img">
                 <img
                   src="assets/img/update-img/product/1-3.png"
-                  alt="Product Image"
+                  alt="fixturbo_img"
                 />
                 <span className="tag">
                   <span className="offer-tag">-20%</span>
@@ -131,7 +132,7 @@ const ProductAreaOne = () => {
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <a href="shop-details.html">فريقص يلفريق يلفريق</a>
+                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -143,9 +144,9 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <a href="#" className="link-btn">
+                <Link to="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -154,12 +155,12 @@ const ProductAreaOne = () => {
               <div className="product-img">
                 <img
                   src="assets/img/update-img/product/1-4.png"
-                  alt="Product Image"
+                  alt="fixturbo_img"
                 />
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <a href="shop-details.html">فريقص يلفريق يلفريق</a>
+                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -171,9 +172,9 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <a href="#" className="link-btn">
+                <Link to="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -182,12 +183,12 @@ const ProductAreaOne = () => {
               <div className="product-img">
                 <img
                   src="assets/img/update-img/product/1-5.png"
-                  alt="Product Image"
+                  alt="fixturbo_img"
                 />
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <a href="shop-details.html">فريقص يلفريق يلفريق</a>
+                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -199,9 +200,9 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <a href="#" className="link-btn">
+                <Link to="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -210,7 +211,7 @@ const ProductAreaOne = () => {
               <div className="product-img">
                 <img
                   src="assets/img/update-img/product/1-6.png"
-                  alt="Product Image"
+                  alt="fixturbo_img"
                 />
                 <span className="tag">
                   <span className="product-tag">يقص</span>
@@ -219,7 +220,7 @@ const ProductAreaOne = () => {
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <a href="shop-details.html">فريقص يلفريق يلفريق</a>
+                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -231,9 +232,9 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <a href="#" className="link-btn">
+                <Link to="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -242,12 +243,12 @@ const ProductAreaOne = () => {
               <div className="product-img">
                 <img
                   src="assets/img/update-img/product/1-7.png"
-                  alt="Product Image"
+                  alt="fixturbo_img"
                 />
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <a href="shop-details.html">فريقص يلفريق يلفريق</a>
+                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -259,9 +260,9 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <a href="#" className="link-btn">
+                <Link to="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -270,7 +271,7 @@ const ProductAreaOne = () => {
               <div className="product-img">
                 <img
                   src="assets/img/update-img/product/1-8.png"
-                  alt="Product Image"
+                  alt="fixturbo_img"
                 />
                 <span className="tag">
                   <span className="product-tag">رقص</span>
@@ -279,7 +280,7 @@ const ProductAreaOne = () => {
               </div>
               <div className="product-content">
                 <h3 className="product-title">
-                  <a href="shop-details.html">فريقص يلفريق يلفريق</a>
+                  <Link to="/shop-details">فريقص يلفريق يلفريق</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -291,9 +292,9 @@ const ProductAreaOne = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <a href="#" className="link-btn">
+                <Link to="#" className="link-btn">
                   فريقص يلفريق <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServiceAreaOne = () => {
   return (
@@ -19,21 +20,27 @@ const ServiceAreaOne = () => {
             <div className="service-card">
               <div className="service-card_content">
                 <div className="service-card_icon">
-                  <img src="assets/img/icon/service-icon_1-1.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/service-icon_1-1.svg"
+                    alt="fixturbo_img"
+                  />
                 </div>
                 <h4 className="service-card_title h5">
-                  <a href="service-details.html">المثبتات التلقائية</a>
+                  <Link to="/service-details">المثبتات التلقائية</Link>
                 </h4>
                 <p className="service-card_text">
                   إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو أضرار في سيارتك
                 </p>
-                <a href="service-details.html" className="link-btn">
+                <Link to="/service-details" className="link-btn">
                   اقرأ أكثر
                   <i className="fas fa-arrow-left" />
-                </a>
+                </Link>
               </div>
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-1.png" alt="img" />
+                <img
+                  src="assets/img/service/service-1-1.png"
+                  alt="fixturbo_img"
+                />
               </div>
             </div>
           </div>
@@ -41,21 +48,27 @@ const ServiceAreaOne = () => {
             <div className="service-card">
               <div className="service-card_content">
                 <div className="service-card_icon">
-                  <img src="assets/img/icon/service-icon_1-2.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/service-icon_1-2.svg"
+                    alt="fixturbo_img"
+                  />
                 </div>
                 <h4 className="service-card_title h5">
-                  <a href="service-details.html">ماجستير ميكانيكا</a>
+                  <Link to="/service-details">ماجستير ميكانيكا</Link>
                 </h4>
                 <p className="service-card_text">
                   إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو أضرار في سيارتك
                 </p>
-                <a href="service-details.html" className="link-btn">
+                <Link to="/service-details" className="link-btn">
                   اقرأ أكثر
                   <i className="fas fa-arrow-left" />
-                </a>
+                </Link>
               </div>
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-2.png" alt="img" />
+                <img
+                  src="assets/img/service/service-1-2.png"
+                  alt="fixturbo_img"
+                />
               </div>
             </div>
           </div>
@@ -63,21 +76,27 @@ const ServiceAreaOne = () => {
             <div className="service-card">
               <div className="service-card_content">
                 <div className="service-card_icon">
-                  <img src="assets/img/icon/service-icon_1-3.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/service-icon_1-3.svg"
+                    alt="fixturbo_img"
+                  />
                 </div>
                 <h4 className="service-card_title h5">
-                  <a href="service-details.html">مرآب للسيارات</a>
+                  <Link to="/service-details">مرآب للسيارات</Link>
                 </h4>
                 <p className="service-card_text">
                   إصلاح السيارة هي خدمة مقدمة لإصلاح أي مشاكل أو أضرار في سيارتك
                 </p>
-                <a href="service-details.html" className="link-btn">
+                <Link to="/service-details" className="link-btn">
                   اقرأ أكثر
                   <i className="fas fa-arrow-left" />
-                </a>
+                </Link>
               </div>
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-3.png" alt="img" />
+                <img
+                  src="assets/img/service/service-1-3.png"
+                  alt="fixturbo_img"
+                />
               </div>
             </div>
           </div>

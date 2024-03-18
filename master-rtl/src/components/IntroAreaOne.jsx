@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
+import { Link } from "react-router-dom";
 const IntroAreaOne = () => {
   return (
     <div
@@ -16,7 +17,7 @@ const IntroAreaOne = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-fact-wrap">
                 <div className="thumb">
-                  <img src="assets/img/fact/1.png" alt="img" />
+                  <img src="assets/img/fact/1.png" alt="fixturbo_img" />
                 </div>
                 <div className="details">
                   <h2>
@@ -37,7 +38,7 @@ const IntroAreaOne = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-fact-wrap">
                 <div className="thumb">
-                  <img src="assets/img/fact/2.png" alt="img" />
+                  <img src="assets/img/fact/2.png" alt="fixturbo_img" />
                 </div>
                 <div className="details">
                   <h2>
@@ -58,7 +59,7 @@ const IntroAreaOne = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-fact-wrap">
                 <div className="thumb">
-                  <img src="assets/img/fact/3.png" alt="img" />
+                  <img src="assets/img/fact/3.png" alt="fixturbo_img" />
                 </div>
                 <div className="details">
                   <h2>
@@ -79,7 +80,7 @@ const IntroAreaOne = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-fact-wrap">
                 <div className="thumb">
-                  <img src="assets/img/fact/4.png" alt="img" />
+                  <img src="assets/img/fact/4.png" alt="fixturbo_img" />
                 </div>
                 <div className="details">
                   <h2>
@@ -141,14 +142,14 @@ const IntroAreaOne = () => {
               <div>
                 <div className="single-intro-wrap">
                   <div className="thumb">
-                    <img src="assets/img/intro/4.png" alt="img" />
+                    <img src="assets/img/intro/4.png" alt="fixturbo_img" />
                   </div>
                   <div className="details">
                     <h3>اشترك فياشترك في</h3>
                     <p>120 اشترك فياشترك فياشترك في</p>
-                    <a className="btn" href="shop.html">
+                    <Link className="btn" to="/shop">
                       اشترك في <i className="ri-arrow-right-line" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -157,14 +158,14 @@ const IntroAreaOne = () => {
               <div>
                 <div className="single-intro-wrap">
                   <div className="thumb">
-                    <img src="assets/img/intro/5.png" alt="img" />
+                    <img src="assets/img/intro/5.png" alt="fixturbo_img" />
                   </div>
                   <div className="details">
                     <h3>اشترك فياشترك في</h3>
                     <p>120 اشترك فياشترك فياشترك في</p>
-                    <a className="btn" href="shop.html">
+                    <Link className="btn" to="/shop">
                       اشترك في <i className="ri-arrow-right-line" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -173,14 +174,14 @@ const IntroAreaOne = () => {
               <div>
                 <div className="single-intro-wrap style-2">
                   <div className="thumb">
-                    <img src="assets/img/intro/6.png" alt="img" />
+                    <img src="assets/img/intro/6.png" alt="fixturbo_img" />
                   </div>
                   <div className="details">
                     <h3>اشترك فياشترك في</h3>
                     <p>120 اشترك فياشترك فياشترك في</p>
-                    <a className="btn" href="shop.html">
+                    <Link className="btn" to="/shop">
                       اشترك في <i className="ri-arrow-right-line" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -189,14 +190,14 @@ const IntroAreaOne = () => {
               <div>
                 <div className="single-intro-wrap">
                   <div className="thumb">
-                    <img src="assets/img/intro/4.png" alt="img" />
+                    <img src="assets/img/intro/4.png" alt="fixturbo_img" />
                   </div>
                   <div className="details">
                     <h3>اشترك فياشترك في</h3>
                     <p>120 اشترك فياشترك فياشترك في</p>
-                    <a className="btn" href="shop.html">
+                    <Link className="btn" to="/shop">
                       اشترك في <i className="ri-arrow-right-line" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -205,14 +206,14 @@ const IntroAreaOne = () => {
               <div>
                 <div className="single-intro-wrap">
                   <div className="thumb">
-                    <img src="assets/img/intro/5.png" alt="img" />
+                    <img src="assets/img/intro/5.png" alt="fixturbo_img" />
                   </div>
                   <div className="details">
                     <h3>اشترك فياشترك في</h3>
                     <p>120 اشترك فياشترك فياشترك في</p>
-                    <a className="btn" href="shop.html">
+                    <Link className="btn" to="/shop">
                       اشترك في <i className="ri-arrow-right-line" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -221,24 +222,24 @@ const IntroAreaOne = () => {
               <div>
                 <div className="single-intro-wrap style-2">
                   <div className="thumb">
-                    <img src="assets/img/intro/6.png" alt="img" />
+                    <img src="assets/img/intro/6.png" alt="fixturbo_img" />
                   </div>
                   <div className="details">
                     <h3>اشترك فياشترك في</h3>
                     <p>120 اشترك فياشترك فياشترك في</p>
-                    <a className="btn" href="shop.html">
+                    <Link className="btn" to="/shop">
                       اشترك في <i className="ri-arrow-right-line" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </SwiperSlide>
           </Swiper>
           <div className="intro-arrow-button d-none d-sm-block">
-            <button type="button" class="slick-next  slick-arrow">
+            <button type="button" className="slick-next  slick-arrow">
               <i className="fas fa-arrow-right"></i>
             </button>
-            <button type="button" class="slick-prev slick-arrow">
+            <button type="button" className="slick-prev slick-arrow">
               <i className="fas fa-arrow-left"></i>
             </button>
           </div>

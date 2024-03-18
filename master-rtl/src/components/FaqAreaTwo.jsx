@@ -9,7 +9,10 @@ const FaqAreaTwo = () => {
           <div className="col-xl-6">
             <div className="faq-thumb2 mb-xl-0 mb-50">
               <div className="about-counter-grid jump">
-                <img src="assets/img/icon/faq2-counter-icon-1.svg" alt="img" />
+                <img
+                  src="assets/img/icon/faq2-counter-icon-1.svg"
+                  alt="fixturbo_img"
+                />
                 <div className="media-right">
                   <h3 className="about-counter">
                     <TrackVisibility once>
@@ -25,7 +28,10 @@ const FaqAreaTwo = () => {
                   <h4 className="about-counter-text">اسأل أي شيء</h4>
                 </div>
               </div>
-              <img src="assets/img/normal/faq-thumb-2-1.png" alt="img" />
+              <img
+                src="assets/img/normal/faq-thumb-2-1.png"
+                alt="fixturbo_img"
+              />
             </div>
           </div>
           <div className="col-xl-6">
@@ -37,7 +43,7 @@ const FaqAreaTwo = () => {
                 <img
                   className="title-bg-shape"
                   src="assets/img/bg/title-bg-shape.png"
-                  alt="img"
+                  alt="fixturbo_img"
                 />
               </h2>
             </div>

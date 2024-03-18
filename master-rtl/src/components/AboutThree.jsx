@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutThree = () => {
   return (
@@ -7,12 +8,12 @@ const AboutThree = () => {
         <img
           className="about1-shape-img-1 spin"
           src="assets/img/normal/about_shape1-2.svg"
-          alt="img"
+          alt="fixturbo_img"
         />
         <img
           className="about1-shape-img-2 spin2"
           src="assets/img/normal/about_shape1-1.svg"
-          alt="img"
+          alt="fixturbo_img"
         />
       </div>
       <div className="container">
@@ -20,7 +21,7 @@ const AboutThree = () => {
           <div className="col-xl-7 text-xl-center">
             <div className="about-thumb3 mb-40 mb-xl-0">
               <div className="about-img-1">
-                <img src="assets/img/normal/wcu-3.png" alt="img" />
+                <img src="assets/img/normal/wcu-3.png" alt="fixturbo_img" />
               </div>
             </div>
           </div>
@@ -82,9 +83,9 @@ const AboutThree = () => {
                 </div>
               </div>
               <div className="btn-wrap mt-40">
-                <a href="about.html" className="btn style2">
+                <Link to="/about" className="btn style2">
                   اشترك في <i className="fas fa-arrow-right ms-2" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

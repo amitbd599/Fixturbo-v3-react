@@ -110,7 +110,7 @@ const ClientAreaThree = () => {
                   <h2 className="sec-title text-white">مهندس برمجيات</h2>
                 </div>
                 <div className="quote-icon">
-                  <img src="assets/img/icon/quote2-1.svg" alt="img" />
+                  <img src="assets/img/icon/quote2-1.svg" alt="fixturbo_img" />
                 </div>
                 <div className="row global-carousel testi-slider-2">
                   <Swiper
@@ -152,7 +152,7 @@ const ClientAreaThree = () => {
                               <div className="testi-profile_thumb">
                                 <img
                                   src="assets/img/testimonial/testimonial-2-1.png"
-                                  alt="img"
+                                  alt="fixturbo_img"
                                 />
                               </div>
                               <div className="testi-card-profile-details">
@@ -181,7 +181,7 @@ const ClientAreaThree = () => {
                               <div className="testi-profile_thumb">
                                 <img
                                   src="assets/img/testimonial/testimonial-2-1.png"
-                                  alt="img"
+                                  alt="fixturbo_img"
                                 />
                               </div>
                               <div className="testi-card-profile-details">
@@ -210,7 +210,7 @@ const ClientAreaThree = () => {
                               <div className="testi-profile_thumb">
                                 <img
                                   src="assets/img/testimonial/testimonial-2-1.png"
-                                  alt="img"
+                                  alt="fixturbo_img"
                                 />
                               </div>
                               <div className="testi-card-profile-details">
@@ -239,7 +239,7 @@ const ClientAreaThree = () => {
                               <div className="testi-profile_thumb">
                                 <img
                                   src="assets/img/testimonial/testimonial-2-1.png"
-                                  alt="img"
+                                  alt="fixturbo_img"
                                 />
                               </div>
                               <div className="testi-card-profile-details">
@@ -281,7 +281,7 @@ const ClientAreaThree = () => {
           </div>
         </div>
         <div className="testimonial-thumb-2">
-          <img src="assets/img/testimonial/2.png" alt="img" />
+          <img src="assets/img/testimonial/2.png" alt="fixturbo_img" />
         </div>
       </div>
     </div>

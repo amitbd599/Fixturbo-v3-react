@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Slider from "rc-slider";
+import { Link } from "react-router-dom";
 
 const ShopArea = () => {
   const [range, setRange] = useState([0, 100]);
@@ -16,7 +17,7 @@ const ShopArea = () => {
               <div className="row justify-content-between align-items-center">
                 <div className="col-md">
                   <p className="woocommerce-result-count">
-                    Showing 1–15 of 52 results
+                    عرض 1–15 من أصل 52 نتيجة
                   </p>
                 </div>
                 <div className="col-md-auto">
@@ -24,20 +25,21 @@ const ShopArea = () => {
                     <div className="form-group mb-0">
                       <select
                         name="orderby"
-                        className="single-select orderby"
+                        className="single-select orderby rtl"
                         aria-label="Shop order"
+                        defaultValue={"Choose"}
                       >
-                        <option value="menu_order" selected="selected">
-                          Default Sorting
+                        <option value="Choose">الفرز الافتراضى</option>
+                        <option value="popularity">الترتيب حسب الشعبية</option>
+                        <option value="rating">
+                          الترتيب حسب متوسط التقييم
                         </option>
-                        <option value="popularity">Sort by popularity</option>
-                        <option value="rating">Sort by average rating</option>
-                        <option value="date">Sort by latest</option>
+                        <option value="date">الترتيب حسب الأحدث</option>
                         <option value="price">
-                          Sort by price: low to high
+                          الترتيب حسب السعر: من الأقل إلى الأعلى
                         </option>
                         <option value="price-desc">
-                          Sort by price: high to low
+                          الترتيب حسب السعر: من الأعلى إلى الأقل
                         </option>
                       </select>
                       <i className="fas fa-angle-down" />
@@ -52,12 +54,12 @@ const ShopArea = () => {
                   <div className="product-img">
                     <img
                       src="assets/img/update-img/product/1-1.png"
-                      alt="Product Image"
+                      alt="fixturbo_img"
                     />
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <a href="shop-details.html">Engine pistons and cog</a>
+                      <Link to="/shop-details">مكابس المحرك والترس</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -69,9 +71,9 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <a href="#" className="link-btn">
-                      Add to cart <i className="fas fa-arrow-right" />
-                    </a>
+                    <Link to="#" className="link-btn">
+                      أضف إلى السلة <i className="fas fa-arrow-right" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -80,12 +82,12 @@ const ShopArea = () => {
                   <div className="product-img">
                     <img
                       src="assets/img/update-img/product/1-2.png"
-                      alt="Product Image"
+                      alt="fixturbo_img"
                     />
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <a href="shop-details.html">Exhaust manifold</a>
+                      <Link to="/shop-details">العادم</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -97,9 +99,9 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <a href="#" className="link-btn">
-                      Add to cart <i className="fas fa-arrow-right" />
-                    </a>
+                    <Link to="#" className="link-btn">
+                      أضف إلى السلة <i className="fas fa-arrow-right" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -108,12 +110,12 @@ const ShopArea = () => {
                   <div className="product-img">
                     <img
                       src="assets/img/update-img/product/1-3.png"
-                      alt="Product Image"
+                      alt="fixturbo_img"
                     />
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <a href="shop-details.html">Windshield wiper motor</a>
+                      <Link to="/shop-details">محرك ممسحة الزجاج الأمامي</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -125,9 +127,9 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <a href="#" className="link-btn">
-                      Add to cart <i className="fas fa-arrow-right" />
-                    </a>
+                    <Link to="#" className="link-btn">
+                      أضف إلى السلة <i className="fas fa-arrow-right" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -136,12 +138,12 @@ const ShopArea = () => {
                   <div className="product-img">
                     <img
                       src="assets/img/update-img/product/1-4.png"
-                      alt="Product Image"
+                      alt="fixturbo_img"
                     />
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <a href="shop-details.html">Power steering pump</a>
+                      <Link to="/shop-details">مضخة التوجيه</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -153,9 +155,9 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <a href="#" className="link-btn">
-                      Add to cart <i className="fas fa-arrow-right" />
-                    </a>
+                    <Link to="#" className="link-btn">
+                      أضف إلى السلة <i className="fas fa-arrow-right" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -164,12 +166,12 @@ const ShopArea = () => {
                   <div className="product-img">
                     <img
                       src="assets/img/update-img/product/1-5.png"
-                      alt="Product Image"
+                      alt="fixturbo_img"
                     />
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <a href="shop-details.html">Windshield wiper motor</a>
+                      <Link to="/shop-details">محرك ممسحة الزجاج الأمامي</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -181,9 +183,9 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <a href="#" className="link-btn">
-                      Add to cart <i className="fas fa-arrow-right" />
-                    </a>
+                    <Link to="#" className="link-btn">
+                      أضف إلى السلة <i className="fas fa-arrow-right" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -192,12 +194,12 @@ const ShopArea = () => {
                   <div className="product-img">
                     <img
                       src="assets/img/update-img/product/1-6.png"
-                      alt="Product Image"
+                      alt="fixturbo_img"
                     />
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <a href="shop-details.html">Exhaust manifold</a>
+                      <Link to="/shop-details">العادم</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -209,9 +211,9 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <a href="#" className="link-btn">
-                      Add to cart <i className="fas fa-arrow-right" />
-                    </a>
+                    <Link to="#" className="link-btn">
+                      أضف إلى السلة <i className="fas fa-arrow-right" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -220,12 +222,12 @@ const ShopArea = () => {
                   <div className="product-img">
                     <img
                       src="assets/img/update-img/product/1-7.png"
-                      alt="Product Image"
+                      alt="fixturbo_img"
                     />
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <a href="shop-details.html">Engine pistons and cog</a>
+                      <Link to="/shop-details">مكابس المحرك والترس</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -237,9 +239,9 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <a href="#" className="link-btn">
-                      Add to cart <i className="fas fa-arrow-right" />
-                    </a>
+                    <Link to="#" className="link-btn">
+                      أضف إلى السلة <i className="fas fa-arrow-right" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -248,12 +250,12 @@ const ShopArea = () => {
                   <div className="product-img">
                     <img
                       src="assets/img/update-img/product/1-8.png"
-                      alt="Product Image"
+                      alt="fixturbo_img"
                     />
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <a href="shop-details.html">Exhaust manifold</a>
+                      <Link to="/shop-details">العادم</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -265,9 +267,9 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <a href="#" className="link-btn">
-                      Add to cart <i className="fas fa-arrow-right" />
-                    </a>
+                    <Link to="#" className="link-btn">
+                      أضف إلى السلة <i className="fas fa-arrow-right" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -276,12 +278,12 @@ const ShopArea = () => {
                   <div className="product-img">
                     <img
                       src="assets/img/update-img/product/1-9.png"
-                      alt="Product Image"
+                      alt="fixturbo_img"
                     />
                   </div>
                   <div className="product-content">
                     <h3 className="product-title">
-                      <a href="shop-details.html">Windshield wiper motor</a>
+                      <Link to="/shop-details">محرك ممسحة الزجاج الأمامي</Link>
                     </h3>
                     <span className="star-rating">
                       <i className="fas fa-star" />
@@ -293,9 +295,9 @@ const ShopArea = () => {
                     <span className="price">
                       <del>$30</del> $25
                     </span>
-                    <a href="#" className="link-btn">
-                      Add to cart <i className="fas fa-arrow-right" />
-                    </a>
+                    <Link to="#" className="link-btn">
+                      أضف إلى السلة <i className="fas fa-arrow-right" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -303,18 +305,18 @@ const ShopArea = () => {
             <div className="pagination justify-content-center mt-70">
               <ul>
                 <li>
-                  <a href="blog.html">1</a>
+                  <Link to="/blog">1</Link>
                 </li>
                 <li>
-                  <a href="blog.html">2</a>
+                  <Link to="/blog">2</Link>
                 </li>
                 <li>
-                  <a href="blog.html">3</a>
+                  <Link to="/blog">3</Link>
                 </li>
                 <li>
-                  <a href="blog.html">
+                  <Link to="/blog">
                     <i className="fas fa-angle-right" />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -322,49 +324,49 @@ const ShopArea = () => {
           <div className="col-xl-3 col-lg-4 sidebar-widget-area">
             <aside className="sidebar-sticky-area sidebar-area sidebar-shop">
               <div className="widget widget_search">
-                <h3 className="widget_title">Search</h3>
+                <h3 className="widget_title">يبحث</h3>
                 <form className="search-form">
-                  <input type="text" placeholder="Find your product" />
+                  <input type="text" placeholder="ابحث عن منتجك" />
                   <button type="submit">
                     <i className="fas fa-search" />
                   </button>
                 </form>
               </div>
               <div className="widget widget_categories  ">
-                <h3 className="widget_title">Product categories</h3>
-                <ul>
-                  <li>
-                    <a href="service-details.html">Steering wheel</a>
+                <h3 className="widget_title">فئات المنتجات</h3>
+                <ul className="rtl">
+                  <li className="rtl">
+                    <Link to="/service-details">المقود</Link>
                     <span>(12)</span>
                   </li>
-                  <li>
-                    <a href="service-details.html">Suspension spring</a>{" "}
+                  <li className="rtl">
+                    <Link to="/service-details">تعليق الربيع</Link>{" "}
                     <span>(12)</span>
                   </li>
-                  <li>
-                    <a href="service-details.html">Tail light</a>
+                  <li className="rtl">
+                    <Link to="/service-details">الضوء الخلفي</Link>
                     <span>(08)</span>
                   </li>
-                  <li>
-                    <a href="service-details.html">Transmission</a>
+                  <li className="rtl">
+                    <Link to="/service-details">الانتقال</Link>
                     <span>(13)</span>
                   </li>
-                  <li>
-                    <a href="service-details.html">Windshield wiper motor</a>
+                  <li className="rtl">
+                    <Link to="/service-details">محرك ممسحة الزجاج الأمامي</Link>
                     <span>(03)</span>
                   </li>
-                  <li>
-                    <a href="service-details.html">Fuel injector</a>
+                  <li className="rtl">
+                    <Link to="/service-details">حاقن الوقود</Link>
                     <span>(03)</span>
                   </li>
-                  <li>
-                    <a href="service-details.html">Find your product</a>
+                  <li className="rtl">
+                    <Link to="/service-details">ابحث عن منتجك</Link>
                     <span>(03)</span>
                   </li>
                 </ul>
               </div>
               <div className="widget widget_price_filter  ">
-                <h4 className="widget_title">Filter By Price</h4>
+                <h4 className="widget_title">تصفية حسب السعر</h4>
                 <div style={{ width: "220px", margin: "20px" }}>
                   <Slider
                     range
@@ -385,16 +387,16 @@ const ShopArea = () => {
                 <div className="price_slider_wrapper">
                   <div className="price_slider" />
                   <div className="price_label">
-                    Price: <span className="from">${range[0]}</span> —{" "}
+                    سعر: <span className="from">${range[0]}</span> —{" "}
                     <span className="to">${range[1]}</span>
                     <button type="submit" className="button btn">
-                      Filter
+                      منقي
                     </button>
                   </div>
                 </div>
               </div>
               <div className="widget product_ratting_widget">
-                <h3 className="widget_title">Sort by Raiting</h3>
+                <h3 className="widget_title">الترتيب حسب التقييم</h3>
                 <ul>
                   <li>
                     <span className="star-rating">

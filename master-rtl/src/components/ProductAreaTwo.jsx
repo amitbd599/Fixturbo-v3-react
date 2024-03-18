@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProductAreaTwo = () => {
   return (
@@ -13,9 +14,9 @@ const ProductAreaTwo = () => {
             </div>
             <div className="col-auto">
               <div className="sec-btn">
-                <a href="shop.html" className="btn style-border2">
+                <Link to="/shop" className="btn style-border2">
                   اشترك لتب
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -25,7 +26,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-content">
                 <h3 className="product-title">
-                  <a href="shop-details.html">اشترك لتبقىاشترك لتبقىاشترك</a>
+                  <Link to="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -37,14 +38,14 @@ const ProductAreaTwo = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <a href="#" className="link-btn">
+                <Link to="#" className="link-btn">
                   اشترك لتبقى اشترك <i className="fas fa-arrow-left" />
-                </a>
+                </Link>
               </div>
               <div className="product-img">
                 <img
                   src="assets/img/update-img/product/1-1.png"
-                  alt="Product Image"
+                  alt="fixturbo_img"
                 />
               </div>
             </div>
@@ -53,7 +54,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-content">
                 <h3 className="product-title">
-                  <a href="shop-details.html">اشترك لتبقىاشترك لتبقىاشترك</a>
+                  <Link to="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -65,14 +66,14 @@ const ProductAreaTwo = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <a href="#" className="link-btn">
+                <Link to="#" className="link-btn">
                   اشترك لتبقى اشترك <i className="fas fa-arrow-left" />
-                </a>
+                </Link>
               </div>
               <div className="product-img">
                 <img
                   src="assets/img/update-img/product/1-2.png"
-                  alt="Product Image"
+                  alt="fixturbo_img"
                 />
               </div>
             </div>
@@ -81,7 +82,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-content">
                 <h3 className="product-title">
-                  <a href="shop-details.html">اشترك لتبقىاشترك لتبقىاشترك</a>
+                  <Link to="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -93,14 +94,14 @@ const ProductAreaTwo = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <a href="#" className="link-btn">
+                <Link to="#" className="link-btn">
                   اشترك لتبقى اشترك <i className="fas fa-arrow-left" />
-                </a>
+                </Link>
               </div>
               <div className="product-img">
                 <img
                   src="assets/img/update-img/product/1-3.png"
-                  alt="Product Image"
+                  alt="fixturbo_img"
                 />
               </div>
             </div>
@@ -109,7 +110,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-content">
                 <h3 className="product-title">
-                  <a href="shop-details.html">اشترك لتبقىاشترك لتبقىاشترك</a>
+                  <Link to="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -121,14 +122,14 @@ const ProductAreaTwo = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <a href="#" className="link-btn">
+                <Link to="#" className="link-btn">
                   اشترك لتبقى اشترك <i className="fas fa-arrow-left" />
-                </a>
+                </Link>
               </div>
               <div className="product-img">
                 <img
                   src="assets/img/update-img/product/1-4.png"
-                  alt="Product Image"
+                  alt="fixturbo_img"
                 />
               </div>
             </div>
@@ -137,7 +138,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-content">
                 <h3 className="product-title">
-                  <a href="shop-details.html">اشترك لتبقىاشترك لتبقىاشترك</a>
+                  <Link to="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -149,14 +150,14 @@ const ProductAreaTwo = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <a href="#" className="link-btn">
+                <Link to="#" className="link-btn">
                   اشترك لتبقى اشترك <i className="fas fa-arrow-left" />
-                </a>
+                </Link>
               </div>
               <div className="product-img">
                 <img
                   src="assets/img/update-img/product/1-5.png"
-                  alt="Product Image"
+                  alt="fixturbo_img"
                 />
                 <span className="tag">
                   <span className="offer-tag">-20%</span>
@@ -168,7 +169,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-content">
                 <h3 className="product-title">
-                  <a href="shop-details.html">اشترك لتبقىاشترك لتبقىاشترك</a>
+                  <Link to="/shop-details">اشترك لتبقىاشترك لتبقىاشترك</Link>
                 </h3>
                 <span className="star-rating">
                   <i className="fas fa-star" />
@@ -180,14 +181,14 @@ const ProductAreaTwo = () => {
                 <span className="price">
                   <del>$30</del> $25
                 </span>
-                <a href="#" className="link-btn">
+                <Link to="#" className="link-btn">
                   اشترك لتبقى اشترك <i className="fas fa-arrow-left" />
-                </a>
+                </Link>
               </div>
               <div className="product-img">
                 <img
                   src="assets/img/update-img/product/1-6.png"
-                  alt="Product Image"
+                  alt="fixturbo_img"
                 />
               </div>
             </div>

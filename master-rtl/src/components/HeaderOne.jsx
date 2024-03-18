@@ -341,14 +341,14 @@ const HeaderOne = () => {
                       </ul>
                     </li>
                     <li>
-                      <Link
+                      <NavLink
                         to="/contact"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }
                       >
                         اتصال
-                      </Link>
+                      </NavLink>
                     </li>
                   </ul>
                 </nav>
@@ -364,7 +364,7 @@ const HeaderOne = () => {
               </div>
               <div className="col-auto ms-auto d-xl-block d-none">
                 <div className="navbar-right-desc">
-                  <img src="assets/img/icon/chat.svg" alt="img" />
+                  <img src="assets/img/icon/chat.svg" alt="fixturbo_img" />
                   <div className="navbar-right-desc-details">
                     <h6 className="title">تحتاج مساعدة؟</h6>
                     <Link className="link" to="tel:+2590256215">

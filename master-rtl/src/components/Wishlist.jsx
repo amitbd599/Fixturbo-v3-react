@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Wishlist = () => {
   return (
@@ -12,11 +13,11 @@ const Wishlist = () => {
                   <th className="product-remove" />
                   <th className="product-thumbnail">&nbsp;</th>
                   <th className="product-name">
-                    <span className="tinvwl-full">Product Name</span>
-                    <span className="tinvwl-mobile">Product</span>
+                    <span className="tinvwl-full">اسم المنتج</span>
+                    <span className="tinvwl-mobile">منتج</span>
                   </th>
-                  <th className="product-price">Unit Price</th>
-                  <th className="product-stock">Stock Status</th>
+                  <th className="product-price">سعر الوحدة</th>
+                  <th className="product-stock">حالة الرصيد، وضع مخزون</th>
                   <th className="product-action">&nbsp;</th>
                 </tr>
               </thead>
@@ -33,16 +34,16 @@ const Wishlist = () => {
                     </button>
                   </td>
                   <td className="product-thumbnail">
-                    <a href="shop-details.html">
+                    <Link to="/shop-details">
                       <img
                         src="assets/img/update-img/category/category1-1.png"
                         className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                        alt="image"
+                        alt="fixturbo_img"
                       />
-                    </a>
+                    </Link>
                   </td>
                   <td className="product-name">
-                    <a href="shop-details.html">Car Air Filter</a>
+                    <Link to="/shop-details">فلتر هواء السيارة</Link>
                   </td>
                   <td className="product-price">
                     <span className="woocommerce-Price-amount amount">
@@ -57,7 +58,7 @@ const Wishlist = () => {
                   <td className="product-stock">
                     <p className="stock in-stock">
                       <span>
-                        <span className="tinvwl-txt">In stock</span>
+                        <span className="tinvwl-txt">فلتر هواء السيارة</span>
                       </span>
                     </p>
                   </td>
@@ -68,7 +69,7 @@ const Wishlist = () => {
                       value={58}
                       title="Add to Cart"
                     >
-                      <span className="tinvwl-txt">Add to Cart</span>
+                      <span className="tinvwl-txt">أضف إلى السلة</span>
                     </button>
                   </td>
                 </tr>
@@ -84,16 +85,16 @@ const Wishlist = () => {
                     </button>
                   </td>
                   <td className="product-thumbnail">
-                    <a href="shop-details.html">
+                    <Link to="/shop-details">
                       <img
                         src="assets/img/update-img/category/category1-2.png"
                         className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                        alt="image"
+                        alt="fixturbo_img"
                       />
-                    </a>
+                    </Link>
                   </td>
                   <td className="product-name">
-                    <a href="shop-details.html">Engine pistons</a>
+                    <Link to="/shop-details">مكابس المحرك</Link>
                   </td>
                   <td className="product-price">
                     <ins>
@@ -120,7 +121,7 @@ const Wishlist = () => {
                   <td className="product-stock">
                     <p className="stock in-stock">
                       <span>
-                        <span className="tinvwl-txt">In stock</span>
+                        <span className="tinvwl-txt">في الأوراق المالية</span>
                       </span>
                     </p>
                   </td>
@@ -131,7 +132,7 @@ const Wishlist = () => {
                       value={60}
                       title="Add to Cart"
                     >
-                      <span className="tinvwl-txt">Add to Cart</span>
+                      <span className="tinvwl-txt">أضف إلى السلة</span>
                     </button>
                   </td>
                 </tr>
@@ -147,16 +148,16 @@ const Wishlist = () => {
                     </button>
                   </td>
                   <td className="product-thumbnail">
-                    <a href="shop-details.html">
+                    <Link to="/shop-details">
                       <img
                         src="assets/img/update-img/category/category1-3.png"
                         className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                        alt="image"
+                        alt="fixturbo_img"
                       />
-                    </a>
+                    </Link>
                   </td>
                   <td className="product-name">
-                    <a href="shop-details.html">Exhaust manifold</a>
+                    <Link to="/shop-details">العادم</Link>
                   </td>
                   <td className="product-price">
                     <ins>
@@ -183,7 +184,7 @@ const Wishlist = () => {
                   <td className="product-stock">
                     <p className="stock in-stock">
                       <span>
-                        <span className="tinvwl-txt">In stock</span>
+                        <span className="tinvwl-txt">في الأوراق المالية</span>
                       </span>
                     </p>
                   </td>
@@ -194,7 +195,7 @@ const Wishlist = () => {
                       value={60}
                       title="Add to Cart"
                     >
-                      <span className="tinvwl-txt">Add to Cart</span>
+                      <span className="tinvwl-txt">أضف إلى السلة</span>
                     </button>
                   </td>
                 </tr>

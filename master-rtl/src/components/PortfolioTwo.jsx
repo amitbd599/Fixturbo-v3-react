@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
+import { Link } from "react-router-dom";
 const PortfolioTwo = () => {
   return (
     <div className="portfolio-area-1 space overflow-hidden">
@@ -14,7 +15,7 @@ const PortfolioTwo = () => {
                 <img
                   className="title-bg-shape"
                   src="assets/img/bg/title-bg-shape.png"
-                  alt="img"
+                  alt="fixturbo_img"
                 />
               </h2>
             </div>
@@ -73,20 +74,23 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-1.png" alt="img" />
+                    <img
+                      src="assets/img/portfolio/2-1.png"
+                      alt="fixturbo_img"
+                    />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
                       <h4 className="portfolio-card-details_title">
-                        <a href="project-details.html">الابتكار تنمو النجاح</a>
+                        <Link to="/project-details">الابتكار تنمو النجاح</Link>
                       </h4>
                       <span className="portfolio-card-details_subtitle">
                         بروتوكول الإنترنت
                       </span>
                     </div>
-                    <a href="project-details.html" className="icon-btn">
+                    <Link to="/project-details" className="icon-btn">
                       <i className="fas fa-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -95,20 +99,23 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-2.png" alt="img" />
+                    <img
+                      src="assets/img/portfolio/2-2.png"
+                      alt="fixturbo_img"
+                    />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
                       <h4 className="portfolio-card-details_title">
-                        <a href="project-details.html">الابتكار تنمو النجاح</a>
+                        <Link to="/project-details">الابتكار تنمو النجاح</Link>
                       </h4>
                       <span className="portfolio-card-details_subtitle">
                         بروتوكول الإنترنت
                       </span>
                     </div>
-                    <a href="project-details.html" className="icon-btn">
+                    <Link to="/project-details" className="icon-btn">
                       <i className="fas fa-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -117,20 +124,23 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-3.png" alt="img" />
+                    <img
+                      src="assets/img/portfolio/2-3.png"
+                      alt="fixturbo_img"
+                    />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
                       <h4 className="portfolio-card-details_title">
-                        <a href="project-details.html">الابتكار تنمو النجاح</a>
+                        <Link to="/project-details">الابتكار تنمو النجاح</Link>
                       </h4>
                       <span className="portfolio-card-details_subtitle">
                         بروتوكول الإنترنت
                       </span>
                     </div>
-                    <a href="project-details.html" className="icon-btn">
+                    <Link to="/project-details" className="icon-btn">
                       <i className="fas fa-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -139,20 +149,23 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-3.png" alt="img" />
+                    <img
+                      src="assets/img/portfolio/2-3.png"
+                      alt="fixturbo_img"
+                    />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
                       <h4 className="portfolio-card-details_title">
-                        <a href="project-details.html">الابتكار تنمو النجاح</a>
+                        <Link to="/project-details">الابتكار تنمو النجاح</Link>
                       </h4>
                       <span className="portfolio-card-details_subtitle">
                         بروتوكول الإنترنت
                       </span>
                     </div>
-                    <a href="project-details.html" className="icon-btn">
+                    <Link to="/project-details" className="icon-btn">
                       <i className="fas fa-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -161,20 +174,23 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="assets/img/portfolio/2-3.png" alt="img" />
+                    <img
+                      src="assets/img/portfolio/2-3.png"
+                      alt="fixturbo_img"
+                    />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
                       <h4 className="portfolio-card-details_title">
-                        <a href="project-details.html">الابتكار تنمو النجاح</a>
+                        <Link to="/project-details">الابتكار تنمو النجاح</Link>
                       </h4>
                       <span className="portfolio-card-details_subtitle">
                         بروتوكول الإنترنت
                       </span>
                     </div>
-                    <a href="project-details.html" className="icon-btn">
+                    <Link to="/project-details" className="icon-btn">
                       <i className="fas fa-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

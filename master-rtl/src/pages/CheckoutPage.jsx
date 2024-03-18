@@ -1,10 +1,9 @@
 import React from "react";
-import HeaderOne from "../components/left-to-right/HeaderOne";
-
-import FooterAreaOne from "../components/left-to-right/FooterAreaOne";
-import Breadcrumb from "../components/left-to-right/Breadcrumb";
-import SubscribeOne from "../components/left-to-right/SubscribeOne";
-import Checkout from "../components/left-to-right/Checkout";
+import HeaderOne from "../components/HeaderOne";
+import FooterAreaOne from "../components/FooterAreaOne";
+import Breadcrumb from "../components/Breadcrumb";
+import SubscribeOne from "../components/SubscribeOne";
+import Checkout from "../components/Checkout";
 
 const CheckoutPage = () => {
   return (
@@ -13,7 +12,7 @@ const CheckoutPage = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Checkout"} />
+      <Breadcrumb title={"الدفع"} />
 
       {/* Checkout */}
       <Checkout />

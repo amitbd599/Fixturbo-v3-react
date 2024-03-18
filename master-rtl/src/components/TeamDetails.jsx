@@ -18,9 +18,9 @@ const TeamDetails = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="team-about-card_box">
-                  <h3 className="team-about-card_title">Biography</h3>
+                  <h3 className="team-about-card_title">سيرة شخصية</h3>
                   <div className="skill-feature position-relative">
-                    <h3 className="skill-feature_title">Design</h3>
+                    <h3 className="skill-feature_title">تصميم</h3>
                     <ProgressBar
                       bgColor="#E8092E"
                       height="15px"
@@ -32,7 +32,7 @@ const TeamDetails = () => {
                     />
                   </div>
                   <div className="skill-feature position-relative">
-                    <h3 className="skill-feature_title">Driving</h3>
+                    <h3 className="skill-feature_title">القيادة</h3>
                     <ProgressBar
                       bgColor="#E8092E"
                       height="15px"
@@ -44,7 +44,7 @@ const TeamDetails = () => {
                     />
                   </div>
                   <div className="skill-feature position-relative">
-                    <h3 className="skill-feature_title">Service Car</h3>
+                    <h3 className="skill-feature_title">سيارة خدمة</h3>
                     <ProgressBar
                       bgColor="#E8092E"
                       height="15px"
@@ -56,15 +56,20 @@ const TeamDetails = () => {
                     />
                   </div>
                   <p>
-                    This category focuses on the design and construction of
-                    buildings and the This category focuses on the design and
-                    construction of buildings and arrangement of furniture and
-                    decorative elements within themarrangement
+                    تقدم "خدمات إصلاح السيارات الاحترافية" حلولاً شاملة لجميع
+                    احتياجات صيانة وإصلاح السيارات الخاصة بك. يستخدم فريقنا من
+                    الفنيين المهرة أحدث المعدات والتقنيات الرائدة في الصناعة
+                    لتشخيص وإصلاح مجموعة واسعة من مشكلات المركبات بكفاءة
+                    وفعالية. بدءًا من الصيانة الروتينية مثل تغيير الزيت وفحص
+                    الفرامل وحتى إصلاحات وتشخيصات المحرك المعقدة، فإننا نقدم
+                    خدمة موثوقة وجديرة بالثقة للحفاظ على تشغيل سيارتك بسلاسة
+                    وأمان على الطريق. مع الالتزام بالتميز ورضا العملاء، فإن
+                    "Professional Car Repair Services" هي شريكك الموثوق به في
+                    الحفاظ على صحة وأداء سيارتك.
                   </p>
                   <p className="mb-n2">
-                    This category focuses on the design and construction of
-                    buildings and the This category focuses on the design and
-                    construction of buildings
+                    تركز هذه الفئة على تصميم وبناء المباني وتركز هذه الفئة على
+                    التصميم و تشييد المباني
                   </p>
                 </div>
               </div>
@@ -73,20 +78,19 @@ const TeamDetails = () => {
           <div className="row gy-40">
             <div className="col-lg-4">
               <div className="team-details-wrap">
-                <h4 className="team-details-wrap-title">Fahad Bhuiyan</h4>
-                <h6 className="team-details-wrap-desig">Manager</h6>
+                <h4 className="team-details-wrap-title">فهد بويان</h4>
+                <h6 className="team-details-wrap-desig">مدير</h6>
                 <p className="team-details-wrap-text mb-30">
-                  This category focuses on the design construction of buildings
-                  and the This a category focuses on the design and construction
-                  of buildings
+                  تركز هذه الفئة على تصميم تشييد المباني وتركز هذه الفئة على
+                  التصميم والبناء من المباني
                 </p>
                 <div className="team-details-wrap_info">
                   <span className="icon">
                     <i className="fas fa-map-marker-alt" />
                   </span>
                   <p>
-                    Burmsille Street, MN 55337, <br />
-                    United States
+                    شارع بورمسيل، مينيسوتا 55337، <br />
+                    الولايات المتحدة
                   </p>
                 </div>
                 <div className="team-details-wrap_info">
@@ -128,7 +132,7 @@ const TeamDetails = () => {
             </div>
             <div className="col-lg-8">
               <div className="team-contact-wrap">
-                <h3 className="mt-n1 mb-30 page-subtitle">Contact Form</h3>
+                <h3 className="mt-n1 mb-30 page-subtitle">نموذج الاتصال</h3>
                 <form
                   action="mail.php"
                   method="POST"
@@ -142,7 +146,7 @@ const TeamDetails = () => {
                           className="form-control"
                           name="name"
                           id="name"
-                          placeholder="Your Name"
+                          placeholder="اسمك"
                         />
                       </div>
                     </div>
@@ -153,14 +157,14 @@ const TeamDetails = () => {
                           className="form-control"
                           name="email"
                           id="email"
-                          placeholder="Email Address"
+                          placeholder="عنوان البريد الإلكتروني"
                         />
                       </div>
                     </div>
                   </div>
                   <div className="form-group col-12">
                     <textarea
-                      placeholder="Message here.."
+                      placeholder="رسالة هنا.."
                       id="contactForm"
                       className="form-control"
                       defaultValue={""}
@@ -168,7 +172,7 @@ const TeamDetails = () => {
                   </div>
                   <div className="form-btn col-12">
                     <button className="btn style2">
-                      Send Now <i className="fas fa-arrow-right ms-2" />
+                      ارسل الان <i className="fas fa-arrow-right ms-2" />
                     </button>
                   </div>
                 </form>

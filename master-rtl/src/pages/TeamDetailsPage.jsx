@@ -1,10 +1,10 @@
 import React from "react";
-import HeaderOne from "../components/left-to-right/HeaderOne";
+import HeaderOne from "../components/HeaderOne";
 
-import FooterAreaOne from "../components/left-to-right/FooterAreaOne";
-import Breadcrumb from "../components/left-to-right/Breadcrumb";
-import SubscribeOne from "../components/left-to-right/SubscribeOne";
-import TeamDetails from "../components/left-to-right/TeamDetails";
+import FooterAreaOne from "../components/FooterAreaOne";
+import Breadcrumb from "../components/Breadcrumb";
+import SubscribeOne from "../components/SubscribeOne";
+import TeamDetails from "../components/TeamDetails";
 
 const TeamDetailsPage = () => {
   return (
@@ -13,7 +13,7 @@ const TeamDetailsPage = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Team Details"} />
+      <Breadcrumb title={"تفاصيل الفريق"} />
 
       {/* Team Details */}
       <TeamDetails />

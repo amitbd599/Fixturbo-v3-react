@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServiceDetails = () => {
   return (
@@ -10,7 +11,7 @@ const ServiceDetails = () => {
               <div className="page-img mb-45">
                 <img
                   src="assets/img/service/service-details1-1.png"
-                  alt="img"
+                  alt="fixturbo_img"
                 />
               </div>
               <div className="page-content">
@@ -42,7 +43,7 @@ const ServiceDetails = () => {
                     <div className="page-img">
                       <img
                         src="assets/img/service/service-details1-2.png"
-                        alt="img"
+                        alt="fixturbo_img"
                       />
                     </div>
                   </div>
@@ -50,7 +51,7 @@ const ServiceDetails = () => {
                     <div className="page-img">
                       <img
                         src="assets/img/service/service-details1-3.png"
-                        alt="img"
+                        alt="fixturbo_img"
                       />
                     </div>
                   </div>
@@ -86,34 +87,34 @@ const ServiceDetails = () => {
                 <h3 className="widget_title">جميع الخدمات</h3>
                 <ul>
                   <li>
-                    <a href="blog.html">
+                    <Link to="/blog">
                       <i className="fas fa-angle-double-right" />
                       تصميم سريع وموثوق لإصلاح السيارات
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="blog.html">
+                    <Link to="/blog">
                       <i className="fas fa-angle-double-right" />
                       متخصصون موثوقون في إصلاح السيارات
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="blog.html">
+                    <Link to="/blog">
                       <i className="fas fa-angle-double-right" />
                       أصلح سيارتك على الفور
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="blog.html">
+                    <Link to="/blog">
                       <i className="fas fa-angle-double-right" />
                       خدمات إصلاح السيارات عالية الجودة
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="blog.html">
+                    <Link to="/blog">
                       <i className="fas fa-angle-double-right" />
                       حلول إصلاح السيارات بأسعار معقولة
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -129,7 +130,7 @@ const ServiceDetails = () => {
                   </div>
                   <p className="widget-contact-text">تحتاج مساعدة؟</p>
                   <h5>
-                    <a href="tel:80855510111">(808) 555-0111</a>
+                    <Link to="tel:80855510111">(808) 555-0111</Link>
                   </h5>
                 </div>
               </div>

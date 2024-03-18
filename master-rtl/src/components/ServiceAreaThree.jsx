@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade, Autoplay } from "swiper";
+import { Link } from "react-router-dom";
 const ServiceAreaThree = () => {
   return (
     <div className="service-area-2 space-bottom position-relative z-index-common">
@@ -17,10 +18,9 @@ const ServiceAreaThree = () => {
                         name="subject"
                         id="subject"
                         className="form-select"
+                        defaultValue={"Choose"}
                       >
-                        <option value="" disabled="" selected="" hidden="">
-                          Choose Service
-                        </option>
+                        <option value="Choose">Choose Service</option>
                         <option value="Construction">Auto Repair</option>
                         <option value="Real Estate">Car Repair</option>
                         <option value="Industry">Automotive</option>
@@ -33,10 +33,9 @@ const ServiceAreaThree = () => {
                         name="subject"
                         id="subject"
                         className="form-select"
+                        defaultValue={"Choose"}
                       >
-                        <option value="" disabled="" selected="" hidden="">
-                          Choose Model
-                        </option>
+                        <option value="Choose">Choose Model</option>
                         <option value="Construction">TOYOTA</option>
                         <option value="Real Estate">SUZUKI</option>
                         <option value="Industry">TATA</option>
@@ -49,10 +48,9 @@ const ServiceAreaThree = () => {
                         name="subject"
                         id="subject"
                         className="form-select"
+                        defaultValue={"Choose"}
                       >
-                        <option value="" disabled="" selected="" hidden="">
-                          Choose Year
-                        </option>
+                        <option value="Choose">Choose Year</option>
                         <option value="Construction">1999</option>
                         <option value="Real Estate">2000</option>
                         <option value="Industry">2001</option>
@@ -65,10 +63,9 @@ const ServiceAreaThree = () => {
                         name="subject"
                         id="subject"
                         className="form-select"
+                        defaultValue={"Choose"}
                       >
-                        <option value="" disabled="" selected="" hidden="">
-                          Choose Location
-                        </option>
+                        <option value="Choose">Choose Location</option>
                         <option value="Construction">California</option>
                         <option value="Real Estate">New York</option>
                         <option value="Industry">Abu Dhabi</option>
@@ -81,10 +78,9 @@ const ServiceAreaThree = () => {
                         name="subject"
                         id="subject"
                         className="form-select"
+                        defaultValue={"Choose"}
                       >
-                        <option value="" disabled="" selected="" hidden="">
-                          Choose Location
-                        </option>
+                        <option value="Choose">Choose Location</option>
                         <option value="Construction">California</option>
                         <option value="Real Estate">New York</option>
                         <option value="Industry">Abu Dhabi</option>
@@ -132,54 +128,54 @@ const ServiceAreaThree = () => {
                 <SwiperSlide>
                   <div>
                     <div className="client-logo">
-                      <a href="index.html">
-                        <img src="assets/img/client/1.png" alt="img" />
-                      </a>
+                      <Link to="/">
+                        <img src="assets/img/client/1.png" alt="fixturbo_img" />
+                      </Link>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div>
                     <div className="client-logo">
-                      <a href="index.html">
-                        <img src="assets/img/client/2.png" alt="img" />
-                      </a>
+                      <Link to="/">
+                        <img src="assets/img/client/2.png" alt="fixturbo_img" />
+                      </Link>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div>
                     <div className="client-logo">
-                      <a href="index.html">
-                        <img src="assets/img/client/3.png" alt="img" />
-                      </a>
+                      <Link to="/">
+                        <img src="assets/img/client/3.png" alt="fixturbo_img" />
+                      </Link>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div>
                     <div className="client-logo">
-                      <a href="index.html">
-                        <img src="assets/img/client/4.png" alt="img" />
-                      </a>
+                      <Link to="/">
+                        <img src="assets/img/client/4.png" alt="fixturbo_img" />
+                      </Link>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div>
                     <div className="client-logo">
-                      <a href="index.html">
-                        <img src="assets/img/client/5.png" alt="img" />
-                      </a>
+                      <Link to="/">
+                        <img src="assets/img/client/5.png" alt="fixturbo_img" />
+                      </Link>
                     </div>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div>
                     <div className="client-logo">
-                      <a href="index.html">
-                        <img src="assets/img/client/3.png" alt="img" />
-                      </a>
+                      <Link to="/">
+                        <img src="assets/img/client/3.png" alt="fixturbo_img" />
+                      </Link>
                     </div>
                   </div>
                 </SwiperSlide>

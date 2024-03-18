@@ -9,25 +9,37 @@ const MarqueeOne = () => {
             <Marquee>
               <div className="item">
                 <a href="#">
-                  <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/marquee-icon-1-1.svg"
+                    alt="fixturbo_img"
+                  />
                   <span>إصلاح السيارة السريعة</span>
                 </a>
               </div>
               <div className="item">
                 <a href="#">
-                  <img src="assets/img/icon/marquee-icon-1-2.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/marquee-icon-1-2.svg"
+                    alt="fixturbo_img"
+                  />
                   <span className="text-stroke">عيادة العناية بالسيارات</span>
                 </a>
               </div>
               <div className="item">
                 <a href="#">
-                  <img src="assets/img/icon/marquee-icon-1-1.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/marquee-icon-1-1.svg"
+                    alt="fixturbo_img"
+                  />
                   <span>إصلاح السيارة السريعة</span>
                 </a>
               </div>
               <div className="item">
                 <a href="#">
-                  <img src="assets/img/icon/marquee-icon-1-2.svg" alt="img" />
+                  <img
+                    src="assets/img/icon/marquee-icon-1-2.svg"
+                    alt="fixturbo_img"
+                  />
                   <span className="text-stroke">عيادة العناية بالسيارات</span>
                 </a>
               </div>

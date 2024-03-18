@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 const ClientAreaOne = () => {
   return (
@@ -39,90 +40,90 @@ const ClientAreaOne = () => {
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-1.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-1.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-2.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-2.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-3.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-3.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-4.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-4.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-5.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-5.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-1.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-1.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-2.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-2.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-3.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-3.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-4.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-4.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <a href="index.html">
-                      <img src="assets/img/client/1-5.png" alt="img" />
-                    </a>
+                    <Link to="/">
+                      <img src="assets/img/client/1-5.png" alt="fixturbo_img" />
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
@@ -189,10 +190,9 @@ const ClientAreaOne = () => {
                           name="subject"
                           id="subject"
                           className="form-select style-border2"
+                          defaultValue={"Estate"}
                         >
-                          <option value="" disabled="" selected="" hidden="">
-                            اختر خيارا
-                          </option>
+                          <option value="Estate">اختر خيارا</option>
                           <option value="Construction">إصلاح تلقائي</option>
                           <option value="Real Estate">إصلاح السيارات</option>
                           <option value="Industry">السيارات</option>
@@ -221,7 +221,10 @@ const ClientAreaOne = () => {
           </div>
         </div>
         <div className="appointment-thumb-1">
-          <img src="assets/img/normal/appointment-thumb-1-1.png" alt="img" />
+          <img
+            src="assets/img/normal/appointment-thumb-1-1.png"
+            alt="fixturbo_img"
+          />
         </div>
       </div>
     </div>

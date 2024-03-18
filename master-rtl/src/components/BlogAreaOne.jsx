@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 const BlogAreaOne = () => {
   return (
@@ -8,12 +9,12 @@ const BlogAreaOne = () => {
           <img
             className="about1-shape-img-1 spin"
             src="assets/img/normal/about_shape1-2.svg"
-            alt="img"
+            alt="fixturbo_img"
           />
           <img
             className="about1-shape-img-2 spin2"
             src="assets/img/normal/about_shape1-1.svg"
-            alt="img"
+            alt="fixturbo_img"
           />
         </div>
         <div className="container">
@@ -60,31 +61,31 @@ const BlogAreaOne = () => {
                     <div className="blog-img">
                       <img
                         src="assets/img/blog/blog_s1_3.png"
-                        alt="blog image"
+                        alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <span>17</span>رائع
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <i className="fas fa-user" />
                           ب. المشرف
-                        </a>
-                        <a href="blog.html">
+                        </Link>
+                        <Link to="/blog">
                           <i className="fas fa-comments"></i>تعليقات (05)
-                        </a>
+                        </Link>
                       </div>
                       <h3 className="blog-title">
-                        <a href="blog-details.html">
+                        <Link to="/blog-details">
                           حلول إصلاح شار التي يمكن الاعتماد عليها خدمات إصلاح
                           شار الاحترافية
-                        </a>
+                        </Link>
                       </h3>
-                      <a className="btn style-border3" href="blog-details.html">
+                      <a className="btn style-border3" href="/blog-details">
                         اقرأ أكثر <i className="fas fa-arrow-left ms-2"></i>
                       </a>
                     </div>
@@ -97,30 +98,30 @@ const BlogAreaOne = () => {
                     <div className="blog-img">
                       <img
                         src="assets/img/blog/blog_s1_1.png"
-                        alt="blog image"
+                        alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <span>17</span>رائع
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <i className="fas fa-user"></i>ب. المشرف
-                        </a>
-                        <a href="blog.html">
+                        </Link>
+                        <Link to="/blog">
                           <i className="fas fa-comments"></i>تعليقات (05)
-                        </a>
+                        </Link>
                       </div>
                       <h3 className="blog-title">
-                        <a href="blog-details.html">
+                        <Link to="/blog-details">
                           حلول الفرامل الأوتوماتيكية الدقيقة خدمات إصلاح شار
                           الاحترافية
-                        </a>
+                        </Link>
                       </h3>
-                      <a className="btn style-border3" href="blog-details.html">
+                      <a className="btn style-border3" href="/blog-details">
                         اقرأ أكثر<i className="fas fa-arrow-left ms-2"></i>
                       </a>
                     </div>
@@ -133,30 +134,30 @@ const BlogAreaOne = () => {
                     <div className="blog-img">
                       <img
                         src="assets/img/blog/blog_s1_3.png"
-                        alt="blog image"
+                        alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <span>17</span>رائع
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <i className="fas fa-user"></i>ب. المشرف
-                        </a>
-                        <a href="blog.html">
+                        </Link>
+                        <Link to="/blog">
                           <i className="fas fa-comments"></i>تعليقات (05)
-                        </a>
+                        </Link>
                       </div>
                       <h3 className="blog-title">
-                        <a href="blog-details.html">
+                        <Link to="/blog-details">
                           حلول إصلاح شار التي يمكن الاعتماد عليها خدمات إصلاح
                           شار الاحترافية
-                        </a>
+                        </Link>
                       </h3>
-                      <a className="btn style-border3" href="blog-details.html">
+                      <a className="btn style-border3" href="/blog-details">
                         اقرأ أكثر <i className="fas fa-arrow-left ms-2"></i>
                       </a>
                     </div>
@@ -169,32 +170,32 @@ const BlogAreaOne = () => {
                     <div className="blog-img">
                       <img
                         src="assets/img/blog/blog_s1_1.png"
-                        alt="blog image"
+                        alt="fixturbo_img"
                       />
                       <div className="blog-date">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <span>17</span>رائع
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="blog-content">
                       <div className="blog-meta">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <i className="fas fa-user" />
                           ب. المشرف
-                        </a>
-                        <a href="blog.html">
+                        </Link>
+                        <Link to="/blog">
                           <i className="fas fa-comments" />
                           تعليقات (05)
-                        </a>
+                        </Link>
                       </div>
                       <h3 className="blog-title">
-                        <a href="blog-details.html">
+                        <Link to="/blog-details">
                           حلول الفرامل الأوتوماتيكية الدقيقة خدمات إصلاح شار
                           الاحترافية
-                        </a>
+                        </Link>
                       </h3>
-                      <a className="btn style-border3" href="blog-details.html">
+                      <a className="btn style-border3" href="/blog-details">
                         اقرأ أكثر <i className="fas fa-arrow-left ms-2" />
                       </a>
                     </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogAreaList = () => {
   return (
@@ -12,20 +13,20 @@ const BlogAreaList = () => {
               </div>
               <div className="blog-content">
                 <div className="blog-meta">
-                  <a href="blog.html">
+                  <Link to="/blog">
                     <i className="fas fa-user" />
                     بواسطة المشرف
-                  </a>
-                  <a href="blog.html">
+                  </Link>
+                  <Link to="/blog">
                     <i className="fas fa-comments" />
                     التعليقات (05)
-                  </a>
+                  </Link>
                 </div>
                 <h3 className="blog-title">
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     حلول إصلاح السيارات التي يمكن الاعتماد عليها، إصلاح السيارات
                     الاحترافي خدمات
-                  </a>
+                  </Link>
                 </h3>
                 <p className="blog-text">
                   في منشأتنا، نقدم مجموعة شاملة من الخدمات، بما في ذلك الصيانة
@@ -34,14 +35,14 @@ const BlogAreaList = () => {
                   سواء كانت سيارتك تحتاج إلى ضبط بسيط أو إصلاح معقد، يمكنك
                   الوثوق بمحترفينا المهرة لإنجاز المهمة بكفاءة وفعالية.
                 </p>
-                <a href="blog-details.html" className="btn style-border2">
+                <Link to="/blog-details" className="btn style-border2">
                   {" "}
                   اقرأ أكثر <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
                 <div className="blog-date">
-                  <a href="blog.html">
+                  <Link to="/blog">
                     <span>17</span>Feb
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -51,19 +52,19 @@ const BlogAreaList = () => {
               </div>
               <div className="blog-content">
                 <div className="blog-meta">
-                  <a href="blog.html">
+                  <Link to="/blog">
                     <i className="fas fa-user" />
                     بواسطة المشرف
-                  </a>
-                  <a href="blog.html">
+                  </Link>
+                  <Link to="/blog">
                     <i className="fas fa-comments" />
                     التعليقات (05)
-                  </a>
+                  </Link>
                 </div>
                 <h3 className="blog-title">
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     الإصلاحات الدقيقة للخدمة الشخصية في بناء مفاتيح الربط يثق
-                  </a>
+                  </Link>
                 </h3>
                 <p className="blog-text">
                   نحن ندرك أهمية سيارتك في حياتك اليومية، ولهذا السبب نسعى
@@ -72,14 +73,14 @@ const BlogAreaList = () => {
                   نضمن إكمال كل إصلاح وفقًا لأعلى المعايير، بما يلبي مواصفات
                   الشركة المصنعة أو يتجاوزها.
                 </p>
-                <a href="blog-details.html" className="btn style-border2">
+                <Link to="/blog-details" className="btn style-border2">
                   {" "}
                   اقرأ أكثر <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
                 <div className="blog-date">
-                  <a href="blog.html">
+                  <Link to="/blog">
                     <span>17</span>Feb
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -89,19 +90,19 @@ const BlogAreaList = () => {
               </div>
               <div className="blog-content">
                 <div className="blog-meta">
-                  <a href="blog.html">
+                  <Link to="/blog">
                     <i className="fas fa-user" />
                     بواسطة المشرف
-                  </a>
-                  <a href="blog.html">
+                  </Link>
+                  <Link to="/blog">
                     <i className="fas fa-comments" />
                     التعليقات (05)
-                  </a>
+                  </Link>
                 </div>
                 <h3 className="blog-title">
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     إصلاح السيارات لتحقيق الأحلام الاستعداد للقيادة السلسة{" "}
-                  </a>
+                  </Link>
                 </h3>
                 <p className="blog-text">
                   نحن ندرك أهمية سيارتك في حياتك اليومية، ولهذا السبب نسعى
@@ -110,32 +111,32 @@ const BlogAreaList = () => {
                   نضمن إكمال كل إصلاح وفقًا لأعلى المعايير، بما يلبي مواصفات
                   الشركة المصنعة أو يتجاوزها.
                 </p>
-                <a href="blog-details.html" className="btn style-border2">
+                <Link to="/blog-details" className="btn style-border2">
                   {" "}
                   اقرأ أكثر <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
                 <div className="blog-date">
-                  <a href="blog.html">
+                  <Link to="/blog">
                     <span>17</span>Feb
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="pagination justify-content-center">
               <ul>
                 <li>
-                  <a href="blog.html">1</a>
+                  <Link to="/blog">1</Link>
                 </li>
                 <li>
-                  <a href="blog.html">2</a>
+                  <Link to="/blog">2</Link>
                 </li>
                 <li>
-                  <a href="blog.html">3</a>
+                  <Link to="/blog">3</Link>
                 </li>
                 <li>
-                  <a href="blog.html">
+                  <Link to="/blog">
                     <i className="fas fa-angle-right" />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -151,33 +152,33 @@ const BlogAreaList = () => {
                   </button>
                 </form>
               </div>
-              <div className="widget widget_categories">
+              <div className="widget widget_categories rtl">
                 <h3 className="widget_title">فئة</h3>
                 <ul>
                   <li>
-                    <a href="blog.html">
+                    <Link to="/blog">
                       الدقة لأعمال السيارات <span>(4)</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="blog.html">
+                    <Link to="/blog">
                       Mobile Car Repair <span>(5)</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="blog.html">
+                    <Link to="/blog">
                       النخبة لخدمة السيارات <span>(8)</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="blog.html">
+                    <Link to="/blog">
                       الإصلاح التلقائي الاحترافي <span>(4)</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="blog.html">
+                    <Link to="/blog">
                       مرآب للسيارات <span>(3)</span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -187,61 +188,61 @@ const BlogAreaList = () => {
                   <div className="recent-post">
                     <div className="media-body">
                       <h4 className="post-title">
-                        <a className="text-inherit" href="blog-details.html">
+                        <a className="text-inherit" href="/blog-details">
                           محركات الإصلاح السريع
                         </a>
                       </h4>
                       <div className="recent-post-meta">
-                        <a href="blog.html">15 سبتمبر 2024</a>
+                        <Link to="/blog">15 سبتمبر 2024</Link>
                       </div>
                     </div>
                     <div className="media-img">
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         <img
                           src="assets/img/blog/recent-post1.png"
-                          alt="Blog Image"
+                          alt="fixturbo_img"
                         />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="recent-post">
                     <div className="media-body">
                       <h4 className="post-title">
-                        <a className="text-inherit" href="blog-details.html">
+                        <a className="text-inherit" href="/blog-details">
                           خدمة احترافية
                         </a>
                       </h4>
                       <div className="recent-post-meta">
-                        <a href="blog.html">25 يونيو 2024</a>
+                        <Link to="/blog">25 يونيو 2024</Link>
                       </div>
                     </div>
                     <div className="media-img">
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         <img
                           src="assets/img/blog/recent-post2.png"
-                          alt="Blog Image"
+                          alt="fixturbo_img"
                         />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="recent-post">
                     <div className="media-body">
                       <h4 className="post-title">
-                        <a className="text-inherit" href="blog-details.html">
+                        <a className="text-inherit" href="/blog-details">
                           مفتاح ربط التروس التلقائي
                         </a>
                       </h4>
                       <div className="recent-post-meta">
-                        <a href="blog.html">25 يونيو 2024</a>
+                        <Link to="/blog">25 يونيو 2024</Link>
                       </div>
                     </div>
                     <div className="media-img">
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         <img
                           src="assets/img/blog/recent-post3.png"
-                          alt="Blog Image"
+                          alt="fixturbo_img"
                         />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -249,15 +250,15 @@ const BlogAreaList = () => {
               <div className="widget widget_tag_cloud">
                 <h3 className="widget_title">العلامات</h3>
                 <div className="tagcloud">
-                  <a href="blog.html">ميكانيكي</a>
-                  <a href="blog.html">المثبتات التلقائية</a>
-                  <a href="blog.html">إصلاح السيارة</a>
-                  <a href="blog.html">الإصلاح التلقائي الاحترافي</a>
-                  <a href="blog.html">خدمة</a>
-                  <a href="blog.html">تصليح ذاتي</a>
-                  <a href="blog.html">إصلاح تلقائي</a>
-                  <a href="blog.html">سادة</a>
-                  <a href="blog.html">السيارات</a>
+                  <Link to="/blog">ميكانيكي</Link>
+                  <Link to="/blog">المثبتات التلقائية</Link>
+                  <Link to="/blog">إصلاح السيارة</Link>
+                  <Link to="/blog">الإصلاح التلقائي الاحترافي</Link>
+                  <Link to="/blog">خدمة</Link>
+                  <Link to="/blog">تصليح ذاتي</Link>
+                  <Link to="/blog">إصلاح تلقائي</Link>
+                  <Link to="/blog">سادة</Link>
+                  <Link to="/blog">السيارات</Link>
                 </div>
               </div>
             </aside>

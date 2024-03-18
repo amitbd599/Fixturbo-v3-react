@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FooterAreaOne = () => {
   return (
@@ -15,16 +16,16 @@ const FooterAreaOne = () => {
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <a href="about.html">عن</a>
+                      <Link to="/about">عن</Link>
                     </li>
                     <li>
-                      <a href="team.html">الفريق</a>
+                      <Link to="/team">الفريق</Link>
                     </li>
                     <li>
-                      <a href="contact.html">فجوة</a>
+                      <Link to="/contact">فجوة</Link>
                     </li>
                     <li>
-                      <a href="contact.html">سياسة الخصوصية</a>
+                      <Link to="/contact">سياسة الخصوصية</Link>
                     </li>
                   </ul>
                 </div>
@@ -36,19 +37,19 @@ const FooterAreaOne = () => {
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <a href="service.html">ماجستير ميكانيكا</a>
+                      <Link to="/service">ماجستير ميكانيكا</Link>
                     </li>
                     <li>
-                      <a href="service.html">إصلاح السيارات السريع</a>
+                      <Link to="/service">إصلاح السيارات السريع</Link>
                     </li>
                     <li>
-                      <a href="service.html">إصلاح شار المحمول</a>
+                      <Link to="/service">إصلاح شار المحمول</Link>
                     </li>
                     <li>
-                      <a href="service.html">الإصلاح التلقائي الاحترافي</a>
+                      <Link to="/service">الإصلاح التلقائي الاحترافي</Link>
                     </li>
                     <li>
-                      <a href="service.html">الدقة لأعمال السيارات</a>
+                      <Link to="/service">الدقة لأعمال السيارات</Link>
                     </li>
                   </ul>
                 </div>
@@ -59,10 +60,10 @@ const FooterAreaOne = () => {
                 <h3 className="widget_title">اتصال</h3>
                 <div className="widget-contact">
                   <p>
-                    <a href="tel:888123456765">(+888) 123 456 765</a>
+                    <Link to="tel:888123456765">(+888) 123 456 765</Link>
                   </p>
                   <p>
-                    <a href="mailto:infoname@mail.com">infoname@mail.com</a>
+                    <Link to="mailto:infoname@mail.com">infoname@mail.com</Link>
                   </p>
                   <p>
                     شارع المدينة القديمة، الولايات المتحدة
@@ -100,14 +101,14 @@ const FooterAreaOne = () => {
           <div className="row gy-3 justify-content-md-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <a href="#">فيكستوربو</a> 2024 | كل الحقوق محفوظة
+                © <Link to="#">فيكستوربو</Link> 2024 | كل الحقوق محفوظة
               </p>
             </div>
             <div className="col-auto">
               <div className="footer-links">
-                <a href="contact.html">البنود و الظروف</a>
-                <a href="contact.html">سياسة الخصوصية</a>
-                <a href="contact.html">اتصل بنا</a>
+                <Link to="/contact">البنود و الظروف</Link>
+                <Link to="/contact">سياسة الخصوصية</Link>
+                <Link to="/contact">اتصل بنا</Link>
               </div>
             </div>
           </div>

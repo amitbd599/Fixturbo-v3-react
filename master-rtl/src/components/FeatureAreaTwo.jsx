@@ -8,7 +8,7 @@ const FeatureAreaTwo = () => {
           <div className="col-xl-4">
             <div className="single-feature-wrap">
               <div className="thumb">
-                <img src="assets/img/intro/01.png" alt="img" />
+                <img src="assets/img/intro/01.png" alt="fixturbo_img" />
               </div>
               <div className="media-body">
                 <h4>النشرة الإخبا</h4>
@@ -19,7 +19,7 @@ const FeatureAreaTwo = () => {
           <div className="col-xl-4">
             <div className="single-feature-wrap">
               <div className="thumb">
-                <img src="assets/img/intro/02.png" alt="img" />
+                <img src="assets/img/intro/02.png" alt="fixturbo_img" />
               </div>
               <div className="media-body">
                 <h4>النشرة الإخبا</h4>
@@ -30,7 +30,7 @@ const FeatureAreaTwo = () => {
           <div className="col-xl-4">
             <div className="single-feature-wrap">
               <div className="thumb">
-                <img src="assets/img/intro/03.png" alt="img" />
+                <img src="assets/img/intro/03.png" alt="fixturbo_img" />
               </div>
               <div className="media-body">
                 <h4>النشرة الإخبا</h4>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TeamAreaOne = () => {
   return (
@@ -15,9 +16,9 @@ const TeamAreaOne = () => {
           </div>
           <div className="col-md-auto">
             <div className="title-area">
-              <a className="btn style2" href="team.html">
+              <Link className="btn style2" to="/team">
                 عرض المزيد <i className="fas fa-arrow-left ms-2" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -26,7 +27,7 @@ const TeamAreaOne = () => {
             <div className="team-card">
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <a href="team-details.html">بيسي كوبر</a>
+                  <Link to="/team-details">بيسي كوبر</Link>
                 </h4>
                 <span className="team-card_desig">مهندس معماري يو اكس</span>
               </div>
@@ -36,22 +37,22 @@ const TeamAreaOne = () => {
                 </p>
               </div>
               <div className="team-card_img">
-                <img src="assets/img/team/team-1-1.png" alt="img" />
+                <img src="assets/img/team/team-1-1.png" alt="fixturbo_img" />
               </div>
               <div className="team-social_wrap">
                 <div className="social-btn style2">
-                  <a href="https://linkedin.com/">
+                  <Link to="https://linkedin.com/">
                     <i className="fab fa-linkedin-in" />
-                  </a>
-                  <a href="https://www.instagram.com/">
+                  </Link>
+                  <Link to="https://www.instagram.com/">
                     <i className="fab fa-instagram" />
-                  </a>
-                  <a href="https://facebook.com/">
+                  </Link>
+                  <Link to="https://facebook.com/">
                     <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="https://twitter.com/">
+                  </Link>
+                  <Link to="https://twitter.com/">
                     <i className="fab fa-twitter" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -60,7 +61,7 @@ const TeamAreaOne = () => {
             <div className="team-card">
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <a href="team-details.html">استير هوارد</a>
+                  <Link to="/team-details">استير هوارد</Link>
                 </h4>
                 <span className="team-card_desig">رئيس المبيعات</span>
               </div>
@@ -70,22 +71,22 @@ const TeamAreaOne = () => {
                 </p>
               </div>
               <div className="team-card_img">
-                <img src="assets/img/team/team-1-2.png" alt="img" />
+                <img src="assets/img/team/team-1-2.png" alt="fixturbo_img" />
               </div>
               <div className="team-social_wrap">
                 <div className="social-btn style2">
-                  <a href="https://linkedin.com/">
+                  <Link to="https://linkedin.com/">
                     <i className="fab fa-linkedin-in" />
-                  </a>
-                  <a href="https://www.instagram.com/">
+                  </Link>
+                  <Link to="https://www.instagram.com/">
                     <i className="fab fa-instagram" />
-                  </a>
-                  <a href="https://facebook.com/">
+                  </Link>
+                  <Link to="https://facebook.com/">
                     <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="https://twitter.com/">
+                  </Link>
+                  <Link to="https://twitter.com/">
                     <i className="fab fa-twitter" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -94,7 +95,7 @@ const TeamAreaOne = () => {
             <div className="team-card">
               <div className="team-card_content">
                 <h4 className="team-card_title">
-                  <a href="team-details.html">ديفون لين</a>
+                  <Link to="/team-details">ديفون لين</Link>
                 </h4>
                 <span className="team-card_desig">منسق التسويق</span>
               </div>
@@ -104,22 +105,22 @@ const TeamAreaOne = () => {
                 </p>
               </div>
               <div className="team-card_img">
-                <img src="assets/img/team/team-1-3.png" alt="img" />
+                <img src="assets/img/team/team-1-3.png" alt="fixturbo_img" />
               </div>
               <div className="team-social_wrap">
                 <div className="social-btn style2">
-                  <a href="https://linkedin.com/">
+                  <Link to="https://linkedin.com/">
                     <i className="fab fa-linkedin-in" />
-                  </a>
-                  <a href="https://www.instagram.com/">
+                  </Link>
+                  <Link to="https://www.instagram.com/">
                     <i className="fab fa-instagram" />
-                  </a>
-                  <a href="https://facebook.com/">
+                  </Link>
+                  <Link to="https://facebook.com/">
                     <i className="fab fa-facebook-f" />
-                  </a>
-                  <a href="https://twitter.com/">
+                  </Link>
+                  <Link to="https://twitter.com/">
                     <i className="fab fa-twitter" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

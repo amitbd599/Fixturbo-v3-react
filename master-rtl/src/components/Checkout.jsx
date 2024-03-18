@@ -7,7 +7,7 @@ const Checkout = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="shipping-area">
-              <h3 className="page-title">Payment Details</h3>
+              <h3 className="page-title">بيانات الدفع</h3>
               <form className="checkout-form">
                 <div className="form-group">
                   <input
@@ -17,7 +17,7 @@ const Checkout = () => {
                     id="flexRadioDefault1"
                   />
                   <label
-                    className="form-check-label"
+                    className="form-check-label rtl"
                     htmlFor="flexRadioDefault1"
                   >
                     <img
@@ -35,10 +35,10 @@ const Checkout = () => {
                     defaultChecked=""
                   />
                   <label
-                    className="form-check-label"
+                    className="form-check-label rtl"
                     htmlFor="flexRadioDefault2"
                   >
-                    Credit Card
+                    بطاقة إئتمان
                   </label>
                 </div>
                 <ul className="footer-currency currency-area">
@@ -46,7 +46,7 @@ const Checkout = () => {
                     <a href="#">
                       <img
                         src="assets/img/update-img/payment-method/01.png"
-                        alt="img"
+                        alt="fixturbo_img"
                       />
                     </a>
                   </li>
@@ -54,7 +54,7 @@ const Checkout = () => {
                     <a href="#">
                       <img
                         src="assets/img/update-img/payment-method/02.png"
-                        alt="img"
+                        alt="fixturbo_img"
                       />
                     </a>
                   </li>
@@ -62,7 +62,7 @@ const Checkout = () => {
                     <a href="#">
                       <img
                         src="assets/img/update-img/payment-method/04.png"
-                        alt="img"
+                        alt="fixturbo_img"
                       />
                     </a>
                   </li>
@@ -70,7 +70,7 @@ const Checkout = () => {
                     <a href="#">
                       <img
                         src="assets/img/update-img/payment-method/05.png"
-                        alt="img"
+                        alt="fixturbo_img"
                       />
                     </a>
                   </li>
@@ -78,35 +78,35 @@ const Checkout = () => {
                 <div className="row">
                   <div className="col-12">
                     <div className="form-group">
-                      <label>Full name</label>
+                      <label>الاسم الكامل</label>
                       <input type="text" className="form-control" />
                     </div>
                   </div>
                   <div className="col-12">
                     <div className="form-group">
-                      <label>Card Number</label>
+                      <label>رقم البطاقة</label>
                       <input type="password" className="form-control" />
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 col-12">
                     <div className="form-group">
-                      <label>Expire Date</label>
-                      <select className="form-control">
-                        <option>April</option>
-                        <option>March</option>
-                        <option>February</option>
-                        <option selected="selected">January</option>
+                      <label>تاريخ انتهاء الصلاحية</label>
+                      <select className="form-control" defaultValue={"Choose"}>
+                        <option value="Choose">أبريل</option>
+                        <option value="يمشي">يمشي</option>
+                        <option value="شهر فبراير">شهر فبراير</option>
+                        <option value="يناير">يناير</option>
                       </select>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 col-12">
                     <div className="form-group">
-                      <label>Year</label>
-                      <select className="form-control">
-                        <option>2023</option>
-                        <option>2022</option>
-                        <option>2020</option>
-                        <option selected="selected">2021</option>
+                      <label>سنة</label>
+                      <select className="form-control" defaultValue={"2023"}>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
                       </select>
                     </div>
                   </div>
@@ -126,14 +126,14 @@ const Checkout = () => {
                     defaultChecked=""
                   />
                   <label
-                    className="form-check-label"
+                    className="form-check-label rtl"
                     htmlFor="flexRadioDefault3"
                   >
-                    Cash on Delivery
+                    الدفع عند الاستلام
                   </label>
                 </div>
                 <button type="submit" className="btn style2">
-                  Checkout
+                  الدفع
                 </button>
               </form>
             </div>

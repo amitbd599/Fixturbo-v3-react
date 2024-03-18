@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   return (
@@ -8,30 +9,30 @@ const Cart = () => {
           <table className="cart_table">
             <thead>
               <tr>
-                <th className="cart-col-image">Image</th>
-                <th className="cart-col-productname">Product Name</th>
-                <th className="cart-col-price">Price</th>
-                <th className="cart-col-quantity">Quantity</th>
-                <th className="cart-col-total">Total</th>
-                <th className="cart-col-remove">Remove</th>
+                <th className="cart-col-image">صورة</th>
+                <th className="cart-col-productname">اسم المنتج</th>
+                <th className="cart-col-price">سعر</th>
+                <th className="cart-col-quantity">كمية</th>
+                <th className="cart-col-total">المجموع</th>
+                <th className="cart-col-remove">يزيل</th>
               </tr>
             </thead>
             <tbody>
               <tr className="cart_item">
                 <td data-title="Product">
-                  <a className="cart-productimage" href="shop-details.html">
+                  <Link className="cart-productimage" to="/shop-details">
                     <img
                       width={91}
                       height={91}
                       src="assets/img/update-img/category/category1-1.png"
-                      alt="Image"
+                      alt="fixturbo_img"
                     />
-                  </a>
+                  </Link>
                 </td>
                 <td data-title="Name">
-                  <a className="cart-productname" href="shop-details.html">
-                    Car Engine Plug
-                  </a>
+                  <Link className="cart-productname" to="/shop-details">
+                    قابس محرك السيارة
+                  </Link>
                 </td>
                 <td data-title="Price">
                   <span className="amount">
@@ -65,26 +66,26 @@ const Cart = () => {
                   </span>
                 </td>
                 <td data-title="Remove">
-                  <a href="#" className="remove">
+                  <Link to="#" className="remove">
                     <i className="fas fa-trash-alt" />
-                  </a>
+                  </Link>
                 </td>
               </tr>
               <tr className="cart_item">
                 <td data-title="Product">
-                  <a className="cart-productimage" href="shop-details.html">
+                  <Link className="cart-productimage" to="/shop-details">
                     <img
                       width={91}
                       height={91}
                       src="assets/img/update-img/category/category1-2.png"
-                      alt="Image"
+                      alt="fixturbo_img"
                     />
-                  </a>
+                  </Link>
                 </td>
                 <td data-title="Name">
-                  <a className="cart-productname" href="shop-details.html">
-                    Car Air Filter
-                  </a>
+                  <Link className="cart-productname" to="/shop-details">
+                    فلتر هواء السيارة
+                  </Link>
                 </td>
                 <td data-title="Price">
                   <span className="amount">
@@ -118,26 +119,26 @@ const Cart = () => {
                   </span>
                 </td>
                 <td data-title="Remove">
-                  <a href="#" className="remove">
+                  <Link to="#" className="remove">
                     <i className="fas fa-trash-alt" />
-                  </a>
+                  </Link>
                 </td>
               </tr>
               <tr className="cart_item">
                 <td data-title="Product">
-                  <a className="cart-productimage" href="shop-details.html">
+                  <Link className="cart-productimage" to="/shop-details">
                     <img
                       width={91}
                       height={91}
                       src="assets/img/update-img/category/category1-4.png"
-                      alt="Image"
+                      alt="fixturbo_img"
                     />
-                  </a>
+                  </Link>
                 </td>
                 <td data-title="Name">
-                  <a className="cart-productname" href="shop-details.html">
-                    CSK Red Wheel
-                  </a>
+                  <Link className="cart-productname" to="/shop-details">
+                    عجلة سي إس كيه الحمراء
+                  </Link>
                 </td>
                 <td data-title="Price">
                   <span className="amount">
@@ -171,19 +172,19 @@ const Cart = () => {
                   </span>
                 </td>
                 <td data-title="Remove">
-                  <a href="#" className="remove">
+                  <Link to="#" className="remove">
                     <i className="fas fa-trash-alt" />
-                  </a>
+                  </Link>
                 </td>
               </tr>
               <tr>
-                <td colSpan={6} className="actions">
+                <td colSpan={6} className="actions rtl">
                   <button type="submit" className="btn style2">
-                    Update cart
+                    تحديث العربة
                   </button>
-                  <a href="shop.html" className="btn style-border3">
-                    Continue Shopping
-                  </a>
+                  <Link to="/shop" className="btn style-border3">
+                    مواصلة التسوق
+                  </Link>
                 </td>
               </tr>
             </tbody>
@@ -191,11 +192,11 @@ const Cart = () => {
         </form>
         <div className="row justify-content-end">
           <div className="col-md-8 col-lg-7 col-xl-6">
-            <h2 className="h4 summary-title">Cart Totals</h2>
+            <h2 className="h4 summary-title">إجماليات سلة التسوق</h2>
             <table className="cart_totals">
               <tbody>
                 <tr>
-                  <td>Cart Subtotal</td>
+                  <td>المجموع الفرعي لسلة التسوق</td>
                   <td data-title="Cart Subtotal">
                     <span className="amount">
                       <bdi>
@@ -207,7 +208,7 @@ const Cart = () => {
               </tbody>
               <tfoot>
                 <tr className="order-total">
-                  <td>Order Total</td>
+                  <td>الطلب الكلي</td>
                   <td data-title="Total">
                     <strong>
                       <span className="amount">
@@ -221,9 +222,9 @@ const Cart = () => {
               </tfoot>
             </table>
             <div className="wc-proceed-to-checkout mb-30">
-              <a href="checkout.html" className="btn style2 btn-fw">
-                Proceed to checkout
-              </a>
+              <Link to="/checkout" className="btn style2 btn-fw">
+                الشروع في الخروج
+              </Link>
             </div>
           </div>
         </div>

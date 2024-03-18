@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
+import { Link } from "react-router-dom";
 
 const TeamAreaTwo = () => {
   return (
@@ -69,27 +70,30 @@ const TeamAreaTwo = () => {
                 <SwiperSlide>
                   <div className="team-card style2">
                     <div className="team-card_img">
-                      <img src="assets/img/team/team-1-1.png" alt="img" />
+                      <img
+                        src="assets/img/team/team-1-1.png"
+                        alt="fixturbo_img"
+                      />
                     </div>
                     <div className="team-card_content">
                       <h4 className="team-card_title">
-                        <a href="team-details.html">داريل ستيوارد</a>
+                        <Link to="/team-details">داريل ستيوارد</Link>
                       </h4>
                       <span className="team-card_desig">مطور برامج</span>
                       <div className="team-social_wrap">
                         <div className="social-btn style2">
-                          <a href="https://linkedin.com/">
+                          <Link to="https://linkedin.com/">
                             <i className="fab fa-linkedin-in" />
-                          </a>
-                          <a href="https://www.instagram.com/">
+                          </Link>
+                          <Link to="https://www.instagram.com/">
                             <i className="fab fa-instagram" />
-                          </a>
-                          <a href="https://facebook.com/">
+                          </Link>
+                          <Link to="https://facebook.com/">
                             <i className="fab fa-facebook-f" />
-                          </a>
-                          <a href="https://twitter.com/">
+                          </Link>
+                          <Link to="https://twitter.com/">
                             <i className="fab fa-twitter" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -98,29 +102,32 @@ const TeamAreaTwo = () => {
                 <SwiperSlide>
                   <div className="team-card style2">
                     <div className="team-card_img">
-                      <img src="assets/img/team/team-1-3.png" alt="img" />
+                      <img
+                        src="assets/img/team/team-1-3.png"
+                        alt="fixturbo_img"
+                      />
                     </div>
                     <div className="team-card_content">
                       <h4 className="team-card_title">
-                        <a href="team-details.html">ويد وارن</a>
+                        <Link to="/team-details">ويد وارن</Link>
                       </h4>
                       <span className="team-card_desig">
                         مهندس معماري يو اكس
                       </span>
                       <div className="team-social_wrap">
                         <div className="social-btn style2">
-                          <a href="https://linkedin.com/">
+                          <Link to="https://linkedin.com/">
                             <i className="fab fa-linkedin-in" />
-                          </a>
-                          <a href="https://www.instagram.com/">
+                          </Link>
+                          <Link to="https://www.instagram.com/">
                             <i className="fab fa-instagram" />
-                          </a>
-                          <a href="https://facebook.com/">
+                          </Link>
+                          <Link to="https://facebook.com/">
                             <i className="fab fa-facebook-f" />
-                          </a>
-                          <a href="https://twitter.com/">
+                          </Link>
+                          <Link to="https://twitter.com/">
                             <i className="fab fa-twitter" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -129,27 +136,30 @@ const TeamAreaTwo = () => {
                 <SwiperSlide>
                   <div className="team-card style2">
                     <div className="team-card_img">
-                      <img src="assets/img/team/team-1-1.png" alt="img" />
+                      <img
+                        src="assets/img/team/team-1-1.png"
+                        alt="fixturbo_img"
+                      />
                     </div>
                     <div className="team-card_content">
                       <h4 className="team-card_title">
-                        <a href="team-details.html">داريل ستيوارد</a>
+                        <Link to="/team-details">داريل ستيوارد</Link>
                       </h4>
                       <span className="team-card_desig">مطور برامج</span>
                       <div className="team-social_wrap">
                         <div className="social-btn style2">
-                          <a href="https://linkedin.com/">
+                          <Link to="https://linkedin.com/">
                             <i className="fab fa-linkedin-in" />
-                          </a>
-                          <a href="https://www.instagram.com/">
+                          </Link>
+                          <Link to="https://www.instagram.com/">
                             <i className="fab fa-instagram" />
-                          </a>
-                          <a href="https://facebook.com/">
+                          </Link>
+                          <Link to="https://facebook.com/">
                             <i className="fab fa-facebook-f" />
-                          </a>
-                          <a href="https://twitter.com/">
+                          </Link>
+                          <Link to="https://twitter.com/">
                             <i className="fab fa-twitter" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -158,29 +168,32 @@ const TeamAreaTwo = () => {
                 <SwiperSlide>
                   <div className="team-card style2">
                     <div className="team-card_img">
-                      <img src="assets/img/team/team-1-3.png" alt="img" />
+                      <img
+                        src="assets/img/team/team-1-3.png"
+                        alt="fixturbo_img"
+                      />
                     </div>
                     <div className="team-card_content">
                       <h4 className="team-card_title">
-                        <a href="team-details.html">ويد وارن</a>
+                        <Link to="/team-details">ويد وارن</Link>
                       </h4>
                       <span className="team-card_desig">
                         مهندس معماري يو اكس
                       </span>
                       <div className="team-social_wrap">
                         <div className="social-btn style2">
-                          <a href="https://linkedin.com/">
+                          <Link to="https://linkedin.com/">
                             <i className="fab fa-linkedin-in" />
-                          </a>
-                          <a href="https://www.instagram.com/">
+                          </Link>
+                          <Link to="https://www.instagram.com/">
                             <i className="fab fa-instagram" />
-                          </a>
-                          <a href="https://facebook.com/">
+                          </Link>
+                          <Link to="https://facebook.com/">
                             <i className="fab fa-facebook-f" />
-                          </a>
-                          <a href="https://twitter.com/">
+                          </Link>
+                          <Link to="https://twitter.com/">
                             <i className="fab fa-twitter" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
