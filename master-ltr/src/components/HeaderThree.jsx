@@ -98,17 +98,17 @@ const HeaderThree = () => {
         {/* Main Menu Area */}
         <div className="menu-area">
           <div className="header-navbar-logo">
-            <NavLink to="/home-3">
+            <Link to="/">
               <img src="assets/img/logo-white.svg" alt="logo" />
-            </NavLink>
+            </Link>
           </div>
           <div className="container">
             <div className="row align-items-center justify-content-lg-start justify-content-between">
               <div className="col-auto d-xl-none d-block">
                 <div className="header-logo">
-                  <NavLink to="home-3">
+                  <Link to="/">
                     <img src="assets/img/logo-white.svg" alt="logo" />
-                  </NavLink>
+                  </Link>
                 </div>
               </div>
               <div className="col-auto">
@@ -456,66 +456,6 @@ const HeaderThree = () => {
                         }
                       >
                         Home 06
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/index-rtl"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Home 01 (RTL)
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/home-2-rtl"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Home 02 (RTL)
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/home-3-rtl"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Home 03 (RTL)
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/home-4-rtl"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Home 04 (RTL)
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/home-5-rtl"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Home 05 (RTL)
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
-                        to="/home-6-rtl"
-                        className={(navData) =>
-                          navData.isActive ? "active" : ""
-                        }
-                      >
-                        Home 06 (RTL)
                       </NavLink>
                     </li>
                   </ul>

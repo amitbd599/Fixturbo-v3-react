@@ -245,15 +245,15 @@ const BlogAreaList = () => {
               <div className="widget widget_tag_cloud">
                 <h3 className="widget_title">Tags</h3>
                 <div className="tagcloud">
-                  <Link to="blog">Mechanic</Link>
-                  <Link to="blog">Auto Fixers</Link>
-                  <Link to="blog">Car Fix</Link>
-                  <Link to="blog">Pro Auto Fix</Link>
-                  <Link to="blog">Service</Link>
-                  <Link to="blog">Auto Fix</Link>
-                  <Link to="blog">Auto Repair</Link>
-                  <Link to="blog">Masters</Link>
-                  <Link to="blog">Automotive</Link>
+                  <Link to="/blog">Mechanic</Link>
+                  <Link to="/blog">Auto Fixers</Link>
+                  <Link to="/blog">Car Fix</Link>
+                  <Link to="/blog">Pro Auto Fix</Link>
+                  <Link to="/blog">Service</Link>
+                  <Link to="/blog">Auto Fix</Link>
+                  <Link to="/blog">Auto Repair</Link>
+                  <Link to="/blog">Masters</Link>
+                  <Link to="/blog">Automotive</Link>
                 </div>
               </div>
             </aside>

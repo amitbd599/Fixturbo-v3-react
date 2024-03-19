@@ -3,7 +3,7 @@ import React from "react";
 const Preloader = () => {
   return (
     <>
-      {/* Preloader */}
+      {/* Preloader Start*/}
       <div className="preloader ">
         <div className="preloader-inner">
           <span className="loader" />

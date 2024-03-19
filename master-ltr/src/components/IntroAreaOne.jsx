@@ -124,6 +124,7 @@ const IntroAreaOne = () => {
             breakpoints={{
               0: {
                 slidesPerView: 1,
+                navigation: false,
               },
               768: {
                 slidesPerView: 2,

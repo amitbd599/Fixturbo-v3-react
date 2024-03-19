@@ -7,7 +7,7 @@
     }
 }
 .wcu-card-wrap.right-wrap {
-    text-align: end;
+    text-align: flex-end;
     .wcu-card {
         flex-direction: row-reverse;
     }
@@ -117,7 +117,7 @@
 .wcu-thumb-wrap {
 	position: relative;
 	display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 	img {
 		border-radius: 10px;
 	}

@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Preloader from "../helper/Preloader";
 
 const IndexPage = () => {
+  let [active, setActive] = useState(true);
+  useEffect(() => {
+    setTimeout(function () {
+      setActive(false);
+    }, 2000);
+  }, []);
   return (
     <section className="demo">
+      {/* Preloader */}
+      {active === true && <Preloader />}
       {/* Navigation */}
       <header className="navbar-area">
         <nav className="navbar navbar-expand-lg navbar-default navbar-fixed-top">
@@ -208,13 +217,13 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/home-1"
+                    to="https://fixturbo.wowtheme7.com/home-1"
                   >
                     Live Demo
                   </Link>
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo-rtl.wowtheme7.com/home-1"
+                    to="https://fixturbo-rtl.wowtheme7.com/home-1"
                   >
                     RTL Demo
                   </Link>
@@ -237,13 +246,13 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/home-2"
+                    to="https://fixturbo.wowtheme7.com/home-2"
                   >
                     Live Demo
                   </Link>
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo-rtl.wowtheme7.com/home-2"
+                    to="https://fixturbo-rtl.wowtheme7.com/home-2"
                   >
                     RTL Demo
                   </Link>
@@ -266,13 +275,13 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/home-3"
+                    to="https://fixturbo.wowtheme7.com/home-3"
                   >
                     Live Demo
                   </Link>
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo-rtl.wowtheme7.com/home-3"
+                    to="https://fixturbo-rtl.wowtheme7.com/home-3"
                   >
                     RTL Demo
                   </Link>
@@ -295,13 +304,13 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/home-4"
+                    to="https://fixturbo.wowtheme7.com/home-4"
                   >
                     Live Demo
                   </Link>
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo-rtl.wowtheme7.com/home-4"
+                    to="https://fixturbo-rtl.wowtheme7.com/home-4"
                   >
                     RTL Demo
                   </Link>
@@ -324,13 +333,13 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/home-5"
+                    to="https://fixturbo.wowtheme7.com/home-5"
                   >
                     Live Demo
                   </Link>
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo-rtl.wowtheme7.com/home-5"
+                    to="https://fixturbo-rtl.wowtheme7.com/home-5"
                   >
                     RTL Demo
                   </Link>
@@ -353,13 +362,13 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/home-6"
+                    to="https://fixturbo.wowtheme7.com/home-6"
                   >
                     Live Demo
                   </Link>
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo-rtl.wowtheme7.com/home-6"
+                    to="https://fixturbo-rtl.wowtheme7.com/home-6"
                   >
                     RTL Demo
                   </Link>
@@ -413,7 +422,7 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/about"
+                    to="https://fixturbo.wowtheme7.com/about"
                   >
                     Live Demo
                   </Link>
@@ -435,7 +444,7 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/service"
+                    to="https://fixturbo.wowtheme7.com/service"
                   >
                     Live Demo
                   </Link>
@@ -457,7 +466,7 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/service-details"
+                    to="https://fixturbo.wowtheme7.com/service-details"
                   >
                     Live Demo
                   </Link>
@@ -479,7 +488,7 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/project"
+                    to="https://fixturbo.wowtheme7.com/project"
                   >
                     Live Demo
                   </Link>
@@ -501,7 +510,7 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/project-details"
+                    to="https://fixturbo.wowtheme7.com/project-details"
                   >
                     Live Demo
                   </Link>
@@ -523,7 +532,7 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/team"
+                    to="https://fixturbo.wowtheme7.com/team"
                   >
                     Live Demo
                   </Link>
@@ -545,7 +554,7 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/team-details"
+                    to="https://fixturbo.wowtheme7.com/team-details"
                   >
                     Live Demo
                   </Link>
@@ -567,7 +576,7 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/blog"
+                    to="https://fixturbo.wowtheme7.com/blog"
                   >
                     Live Demo
                   </Link>
@@ -589,7 +598,7 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/blog-details"
+                    to="https://fixturbo.wowtheme7.com/blog-details"
                   >
                     Live Demo
                   </Link>
@@ -611,7 +620,7 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/shop"
+                    to="https://fixturbo.wowtheme7.com/shop"
                   >
                     Live Demo
                   </Link>
@@ -633,7 +642,7 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/shop-details"
+                    to="https://fixturbo.wowtheme7.com/shop-details"
                   >
                     Live Demo
                   </Link>
@@ -655,7 +664,7 @@ const IndexPage = () => {
                 <div className="btn-group">
                   <Link
                     className="btn btn-base"
-                    to="http://fixturbo.wowtheme7.com/contact"
+                    to="https://fixturbo.wowtheme7.com/contact"
                   >
                     Live Demo
                   </Link>

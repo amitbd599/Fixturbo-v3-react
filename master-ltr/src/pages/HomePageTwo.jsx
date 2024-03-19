@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import HeaderTwo from "../components/HeaderTwo";
 import HeroTwo from "../components/HeroTwo";
 import ServiceAreaTwo from "../components/ServiceAreaTwo";
@@ -15,10 +15,20 @@ import ClientAreaTwo from "../components/ClientAreaTwo";
 import FaqAreaTwo from "../components/FaqAreaTwo";
 import BlogAreaTwo from "../components/BlogAreaTwo";
 import FooterAreaTwo from "../components/FooterAreaTwo";
+import Preloader from "../helper/Preloader";
 
 const HomePageTwo = () => {
+  let [active, setActive] = useState(true);
+  useEffect(() => {
+    setTimeout(function () {
+      setActive(false);
+    }, 2000);
+  }, []);
   return (
     <>
+      {/* Preloader */}
+      {active === true && <Preloader />}
+
       {/* Header Two */}
       <HeaderTwo />
 

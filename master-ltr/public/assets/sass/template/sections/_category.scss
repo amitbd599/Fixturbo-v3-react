@@ -21,7 +21,7 @@
     }
     &_icon {
         flex: none;
-        align-self: end;
+        align-self: flex-end;
         position: relative;
         z-index: 1;
         &:after {
