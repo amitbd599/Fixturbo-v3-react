@@ -54,7 +54,7 @@ const HeaderFive = () => {
             <div className="col-auto d-none d-lg-block">
               <div className="header-logo">
                 <Link to="/">
-                  <img src="assets/img/logo.svg" alt="logo" />
+                  <img src="assets/img/logo.svg" alt="Fixturbo" />
                 </Link>
               </div>
             </div>
@@ -102,21 +102,21 @@ const HeaderFive = () => {
                       <div className="header-grid-details">
                         <span className="header-grid-text">Sign In</span>
                         <h6 className="header-grid-title">
-                          <a href="#">Account</a>
+                          <Link to="#">Account</Link>
                         </h6>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <a href="#" className="simple-icon">
+                    <Link to="#" className="simple-icon">
                       <i className="far fa-heart" />
                       <span className="badge">1</span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <div className="header-grid-wrap">
                       <div className="simple-icon">
-                        <a href="#">
+                        <Link to="#">
                           <svg
                             width={27}
                             height={24}
@@ -130,7 +130,7 @@ const HeaderFive = () => {
                             />
                           </svg>
                           <span className="badge">1</span>
-                        </a>
+                        </Link>
                       </div>
                       <div className="header-grid-details">
                         <span className="header-grid-text">Total</span>
@@ -152,7 +152,7 @@ const HeaderFive = () => {
               <div className="col-auto d-lg-none d-block">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo.svg" alt="logo" />
+                    <img src="assets/img/logo.svg" alt="Fixturbo" />
                   </Link>
                 </div>
               </div>
@@ -176,7 +176,7 @@ const HeaderFive = () => {
               <div className="col-auto header-sticky-logo">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo.svg" alt="logo" />
+                    <img src="assets/img/logo.svg" alt="Fixturbo" />
                   </Link>
                 </div>
               </div>

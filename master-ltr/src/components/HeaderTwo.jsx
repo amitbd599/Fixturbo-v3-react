@@ -54,7 +54,7 @@ const HeaderTwo = () => {
             <div className="col-auto d-none d-lg-block">
               <div className="header-logo">
                 <Link to="/">
-                  <img src="assets/img/logo.svg" alt="logo" />
+                  <img src="assets/img/logo.svg" alt="Fixturbo" />
                 </Link>
               </div>
             </div>
@@ -93,7 +93,7 @@ const HeaderTwo = () => {
               <div className="col-auto header-navbar-logo">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo-white.svg" alt="logo" />
+                    <img src="assets/img/logo-white.svg" alt="Fixturbo" />
                   </Link>
                 </div>
               </div>

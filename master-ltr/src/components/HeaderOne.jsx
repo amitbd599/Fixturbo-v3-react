@@ -100,7 +100,7 @@ const HeaderOne = () => {
           <div className="menu-area">
             <div className="header-navbar-logo">
               <Link to="/">
-                <img src="assets/img/logo-white.svg" alt="logo" />
+                <img src="assets/img/logo-white.svg" alt="Fixturbo" />
               </Link>
             </div>
             <div className="container">
@@ -108,7 +108,7 @@ const HeaderOne = () => {
                 <div className="col-auto d-xl-none d-block">
                   <div className="header-logo">
                     <Link to="/">
-                      <img src="assets/img/logo-white.svg" alt="logo" />
+                      <img src="assets/img/logo-white.svg" alt="Fixturbo" />
                     </Link>
                   </div>
                 </div>
@@ -364,7 +364,7 @@ const HeaderOne = () => {
                 </div>
                 <div className="col-auto ms-auto d-xl-block d-none">
                   <div className="navbar-right-desc">
-                    <img src="assets/img/icon/chat.svg" alt="img" />
+                    <img src="assets/img/icon/chat.svg" alt="Fixturbo" />
                     <div className="navbar-right-desc-details">
                       <h6 className="title">Need help?</h6>
                       <Link className="link" to="tel:+2590256215">
