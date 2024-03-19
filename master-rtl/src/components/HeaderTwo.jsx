@@ -446,7 +446,12 @@ const HeaderTwo = () => {
                   </ul>
                 </li>
                 <li>
-                  <NavLink to="/about">عن</NavLink>
+                  <NavLink
+                    to="/about"
+                    className={(navData) => (navData.isActive ? "active" : "")}
+                  >
+                    عن
+                  </NavLink>
                 </li>
                 <li className="menu-item-has-children submenu-item-has-children">
                   <Link to="#">الصفحات</Link>

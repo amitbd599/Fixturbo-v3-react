@@ -170,10 +170,10 @@ const TestimonialOne = () => {
 
                 <div className="testimonialOne arrow rtl">
                   <div className=" testimonialOne-button-next testimonialOne-button">
-                    <i className="fas fa-arrow-left"></i>
+                    <i className="fas fa-arrow-right"></i>
                   </div>
                   <div className=" testimonialOne-button-prev testimonialOne-button">
-                    <i className="fas fa-arrow-right"></i>
+                    <i className="fas fa-arrow-left"></i>
                   </div>
                 </div>
               </div>
