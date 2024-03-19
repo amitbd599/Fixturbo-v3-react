@@ -27,10 +27,9 @@ const ShopArea = () => {
                         name="orderby"
                         className="single-select orderby"
                         aria-label="Shop order"
+                        defaultValue={"Choose"}
                       >
-                        <option value="menu_order" selected="selected">
-                          Default Sorting
-                        </option>
+                        <option value="Choose">Default Sorting</option>
                         <option value="popularity">Sort by popularity</option>
                         <option value="rating">Sort by average rating</option>
                         <option value="date">Sort by latest</option>

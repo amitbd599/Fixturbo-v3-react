@@ -175,8 +175,9 @@ const BlogDetails = () => {
                       name="subject"
                       id="subject"
                       className="form-select style-white"
+                      defaultValue={"Choose"}
                     >
-                      <option value="" disabled="" selected="" hidden="">
+                      <option value="Choose" >
                         Select Subject*
                       </option>
                       <option value="Construction">Auto Repair</option>

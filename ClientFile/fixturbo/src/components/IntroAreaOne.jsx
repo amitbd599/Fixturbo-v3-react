@@ -238,10 +238,10 @@ const IntroAreaOne = () => {
             </SwiperSlide>
           </Swiper>
           <div className="intro-arrow-button">
-            <button type="button" class="slick-next  slick-arrow">
+            <button type="button" className="slick-next  slick-arrow">
               <i className="fas fa-arrow-right"></i>
             </button>
-            <button type="button" class="slick-prev slick-arrow">
+            <button type="button" className="slick-prev slick-arrow">
               <i className="fas fa-arrow-left"></i>
             </button>
           </div>

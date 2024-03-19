@@ -18,10 +18,9 @@ const ServiceAreaThree = () => {
                         name="subject"
                         id="subject"
                         className="form-select"
+                        defaultValue={"Choose"}
                       >
-                        <option value="" disabled="" selected="" hidden="">
-                          Choose Service
-                        </option>
+                        <option value="Choose">Choose Service</option>
                         <option value="Construction">Auto Repair</option>
                         <option value="Real Estate">Car Repair</option>
                         <option value="Industry">Automotive</option>
@@ -34,10 +33,9 @@ const ServiceAreaThree = () => {
                         name="subject"
                         id="subject"
                         className="form-select"
+                        defaultValue={"Choose"}
                       >
-                        <option value="" disabled="" selected="" hidden="">
-                          Choose Model
-                        </option>
+                        <option value="Choose">Choose Model</option>
                         <option value="Construction">TOYOTA</option>
                         <option value="Real Estate">SUZUKI</option>
                         <option value="Industry">TATA</option>
@@ -50,10 +48,9 @@ const ServiceAreaThree = () => {
                         name="subject"
                         id="subject"
                         className="form-select"
+                        defaultValue={"Choose"}
                       >
-                        <option value="" disabled="" selected="" hidden="">
-                          Choose Year
-                        </option>
+                        <option value="Choose">Choose Year</option>
                         <option value="Construction">1999</option>
                         <option value="Real Estate">2000</option>
                         <option value="Industry">2001</option>
@@ -66,10 +63,9 @@ const ServiceAreaThree = () => {
                         name="subject"
                         id="subject"
                         className="form-select"
+                        defaultValue={"Choose"}
                       >
-                        <option value="" disabled="" selected="" hidden="">
-                          Choose Location
-                        </option>
+                        <option value="Choose">Choose Location</option>
                         <option value="Construction">California</option>
                         <option value="Real Estate">New York</option>
                         <option value="Industry">Abu Dhabi</option>
@@ -82,10 +78,9 @@ const ServiceAreaThree = () => {
                         name="subject"
                         id="subject"
                         className="form-select"
+                        defaultValue={"Choose"}
                       >
-                        <option value="" disabled="" selected="" hidden="">
-                          Choose Location
-                        </option>
+                        <option value="Choose">Choose Location</option>
                         <option value="Construction">California</option>
                         <option value="Real Estate">New York</option>
                         <option value="Industry">Abu Dhabi</option>

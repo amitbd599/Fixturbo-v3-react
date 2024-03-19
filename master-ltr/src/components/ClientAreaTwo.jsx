@@ -40,7 +40,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-1.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -49,7 +49,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-2.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -58,7 +58,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-3.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -67,7 +67,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-4.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -76,7 +76,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-5.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -85,7 +85,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-1.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -94,7 +94,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-2.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -104,7 +104,7 @@ const ClientAreaTwo = () => {
                 {" "}
                 <div>
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-3.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -113,7 +113,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-4.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -122,7 +122,7 @@ const ClientAreaTwo = () => {
               <SwiperSlide>
                 <div>
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-5.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -310,7 +310,10 @@ const ClientAreaTwo = () => {
           </div>
         </div>
         <div className="testimonial-thumb-2">
-          <img src="assets/img/normal/testimonial-thumb-2-1.png" alt="Fixturbo" />
+          <img
+            src="assets/img/normal/testimonial-thumb-2-1.png"
+            alt="Fixturbo"
+          />
         </div>
       </div>
     </div>

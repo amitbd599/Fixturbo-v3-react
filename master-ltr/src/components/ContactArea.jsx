@@ -144,10 +144,9 @@ const ContactArea = () => {
                           name="subject"
                           id="subject"
                           className="form-select"
+                          defaultValue={"Choose"}
                         >
-                          <option value="" disabled="" selected="" hidden="">
-                            Choose a Option
-                          </option>
+                          <option value="Choose">Choose a Option</option>
                           <option value="Construction">Auto Repair</option>
                           <option value="Real Estate">Car Repair</option>
                           <option value="Industry">Automotive</option>

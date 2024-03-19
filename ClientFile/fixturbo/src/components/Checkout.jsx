@@ -90,24 +90,24 @@ const Checkout = () => {
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 col-12">
-                    <div className="form-group">
+                    <div className="form-group" defaultValue={"January"}>
                       <label>Expire Date</label>
                       <select className="form-control">
-                        <option>April</option>
-                        <option>March</option>
-                        <option>February</option>
-                        <option selected="selected">January</option>
+                        <option value={"April"}>April</option>
+                        <option value={"March"}>March</option>
+                        <option value={"February"}> February</option>
+                        <option value={"January"}>January</option>
                       </select>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 col-12">
                     <div className="form-group">
                       <label>Year</label>
-                      <select className="form-control">
-                        <option>2023</option>
-                        <option>2022</option>
-                        <option>2020</option>
-                        <option selected="selected">2021</option>
+                      <select className="form-control" defaultValue={"2021"}>
+                        <option value={"2023"}>2023</option>
+                        <option value={"2022"}>2022</option>
+                        <option value={"2020"}>2020</option>
+                        <option value={"2021"}>2021</option>
                       </select>
                     </div>
                   </div>

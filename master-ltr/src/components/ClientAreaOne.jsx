@@ -41,7 +41,7 @@ const ClientAreaOne = () => {
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-1.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -50,7 +50,7 @@ const ClientAreaOne = () => {
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-2.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -59,7 +59,7 @@ const ClientAreaOne = () => {
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-3.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -68,7 +68,7 @@ const ClientAreaOne = () => {
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-4.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -77,7 +77,7 @@ const ClientAreaOne = () => {
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-5.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -86,7 +86,7 @@ const ClientAreaOne = () => {
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-1.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -95,7 +95,7 @@ const ClientAreaOne = () => {
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-2.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -104,7 +104,7 @@ const ClientAreaOne = () => {
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-3.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -113,7 +113,7 @@ const ClientAreaOne = () => {
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-4.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -122,7 +122,7 @@ const ClientAreaOne = () => {
               <SwiperSlide>
                 <div className="col-lg-auto">
                   <div className="client-logo">
-                    <Link to="/home-1">
+                    <Link to="/">
                       <img src="assets/img/client/1-5.png" alt="Fixturbo" />
                     </Link>
                   </div>
@@ -191,10 +191,9 @@ const ClientAreaOne = () => {
                           name="subject"
                           id="subject"
                           className="form-select style-border2"
+                          defaultValue={"Choose"}
                         >
-                          <option value="" disabled="" selected="" hidden="">
-                            Choose a Option
-                          </option>
+                          <option value="Choose">Choose a Option</option>
                           <option value="Construction">Auto Repair</option>
                           <option value="Real Estate">Car Repair</option>
                           <option value="Industry">Automotive</option>
@@ -222,7 +221,10 @@ const ClientAreaOne = () => {
           </div>
         </div>
         <div className="appointment-thumb-1">
-          <img src="assets/img/normal/appointment-thumb-1-1.png" alt="Fixturbo" />
+          <img
+            src="assets/img/normal/appointment-thumb-1-1.png"
+            alt="Fixturbo"
+          />
         </div>
       </div>
     </div>

@@ -119,7 +119,7 @@ const HeaderThree = () => {
                       <ul className="sub-menu">
                         <li>
                           <NavLink
-                            to="/home-1"
+                            to="/"
                             className={(navData) =>
                               navData.isActive ? "active" : ""
                             }
@@ -400,7 +400,7 @@ const HeaderThree = () => {
                   <ul className="sub-menu submenu-class">
                     <li>
                       <NavLink
-                        to="/home-1"
+                        to="/"
                         className={(navData) =>
                           navData.isActive ? "active" : ""
                         }

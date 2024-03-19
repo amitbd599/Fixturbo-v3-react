@@ -66,10 +66,13 @@ const HeaderFive = () => {
                     type="text"
                     placeholder="Find your product"
                   />
-                  <select name="subject" id="subject" className="form-select">
-                    <option value="" disabled="" selected="" hidden="">
-                      All categories
-                    </option>
+                  <select
+                    name="subject"
+                    id="subject"
+                    className="form-select"
+                    defaultValue={"categories"}
+                  >
+                    <option value="categories">All categories</option>
                     <option value="Construction">Auto Repair</option>
                     <option value="Real Estate">Car Repair</option>
                     <option value="Industry">Automotive</option>
@@ -162,10 +165,9 @@ const HeaderFive = () => {
                     name="subject"
                     id="subject"
                     className="form-select style-border"
+                    defaultValue={"categories"}
                   >
-                    <option value="" disabled="" selected="" hidden="">
-                      All categories
-                    </option>
+                    <option value="categories">All categories</option>
                     <option value="Construction">Auto Repair</option>
                     <option value="Real Estate">Car Repair</option>
                     <option value="Industry">Automotive</option>

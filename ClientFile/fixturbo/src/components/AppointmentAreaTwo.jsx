@@ -60,8 +60,9 @@ const AppointmentAreaTwo = () => {
                           name="subject"
                           id="subject"
                           className="form-select style-border"
+                          defaultValue={"Choose"}
                         >
-                          <option value="" disabled="" selected="" hidden="">
+                          <option value="Choose" >
                             Choose a Option
                           </option>
                           <option value="Construction">Auto Repair</option>
