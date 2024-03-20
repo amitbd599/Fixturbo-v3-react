@@ -108,7 +108,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item  pro2 pro4">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-3.png" alt="fixturbo_img" />
+                <img src="assets/img/portfolio/1-6.png" alt="fixturbo_img" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">
@@ -149,7 +149,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item pro4 pro2">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-4.png" alt="fixturbo_img" />
+                <img src="assets/img/portfolio/1-7.png" alt="fixturbo_img" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">
@@ -169,7 +169,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item pro4 pro2">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-4.png" alt="fixturbo_img" />
+                <img src="assets/img/portfolio/1-8.png" alt="fixturbo_img" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">
@@ -189,7 +189,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item pro4 pro2">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="assets/img/portfolio/1-4.png" alt="fixturbo_img" />
+                <img src="assets/img/portfolio/1-9.png" alt="fixturbo_img" />
               </div>
               <div className="portfolio-card-details">
                 <div className="media-left">
